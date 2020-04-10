@@ -1,0 +1,211 @@
+
+my $gen = 0;
+my $sim = 1;
+my $mat = 0;
+
+our @scenarios = (
+
+ 	
+# 	{
+# 	Dir => "fattree/8/Robot",
+#	MCSL => "fattree/fattree_8/Robot_fattree_8.rtp",
+#  	Generator => $gen,
+# 	Scheduler => $gen,
+# 	Simulation => $sim,
+# 	Analyze => $mat,
+# 	}
+ 	
+);
+
+
+our @configurations  = (
+	{
+	Name => "Main",
+	Params => "USE_SMART_SCHEDULER, int, 1\nROUTER_TYPE, int, 4\nALLOW_ADDING_SLOTS, int, 0\n",
+	},
+); 
+
+#my @programs = ("Robot","FFT-1024_complex","Fpppp","H264-1080p_dec","H264-720p_dec","RS-32_28_8_dec","RS-32_28_8_enc","Sparse");
+my @programs = ("Robot");
+
+my @topologies = ( 
+	{
+	   "TOPOLOGY" => fattree,
+	   "Sizes"=> [16,32,64],
+#	   "Sizes"=> [4,8,16,32,64,128,256],
+#	   "Sizes"=> [4],
+	} 
+	,
+#	{
+#	   "TOPOLOGY" => torus,
+#	 ""
+#	}
+	,
+	{
+	   "TOPOLOGY" => mesh,
+	   "Sizes" => ["4x4","4x8","8x8"],
+	   #"Sizes" => ["2x2","2x4","3x3","4x4","4x8","5x5","6x6","7x7","8x16","8x8"],
+	   #,"9x9","10x10","11x11","12x12","13x13","14x14","15x15","16x16"],
+	}
+);
+
+my $traffic_base_dir = "MCSL_NoC_Traffic_Pattern_Suite_v1.6/traffic";
+
+for my $topology (@topologies) {
+
+  #while(my($k, $v) = each %{$topology}) {
+  #  print(" $k: $v\n");
+  #}
+
+	my %topology_hash = %{${topology}};
+	my $topo_name = $topology_hash{TOPOLOGY};
+	my $sizes = $topology_hash{Sizes};
+	foreach my $size (@{$sizes}) {
+		foreach my $program (@programs) {
+		next; # TODO
+			my $program_ = $program;
+			$program_ =~ s/\-/\_/g;
+
+			my $entry = 
+ 			{
+ 			Dir => "$topo_name/S_$size/$program_",
+			MCSL => "$traffic_base_dir/$topo_name/$topo_name"."_".$size."/".$program."_".$topo_name."_".$size.".rtp",
+			MCSL_FILENAME => "mcsl.rtp",
+			TOPOLOGY => $topo_name,
+			TOPOLOGY_NUMBER=>9,	K => 1,	N => 1,	M => 1,	R => 4,	LEVELS => 3,
+			Size => $size,
+			PROGRAM => $program_,
+  			Generator => $gen,
+ 			Scheduler => $gen,
+ 			Simulation => $sim,
+ 			Analyze => $mat,
+ 			};
+
+			push(@scenarios,$entry);
+			#print "Pushing Name=$topo_name,Size=$size,program=$program,$entry\n";
+			#print Dumper $entry;
+		}
+	}
+
+}
+
+
+my @topologies_all2all = (
+  { 
+  TOPOLOGY => mesh,  TOPOLOGY_NUMBER=>1,
+  Sizes => [4,8,16,32,64,128,256],
+  K=>0,  N=>0,  LEVEL=>0,  R=>0,
+  }
+  ,
+  {
+  TOPOLOGY => fattree,  TOPOLOGY_NUMBER=>2,
+  Sizes => [4,8,16,32,64,128,256],
+  K=>0,  N=>0,  LEVEL=>0,  R=>0,
+  }
+  ,
+#  {
+#  TOPOLOGY => butterfly,  TOPOLOGY_NUMBER=>3,
+#  Sizes => [4,8,16,32,64,128],
+#  K=>0,  N=>0,  LEVEL=>0,  R=>0,
+#  }
+#  ,
+  {
+  TOPOLOGY => clos,   TOPOLOGY_NUMBER=>4,
+  Sizes => [4,8,16,32,64,128,256],
+  K=>0,  N=>0,  LEVEL=>0,  R=>0,
+  }
+  ,
+  {
+  TOPOLOGY => KaryNfly,  TOPOLOGY_NUMBER=>5,
+  Sizes => [4,8,16,32,64,128,256],
+  K=>0,  N=>0,  LEVEL=>0,  R=>0,
+  }
+  ,
+  {
+  TOPOLOGY => random,  TOPOLOGY_NUMBER=>6,
+  Sizes => [4,8,16,32,64,128,256],
+  K=>0,  N=>0,  LEVEL=>0,  R=>0,
+  }
+  ,
+  {
+  TOPOLOGY => benesh,  TOPOLOGY_NUMBER=>7,
+  Sizes => [4,8,16,32,64,128,256],
+  K=>0,  N=>0,  LEVEL=>0,  R=>0,
+  }
+  ,
+  {
+  TOPOLOGY => KaryNflyTree,  TOPOLOGY_NUMBER=>8,
+  Sizes => [4,8,16,32,64,128,256],
+  K=>0,  N=>0,  LEVEL=>0,  R=>0,
+  }
+  ,
+); 
+
+for my $topology (@topologies_all2all) {
+
+  #while(my($k, $v) = each %{$topology}) {
+  #  print(" $k: $v\n");
+  #}
+
+	my %topology_hash = %{${topology}};
+	my $topo_name = $topology_hash{TOPOLOGY};
+	my $topo_number = $topology_hash{TOPOLOGY_NUMBER};
+	my $sizes = $topology_hash{Sizes};
+
+	foreach my $size (@{$sizes}) {
+	    #next;
+		next if ($size != 64);# TODO
+		my $k = ceil(sqrt($size));
+		my $n = $size;
+		my $kk = 0;
+		do {
+			$n = ceil(sqrt($n));
+		} while (($n > 2) && ($kk++<$k));
+
+		if ($topo_name eq "mesh") {
+			$n = $k;
+		}
+		elsif (($topo_number eq 2)) { # FatTree has n^n cores
+			$k = $n;
+			$n = $k+1;
+		}
+		elsif (($topo_number eq 2) or ($topo_number eq 5) or ($topo_number eq 8)) {
+			$k = $n;
+			$n = $k+1;
+		}
+		elsif ($topo_name eq "random") {
+			$k = $size*2;
+			$n = $size;
+		}
+		else {
+			$k = $n;
+		}
+			
+		my $entry = 
+ 			{
+ 			Dir => "$topo_name/S_$size/All2All",
+			MCSL_FILENAME => "NULL",
+			TOPOLOGY => $topo_name,
+			TOPOLOGY_NUMBER => $topology_hash{TOPOLOGY_NUMBER},
+			K => $k,
+			N => $n,
+			M => 1,
+			R => 4,
+			LEVELS => 3,
+			MCSL=> "",
+			PROGRAM=>"All2All",
+			Size => $size,
+  			Generator => $gen,
+ 			Scheduler => $gen,
+ 			Simulation => $sim,
+ 			Analyze => $mat,
+ 			};
+
+			push(@scenarios,$entry);
+			#print "Pushing Name=$topo_name,Size=$size,program=$program,$entry\n";
+			#print Dumper $entry;
+	}
+
+}
+
+1;

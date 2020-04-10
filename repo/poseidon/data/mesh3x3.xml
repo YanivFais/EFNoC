@@ -1,0 +1,6 @@
+<?xmlversion="1.0" encoding="UTF-8"?>
+  <platform width="3" height="3">
+    <topology type="mesh"></topology>
+  </platform>
+  <communication type="all2all">
+  </communication>

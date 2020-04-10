@@ -1,0 +1,98 @@
+    \documentclass[11pt]{scrartcl}
+    \usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,calc}
+
+    % #1 number of teeths
+    % #2 radius intern
+    % #3 radius extern
+    % #4 angle from start to end of the first arc
+    % #5 angle to decale the second arc from the first
+
+
+\newcommand{\mygear}[6]{%
+\foreach \i in {1,...,#1} {%
+[rotate=(\i-1)*360/#1]  (0:#2)  arc (0:#4:#2) {[rounded corners=1.5pt]
+                 -- (#4+#5:#3)   arc (#4+#5:360/#1-#5:#3)} --  (360/#1:#2)
+    };
+
+\foreach \i/\j in {#6}
+{
+\pgfmathsetmacro{\CogAngle}{-(\i-1)*360/#1-(#4+1.4*#5)};
+\pgfmathsetmacro{\RadAvg}{(#3+#2)/2};
+    \node at (\CogAngle:\RadAvg) {\j};
+};
+
+\pgfmathsetmacro{\ArcRad}{(#2)/2};
+\draw[->] (90:\ArcRad) arc (90:-180:\ArcRad);
+}
+
+\def\defgear#1#2#3#4#5#6{%
+    \foreach \i in {1,...,#1} {%
+      [rotate=(\i-1)*360/#1] (0:#2) arc (0:#4:#2) {[rounded corners=1.5pt] --
+        (#4+#5:#3) arc (#4+#5:360/#1-#5:#3)} -- (360/#1:#2) };
+
+    \foreach \i/\j in {#6} { \pgfmathsetmacro{\CogAngle}{-(\i-1)*360/#1-(#4+0.3*#5)};
+      \pgfmathsetmacro{\RadAvg}{(#3+#2)/2}; \node at (\CogAngle:\RadAvg) {\j}; };
+
+    \pgfmathsetmacro{\ArcRad}{(#2)/2}; \draw[->] (90:\ArcRad) arc (90:-180:\ArcRad);
+}
+
+
+    \begin{document}
+     \begin{tikzpicture}
+\begin{scope}[shift={(0,0)}]
+{
+\draw (0,0) rectangle (6,6);
+\draw[->,thick] (-1,4.5) -- (0,4.5);
+\draw[->,thick] (-1,1.5) -- (0,1.5);
+\draw[->,thick] (6,4.5) -- (7,4.5);
+\draw[->,thick] (6,1.5) -- (7,1.5);
+  \begin{scope}[shift={(5,4.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{1,2,3,4,5,6};
+  \end{scope}
+  \begin{scope}[shift={(5,1.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{1,2,3,4,5,6}
+  \end{scope}
+}
+\end{scope};
+
+\draw[->,thick] (7,4.5) -- (7.5,4.5) -- (7.5,5.5) -- (8,5.5);
+\draw[->,thick] (7,1.5) -- (7.5,1.5) -- (7.5,0.5) -- (8,0.5);
+
+\begin{scope}[shift={(9,4)}]
+{
+\draw (0,0) rectangle (6,6);
+\draw[->,thick] (-1,4.5) -- (0,4.5);
+\draw[->,thick] (-1,1.5) -- (0,1.5);
+\draw[->,thick] (6,4.5) -- (7,4.5);
+\draw[->,thick] (6,1.5) -- (7,1.5);
+  \begin{scope}[shift={(5,4.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{1,2,3,4,5,6};
+  \end{scope}
+  \begin{scope}[shift={(5,1.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{1,2,3,4,5,6}
+  \end{scope}
+}
+\end{scope};
+
+\begin{scope}[shift={(9,-4)}]
+{
+\draw (0,0) rectangle (6,6);
+\draw[->,thick] (-1,4.5) -- (0,4.5);
+\draw[->,thick] (-1,1.5) -- (0,1.5);
+\draw[->,thick] (6,4.5) -- (7,4.5);
+\draw[->,thick] (6,1.5) -- (7,1.5);
+  \begin{scope}[shift={(5,4.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{1,2,3,4,5,6};
+  \end{scope}
+  \begin{scope}[shift={(5,1.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{1,2,3,4,5,6}
+  \end{scope}
+}
+\end{scope};
+
+\begin{scope}[shift={(14,14)}, rotate=0]
+  \draw[thick] \defgear{6}{0.5}{1}{20}{4}{1/a,2/b,3/c,4/d,5/e,6/f,7/g,8/h};
+\end{scope}
+     \end{tikzpicture}
+    \end{document} 

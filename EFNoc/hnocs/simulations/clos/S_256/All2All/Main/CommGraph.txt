@@ -1,0 +1,3 @@
+# num-edges , num-vertices ,VariableBandWidthClos_1_2_4_3
+0,0
+# edge num,from,to,edge price 

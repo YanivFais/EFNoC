@@ -1,0 +1,93 @@
+\documentclass{minimal}
+
+\usepackage{tikz}
+%%%<
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}%
+%%%>
+
+\usetikzlibrary{calc}
+\usepackage{keyval}
+
+\makeatletter
+
+\newcommand{\mygear}[6]{%
+\foreach \i in {1,...,#1} {%
+[rotate=(\i-1)*360/#1]  (0:#2)  arc (0:#4:#2) {[rounded corners=1.5pt]
+                 -- (#4+#5:#3)   arc (#4+#5:360/#1-#5:#3)} --  (360/#1:#2)
+    };
+
+\foreach \i/\j in {#6}
+{
+\pgfmathsetmacro{\CogAngle}{-(\i-1)*360/#1-(#4+1.4*#5)};
+\pgfmathsetmacro{\RadAvg}{(#3+#2)/2};
+    \node at (\CogAngle:\RadAvg) {\j};
+};
+
+\pgfmathsetmacro{\ArcRad}{(#2)/2};
+\draw[->] (90:\ArcRad) arc (90:-180:\ArcRad);
+}
+
+\def\defgear#1#2#3#4#5#6{%
+    \foreach \i in {1,...,#1} {%
+      [rotate=(\i-1)*360/#1] (0:#2) arc (0:#4:#2) {[rounded corners=1.5pt] --
+        (#4+#5:#3) arc (#4+#5:360/#1-#5:#3)} -- (360/#1:#2) };
+
+    \foreach \i/\j in {#6} { \pgfmathsetmacro{\CogAngle}{-(\i-1)*360/#1-(#4+0.3*#5)};
+      \pgfmathsetmacro{\RadAvg}{(#3+#2)/2}; \node at (\CogAngle:\RadAvg) {\j}; };
+
+    \pgfmathsetmacro{\ArcRad}{(#2)/2}; \draw[->] (90:\ArcRad) arc (90:-180:\ArcRad);
+}
+
+\tikzset{
+queuei/.pic={
+  \draw[line width=1pt]
+    (0,0) -- ++(2cm,0) -- ++(0,-1cm) -- ++(-2cm,0);
+   \foreach \Val in {1,...,#2}
+     \draw ([xshift=-\Val*10pt]2cm,0) -- ++(0,-1cm);
+   \foreach \Val in {1,...,#2}
+     \draw ([xshift=-\Val*10pt]2.2cm,-0.5) node {\Val};
+   \node[above] at (1cm,0) {Queue $#1$ $w_{#1}$};
+  }
+}
+%1/a,2/b,3/c,4/d,5/e,6/f,7/g,8/h
+
+\newcommand{\switch}[2]{%                                
+\begin{scope}[shift={(0,0)}]
+{
+\draw (0,0) rectangle (6,6);
+\draw[->,thick] (-1,4.5) -- (0,4.5);
+\draw[->,thick] (-1,1.5) -- (0,1.5);
+\draw[->,thick] (6,4.5) -- (7,4.5);
+\draw[->,thick] (6,1.5) -- (7,1.5);
+  \begin{scope}[shift={(5,4.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{#1};
+  \end{scope}
+  \begin{scope}[shift={(5,1.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{#2}
+  \end{scope}
+}
+\end{scope}
+
+\path
+  (0,2cm) pic {queuei=1,3}
+  (0,5cm) pic {queuei=2,5};  
+}
+
+\makeatother
+
+\begin{document}
+\begin{tikzpicture}
+    \begin{scope}[xshift=0,yshift=200]
+        \switch{1/a,2/b,3/c,4/d,5/e,6/f}{1/l,2/m,3/n,4/o,5/p,6/q}
+    \end{scope}
+    \begin{scope}[xshift=400,yshift=400]
+        \switch{1,2,3,4,5,6}{1/a,2/b,3/c,4/d,5/e,6/f}
+    \end{scope}
+    \begin{scope}[xshift=400,yshift=0]
+        \switch{1,2,3,4,5,6}{7,8,9,10,11,12}
+    \end{scope}        
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,67 @@
+MCSL Traffic Loader v1.5
+Januray 2013
+
+
+1. Author information
+
+Weichen Liu (HKUST), Zhe Wang(HKUST), Jiang Xu (HKUST), Xiaowen Wu (HKUST), Yaoyao Ye (HKUST), Xuan Wang (HKUST), Wei Zhang (NTU), Bin Li (Intel), Ravi Lyer (Intel), Ramesh Illikkal (Intel)
+HKUST: The Hong Kong University of Science and Technology, Hong Kong, China
+NTU: Nanyang Technological University, Singapore
+Intel: Intel Labs, USA 
+http://www.ece.ust.hk/~eexu
+
+
+2. Copyright information
+
+The copyright information of this software can be found in the file COPYRIGHT.
+
+
+3. Usage instructions
+
+1) To compile the software, use
+
+	gmake
+
+2) To clean the compilation, use
+
+	gmake clean
+
+3) To run the software, use
+
+	./bin/mcsl_traffic_loader <traffic_file_name>
+
+4) To run the software without printing detailed information, use
+
+	./bin/mcsl_traffic_loader <traffic_file_name> NO_PRINT_OUT
+
+5) The realistic traffic patterns are under the <traffic> folder. The traffic files are named with the following rule:
+
+	<application name> + <noc topology> + <noc size> . <traffic type>,
+
+where <application name> includes the released applications,
+	  <noc topology> includes mesh, torus and fat tree,
+	  <noc size> includes various sizes for mesh, torus and fat tree, and
+	  <traffic type> includes stp and rtp for statistical/recorded traffic patterns, respectively.
+
+6) Directory organization
+
+	<bin>: executable file
+	<doc>: manual
+	<src>: source code
+	<traffic>: traffic pattern files
+
+7) The software is tested under
+
+	- Linux/i386
+	- Linux/x86_64
+	
+	
+4. Revision history
+
+Jan 2013, Version 1.5: public release, add four real applications, improve traffic and memory format, add more NoC sizes for mesh, torus and fat tree, add 'ramp-up','ramp-down' and 'stable stage' periods, minor fixes
+May 2011, Version 1.1: public release, add two more applications, methodology documentation, minor fixes
+Apr 2010, Version 1.0: internal release, add one more real applications and manual, minor fixes
+Aug 2009, Version 0.9: internal release, add four more real applications, minor fixes
+Oct 2007, Version 0.8: internal release with one real application
+
+

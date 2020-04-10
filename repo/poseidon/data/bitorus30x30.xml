@@ -1,0 +1,6 @@
+<?xmlversion="1.0" encoding="UTF-8"?>
+  <platform width="30" height="30">
+    <topology type="bitorus"></topology>
+  </platform>
+  <channels type="all2all">
+  </channels>

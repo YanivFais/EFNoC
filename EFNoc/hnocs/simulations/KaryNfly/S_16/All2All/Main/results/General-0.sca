@@ -1,0 +1,753 @@
+version 2
+run General-0-20140306-12:44:47-9592
+attr configname General
+attr datetime 20140306-12:44:47
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network efnoc.KaryNfly.S_16.All2All.VariableBandWidth2Ary3Fly
+attr processid 9592
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 0" 	1346
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 1" 	410
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 2" 	1160
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 3" 	761
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 4" 	820
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 5" 	1229
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 6" 	1288
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 7" 	745
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 8" 	1070
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 9" 	895
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 10" 	1422
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 11" 	263
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 12" 	960
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 13" 	228
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 14" 	1082
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 15" 	39
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 16" 	673
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 17" 	0
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 18" 	580
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 19" 	1171
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 20" 	0
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 21" 	855
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 22" 	644
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 23" 	697
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 24" 	2238
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 25" 	0
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 26" 	0
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 27" 	2151
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 28" 	788
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 29" 	779
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 30" 	1222
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 31" 	470
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 32" 	0
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 33" 	820
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 34" 	358
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 35" 	1017
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 36" 	962
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 37" 	599
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 38" 	260
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 39" 	716
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 40" 	1042
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 41" 	410
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 42" 	1375
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 43" 	346
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 44" 	412
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 45" 	602
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 46" 	876
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 47" 	740
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 48" 	1434
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 49" 	0
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 50" 	1640
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 51" 	260
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 52" 	1344
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 53" 	740
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 54" 	1160
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 55" 	214
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 56" 	820
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 57" 	632
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 58" 	1480
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 59" 	1286
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 60" 	486
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 61" 	764
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 62" 	1126
+scalar VariableBandWidth2Ary3Fly.core0.source 	"#sent 63" 	881
+scalar VariableBandWidth2Ary3Fly.core0.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core0.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router0.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router0.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core1.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core1.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router1.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router1.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core2.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core2.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router2.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router2.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core3.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core3.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router3.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router3.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core4.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core4.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router4.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router4.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core5.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core5.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router5.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router5.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core6.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core6.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router6.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router6.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core7.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core7.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router7.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router7.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core8.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core8.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router8.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router8.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core9.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core9.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router9.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router9.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core10.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core10.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router10.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router10.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core11.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core11.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router11.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router11.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core12.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core12.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router12.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router12.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core13.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core13.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router13.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router13.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core14.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core14.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router14.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router14.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidth2Ary3Fly.core15.sink 	flit-per-vc-0 	0
+scalar VariableBandWidth2Ary3Fly.core15.sink 	flit-per-vc-1 	0
+statistic VariableBandWidth2Ary3Fly.router15.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router15.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router16.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router16.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router16.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router16.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router17.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router17.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router17.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router17.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router18.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router18.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router18.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router18.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router19.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router19.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router19.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router19.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router20.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router20.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router20.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router20.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router21.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router21.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router21.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router21.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router22.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router22.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router22.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router22.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router23.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router23.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router23.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router23.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router24.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router24.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router24.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router24.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router25.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router25.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router25.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router25.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router26.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router26.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router26.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router26.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router27.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router27.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router27.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidth2Ary3Fly.router27.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1

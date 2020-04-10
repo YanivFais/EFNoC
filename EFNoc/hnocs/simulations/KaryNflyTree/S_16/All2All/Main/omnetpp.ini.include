@@ -1,0 +1,126 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = efnoc.KaryNflyTree.S_16.All2All.VariableBandWidth2Ary3FlyTree
+
+**.timeslots = 8
+**.source.fileName = ""
+# Edges total wire width:721, Edges: 48 Average: 15.0208
+# Edges total wire cost:1179.12, Edges: 48 Average: 24.5649
+VariableBandWidth2Ary3FlyTree.router0.out$o[0].channel.bw = 18
+VariableBandWidth2Ary3FlyTree.router0.out$o[0].channel.edge_num = 0
+
+VariableBandWidth2Ary3FlyTree.router1.out$o[0].channel.bw = 8
+VariableBandWidth2Ary3FlyTree.router1.out$o[0].channel.edge_num = 2
+
+VariableBandWidth2Ary3FlyTree.router2.out$o[0].channel.bw = 6
+VariableBandWidth2Ary3FlyTree.router2.out$o[0].channel.edge_num = 4
+
+VariableBandWidth2Ary3FlyTree.router3.out$o[0].channel.bw = 18
+VariableBandWidth2Ary3FlyTree.router3.out$o[0].channel.edge_num = 6
+
+VariableBandWidth2Ary3FlyTree.router4.out$o[0].channel.bw = 11
+VariableBandWidth2Ary3FlyTree.router4.out$o[0].channel.edge_num = 8
+
+VariableBandWidth2Ary3FlyTree.router5.out$o[0].channel.bw = 19
+VariableBandWidth2Ary3FlyTree.router5.out$o[0].channel.edge_num = 10
+
+VariableBandWidth2Ary3FlyTree.router6.out$o[0].channel.bw = 18
+VariableBandWidth2Ary3FlyTree.router6.out$o[0].channel.edge_num = 12
+
+VariableBandWidth2Ary3FlyTree.router7.out$o[0].channel.bw = 16
+VariableBandWidth2Ary3FlyTree.router7.out$o[0].channel.edge_num = 14
+
+VariableBandWidth2Ary3FlyTree.router8.out$o[0].channel.bw = 11
+VariableBandWidth2Ary3FlyTree.router8.out$o[0].channel.edge_num = 1
+VariableBandWidth2Ary3FlyTree.router8.out$o[1].channel.bw = 17
+VariableBandWidth2Ary3FlyTree.router8.out$o[1].channel.edge_num = 3
+VariableBandWidth2Ary3FlyTree.router8.out$o[2].channel.bw = 38
+VariableBandWidth2Ary3FlyTree.router8.out$o[2].channel.edge_num = 16
+VariableBandWidth2Ary3FlyTree.router8.out$o[3].channel.bw = 16
+VariableBandWidth2Ary3FlyTree.router8.out$o[3].channel.edge_num = 18
+
+VariableBandWidth2Ary3FlyTree.router9.out$o[0].channel.bw = 36
+VariableBandWidth2Ary3FlyTree.router9.out$o[0].channel.edge_num = 5
+VariableBandWidth2Ary3FlyTree.router9.out$o[1].channel.bw = 24
+VariableBandWidth2Ary3FlyTree.router9.out$o[1].channel.edge_num = 7
+VariableBandWidth2Ary3FlyTree.router9.out$o[2].channel.bw = 23
+VariableBandWidth2Ary3FlyTree.router9.out$o[2].channel.edge_num = 20
+VariableBandWidth2Ary3FlyTree.router9.out$o[3].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router9.out$o[3].channel.edge_num = 22
+
+VariableBandWidth2Ary3FlyTree.router10.out$o[0].channel.bw = 16
+VariableBandWidth2Ary3FlyTree.router10.out$o[0].channel.edge_num = 9
+VariableBandWidth2Ary3FlyTree.router10.out$o[1].channel.bw = 11
+VariableBandWidth2Ary3FlyTree.router10.out$o[1].channel.edge_num = 11
+VariableBandWidth2Ary3FlyTree.router10.out$o[2].channel.bw = 27
+VariableBandWidth2Ary3FlyTree.router10.out$o[2].channel.edge_num = 24
+VariableBandWidth2Ary3FlyTree.router10.out$o[3].channel.bw = 19
+VariableBandWidth2Ary3FlyTree.router10.out$o[3].channel.edge_num = 26
+
+VariableBandWidth2Ary3FlyTree.router11.out$o[0].channel.bw = 10
+VariableBandWidth2Ary3FlyTree.router11.out$o[0].channel.edge_num = 13
+VariableBandWidth2Ary3FlyTree.router11.out$o[1].channel.bw = 2
+VariableBandWidth2Ary3FlyTree.router11.out$o[1].channel.edge_num = 15
+VariableBandWidth2Ary3FlyTree.router11.out$o[2].channel.bw = 16
+VariableBandWidth2Ary3FlyTree.router11.out$o[2].channel.edge_num = 28
+VariableBandWidth2Ary3FlyTree.router11.out$o[3].channel.bw = 18
+VariableBandWidth2Ary3FlyTree.router11.out$o[3].channel.edge_num = 30
+
+VariableBandWidth2Ary3FlyTree.router12.out$o[0].channel.bw = 21
+VariableBandWidth2Ary3FlyTree.router12.out$o[0].channel.edge_num = 17
+VariableBandWidth2Ary3FlyTree.router12.out$o[1].channel.bw = 10
+VariableBandWidth2Ary3FlyTree.router12.out$o[1].channel.edge_num = 27
+VariableBandWidth2Ary3FlyTree.router12.out$o[2].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router12.out$o[2].channel.edge_num = 32
+VariableBandWidth2Ary3FlyTree.router12.out$o[3].channel.bw = 38
+VariableBandWidth2Ary3FlyTree.router12.out$o[3].channel.edge_num = 34
+
+VariableBandWidth2Ary3FlyTree.router13.out$o[0].channel.bw = 32
+VariableBandWidth2Ary3FlyTree.router13.out$o[0].channel.edge_num = 21
+VariableBandWidth2Ary3FlyTree.router13.out$o[1].channel.bw = 10
+VariableBandWidth2Ary3FlyTree.router13.out$o[1].channel.edge_num = 31
+VariableBandWidth2Ary3FlyTree.router13.out$o[2].channel.bw = 20
+VariableBandWidth2Ary3FlyTree.router13.out$o[2].channel.edge_num = 36
+VariableBandWidth2Ary3FlyTree.router13.out$o[3].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router13.out$o[3].channel.edge_num = 38
+
+VariableBandWidth2Ary3FlyTree.router14.out$o[0].channel.bw = 7
+VariableBandWidth2Ary3FlyTree.router14.out$o[0].channel.edge_num = 19
+VariableBandWidth2Ary3FlyTree.router14.out$o[1].channel.bw = 16
+VariableBandWidth2Ary3FlyTree.router14.out$o[1].channel.edge_num = 25
+VariableBandWidth2Ary3FlyTree.router14.out$o[2].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router14.out$o[2].channel.edge_num = 40
+VariableBandWidth2Ary3FlyTree.router14.out$o[3].channel.bw = 26
+VariableBandWidth2Ary3FlyTree.router14.out$o[3].channel.edge_num = 42
+
+VariableBandWidth2Ary3FlyTree.router15.out$o[0].channel.bw = 25
+VariableBandWidth2Ary3FlyTree.router15.out$o[0].channel.edge_num = 23
+VariableBandWidth2Ary3FlyTree.router15.out$o[1].channel.bw = 2
+VariableBandWidth2Ary3FlyTree.router15.out$o[1].channel.edge_num = 29
+VariableBandWidth2Ary3FlyTree.router15.out$o[2].channel.bw = 16
+VariableBandWidth2Ary3FlyTree.router15.out$o[2].channel.edge_num = 44
+VariableBandWidth2Ary3FlyTree.router15.out$o[3].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router15.out$o[3].channel.edge_num = 46
+
+VariableBandWidth2Ary3FlyTree.router16.out$o[0].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router16.out$o[0].channel.edge_num = 33
+VariableBandWidth2Ary3FlyTree.router16.out$o[1].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router16.out$o[1].channel.edge_num = 39
+
+VariableBandWidth2Ary3FlyTree.router17.out$o[0].channel.bw = 20
+VariableBandWidth2Ary3FlyTree.router17.out$o[0].channel.edge_num = 35
+VariableBandWidth2Ary3FlyTree.router17.out$o[1].channel.bw = 38
+VariableBandWidth2Ary3FlyTree.router17.out$o[1].channel.edge_num = 37
+
+VariableBandWidth2Ary3FlyTree.router18.out$o[0].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router18.out$o[0].channel.edge_num = 41
+VariableBandWidth2Ary3FlyTree.router18.out$o[1].channel.bw = 0
+VariableBandWidth2Ary3FlyTree.router18.out$o[1].channel.edge_num = 47
+
+VariableBandWidth2Ary3FlyTree.router19.out$o[0].channel.bw = 16
+VariableBandWidth2Ary3FlyTree.router19.out$o[0].channel.edge_num = 43
+VariableBandWidth2Ary3FlyTree.router19.out$o[1].channel.bw = 26
+VariableBandWidth2Ary3FlyTree.router19.out$o[1].channel.edge_num = 45
+
+**.channel.edge_num = -1
+**.channel.bw = 0

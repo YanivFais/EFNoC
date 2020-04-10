@@ -1,0 +1,3 @@
+# num-edges , num-vertices ,VariableBandWidth2Ary3FlyTree
+0,0
+# edge num,from,to,edge price 

@@ -1,0 +1,699 @@
+version 2
+run General-0-20140306-12:44:56-11112
+attr configname General
+attr datetime 20140306-12:44:56
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network efnoc.random.S_16.All2All.VariableBandWidthRandom_16
+attr processid 11112
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 0" 	136
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 1" 	410
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 2" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 3" 	644
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 4" 	820
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 5" 	251
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 6" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 7" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 8" 	973
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 9" 	1044
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 10" 	392
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 11" 	410
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 12" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 13" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 14" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 15" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 16" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 17" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 18" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 19" 	1072
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 20" 	377
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 21" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 22" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 23" 	322
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 24" 	202
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 25" 	580
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 26" 	290
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 27" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 28" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 29" 	327
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 30" 	1392
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 31" 	1480
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 32" 	361
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 33" 	420
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 34" 	580
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 35" 	282
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 36" 	820
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 37" 	75
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 38" 	831
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 39" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 40" 	279
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 41" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 42" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 43" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 44" 	35
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 45" 	1256
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 46" 	1160
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 47" 	141
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 48" 	594
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 49" 	650
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 50" 	282
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 51" 	0
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 52" 	796
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 53" 	728
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 54" 	439
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 55" 	654
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 56" 	834
+scalar VariableBandWidthRandom_16.core0.source 	"#sent 57" 	70
+scalar VariableBandWidthRandom_16.core0.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core0.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router0.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router0.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router0.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router0.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router0.port[4].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router0.port[5].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router0.port[6].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core1.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core1.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router1.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router1.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router1.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router1.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router1.port[4].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router1.port[5].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core2.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core2.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router2.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router2.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router2.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core3.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core3.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router3.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router3.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router3.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router3.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core4.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core4.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router4.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router4.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router4.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core5.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core5.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router5.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router5.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router5.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core6.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core6.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router6.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router6.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router6.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router6.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router6.port[4].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router6.port[5].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core7.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core7.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router7.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router7.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router7.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router7.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router7.port[4].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router7.port[5].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core8.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core8.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router8.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router8.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router8.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router8.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router8.port[4].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router8.port[5].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router8.port[6].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router8.port[7].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core9.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core9.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router9.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router9.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core10.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core10.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router10.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router10.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router10.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router10.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router10.port[4].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router10.port[5].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router10.port[6].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core11.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core11.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router11.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router11.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router11.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router11.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router11.port[4].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core12.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core12.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router12.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router12.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router12.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router12.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core13.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core13.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router13.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router13.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router13.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core14.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core14.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router14.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router14.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router14.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router14.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthRandom_16.core15.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthRandom_16.core15.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthRandom_16.router15.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router15.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthRandom_16.router15.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1

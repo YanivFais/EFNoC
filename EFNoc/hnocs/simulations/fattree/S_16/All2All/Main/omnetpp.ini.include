@@ -1,0 +1,388 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = efnoc.fattree.S_16.All2All.VariableBandWidthFatTree_2_3
+
+**.timeslots = 8
+**.source.fileName = ""
+# Edges total wire width:1121, Edges: 162 Average: 6.91975
+# Edges total wire cost:2366.19, Edges: 162 Average: 14.6061
+VariableBandWidthFatTree_2_3.router0.out$o[0].channel.bw = 18
+VariableBandWidthFatTree_2_3.router0.out$o[0].channel.edge_num = 0
+
+VariableBandWidthFatTree_2_3.router1.out$o[0].channel.bw = 8
+VariableBandWidthFatTree_2_3.router1.out$o[0].channel.edge_num = 1
+
+VariableBandWidthFatTree_2_3.router2.out$o[0].channel.bw = 6
+VariableBandWidthFatTree_2_3.router2.out$o[0].channel.edge_num = 2
+
+VariableBandWidthFatTree_2_3.router3.out$o[0].channel.bw = 18
+VariableBandWidthFatTree_2_3.router3.out$o[0].channel.edge_num = 6
+
+VariableBandWidthFatTree_2_3.router4.out$o[0].channel.bw = 11
+VariableBandWidthFatTree_2_3.router4.out$o[0].channel.edge_num = 7
+
+VariableBandWidthFatTree_2_3.router5.out$o[0].channel.bw = 19
+VariableBandWidthFatTree_2_3.router5.out$o[0].channel.edge_num = 8
+
+VariableBandWidthFatTree_2_3.router6.out$o[0].channel.bw = 18
+VariableBandWidthFatTree_2_3.router6.out$o[0].channel.edge_num = 12
+
+VariableBandWidthFatTree_2_3.router7.out$o[0].channel.bw = 16
+VariableBandWidthFatTree_2_3.router7.out$o[0].channel.edge_num = 13
+
+VariableBandWidthFatTree_2_3.router8.out$o[0].channel.bw = 29
+VariableBandWidthFatTree_2_3.router8.out$o[0].channel.edge_num = 14
+
+VariableBandWidthFatTree_2_3.router9.out$o[0].channel.bw = 11
+VariableBandWidthFatTree_2_3.router9.out$o[0].channel.edge_num = 36
+
+VariableBandWidthFatTree_2_3.router10.out$o[0].channel.bw = 27
+VariableBandWidthFatTree_2_3.router10.out$o[0].channel.edge_num = 37
+
+VariableBandWidthFatTree_2_3.router11.out$o[0].channel.bw = 8
+VariableBandWidthFatTree_2_3.router11.out$o[0].channel.edge_num = 38
+
+VariableBandWidthFatTree_2_3.router12.out$o[0].channel.bw = 6
+VariableBandWidthFatTree_2_3.router12.out$o[0].channel.edge_num = 42
+
+VariableBandWidthFatTree_2_3.router13.out$o[0].channel.bw = 10
+VariableBandWidthFatTree_2_3.router13.out$o[0].channel.edge_num = 43
+
+VariableBandWidthFatTree_2_3.router14.out$o[0].channel.bw = 7
+VariableBandWidthFatTree_2_3.router14.out$o[0].channel.edge_num = 44
+
+VariableBandWidthFatTree_2_3.router15.out$o[0].channel.bw = 16
+VariableBandWidthFatTree_2_3.router15.out$o[0].channel.edge_num = 48
+
+VariableBandWidthFatTree_2_3.router16.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router16.out$o[0].channel.edge_num = 49
+
+VariableBandWidthFatTree_2_3.router17.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router17.out$o[0].channel.edge_num = 50
+
+VariableBandWidthFatTree_2_3.router18.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router18.out$o[0].channel.edge_num = 72
+
+VariableBandWidthFatTree_2_3.router19.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router19.out$o[0].channel.edge_num = 73
+
+VariableBandWidthFatTree_2_3.router20.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router20.out$o[0].channel.edge_num = 74
+
+VariableBandWidthFatTree_2_3.router21.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router21.out$o[0].channel.edge_num = 78
+
+VariableBandWidthFatTree_2_3.router22.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router22.out$o[0].channel.edge_num = 79
+
+VariableBandWidthFatTree_2_3.router23.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router23.out$o[0].channel.edge_num = 80
+
+VariableBandWidthFatTree_2_3.router24.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router24.out$o[0].channel.edge_num = 84
+
+VariableBandWidthFatTree_2_3.router25.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router25.out$o[0].channel.edge_num = 85
+
+VariableBandWidthFatTree_2_3.router26.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router26.out$o[0].channel.edge_num = 86
+
+VariableBandWidthFatTree_2_3.router27.out$o[0].channel.bw = 24
+VariableBandWidthFatTree_2_3.router27.out$o[0].channel.edge_num = 54
+VariableBandWidthFatTree_2_3.router27.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router27.out$o[1].channel.edge_num = 56
+VariableBandWidthFatTree_2_3.router27.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router27.out$o[2].channel.edge_num = 58
+VariableBandWidthFatTree_2_3.router27.out$o[3].channel.bw = 53
+VariableBandWidthFatTree_2_3.router27.out$o[3].channel.edge_num = 111
+VariableBandWidthFatTree_2_3.router27.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router27.out$o[4].channel.edge_num = 117
+VariableBandWidthFatTree_2_3.router27.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router27.out$o[5].channel.edge_num = 123
+
+VariableBandWidthFatTree_2_3.router28.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router28.out$o[0].channel.edge_num = 60
+VariableBandWidthFatTree_2_3.router28.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router28.out$o[1].channel.edge_num = 62
+VariableBandWidthFatTree_2_3.router28.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router28.out$o[2].channel.edge_num = 64
+VariableBandWidthFatTree_2_3.router28.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router28.out$o[3].channel.edge_num = 129
+VariableBandWidthFatTree_2_3.router28.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router28.out$o[4].channel.edge_num = 135
+VariableBandWidthFatTree_2_3.router28.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router28.out$o[5].channel.edge_num = 141
+
+VariableBandWidthFatTree_2_3.router29.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router29.out$o[0].channel.edge_num = 66
+VariableBandWidthFatTree_2_3.router29.out$o[1].channel.bw = 57
+VariableBandWidthFatTree_2_3.router29.out$o[1].channel.edge_num = 68
+VariableBandWidthFatTree_2_3.router29.out$o[2].channel.bw = 16
+VariableBandWidthFatTree_2_3.router29.out$o[2].channel.edge_num = 70
+VariableBandWidthFatTree_2_3.router29.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router29.out$o[3].channel.edge_num = 147
+VariableBandWidthFatTree_2_3.router29.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router29.out$o[4].channel.edge_num = 153
+VariableBandWidthFatTree_2_3.router29.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router29.out$o[5].channel.edge_num = 159
+
+VariableBandWidthFatTree_2_3.router30.out$o[0].channel.bw = 8
+VariableBandWidthFatTree_2_3.router30.out$o[0].channel.edge_num = 39
+VariableBandWidthFatTree_2_3.router30.out$o[1].channel.bw = 10
+VariableBandWidthFatTree_2_3.router30.out$o[1].channel.edge_num = 40
+VariableBandWidthFatTree_2_3.router30.out$o[2].channel.bw = 8
+VariableBandWidthFatTree_2_3.router30.out$o[2].channel.edge_num = 41
+VariableBandWidthFatTree_2_3.router30.out$o[3].channel.bw = 26
+VariableBandWidthFatTree_2_3.router30.out$o[3].channel.edge_num = 55
+VariableBandWidthFatTree_2_3.router30.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router30.out$o[4].channel.edge_num = 61
+VariableBandWidthFatTree_2_3.router30.out$o[5].channel.bw = 19
+VariableBandWidthFatTree_2_3.router30.out$o[5].channel.edge_num = 67
+
+VariableBandWidthFatTree_2_3.router31.out$o[0].channel.bw = 63
+VariableBandWidthFatTree_2_3.router31.out$o[0].channel.edge_num = 18
+VariableBandWidthFatTree_2_3.router31.out$o[1].channel.bw = 48
+VariableBandWidthFatTree_2_3.router31.out$o[1].channel.edge_num = 20
+VariableBandWidthFatTree_2_3.router31.out$o[2].channel.bw = 2
+VariableBandWidthFatTree_2_3.router31.out$o[2].channel.edge_num = 22
+VariableBandWidthFatTree_2_3.router31.out$o[3].channel.bw = 15
+VariableBandWidthFatTree_2_3.router31.out$o[3].channel.edge_num = 109
+VariableBandWidthFatTree_2_3.router31.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router31.out$o[4].channel.edge_num = 115
+VariableBandWidthFatTree_2_3.router31.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router31.out$o[5].channel.edge_num = 121
+
+VariableBandWidthFatTree_2_3.router32.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router32.out$o[0].channel.edge_num = 24
+VariableBandWidthFatTree_2_3.router32.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router32.out$o[1].channel.edge_num = 26
+VariableBandWidthFatTree_2_3.router32.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router32.out$o[2].channel.edge_num = 28
+VariableBandWidthFatTree_2_3.router32.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router32.out$o[3].channel.edge_num = 127
+VariableBandWidthFatTree_2_3.router32.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router32.out$o[4].channel.edge_num = 133
+VariableBandWidthFatTree_2_3.router32.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router32.out$o[5].channel.edge_num = 139
+
+VariableBandWidthFatTree_2_3.router33.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router33.out$o[0].channel.edge_num = 75
+VariableBandWidthFatTree_2_3.router33.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router33.out$o[1].channel.edge_num = 76
+VariableBandWidthFatTree_2_3.router33.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router33.out$o[2].channel.edge_num = 77
+VariableBandWidthFatTree_2_3.router33.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router33.out$o[3].channel.edge_num = 91
+VariableBandWidthFatTree_2_3.router33.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router33.out$o[4].channel.edge_num = 97
+VariableBandWidthFatTree_2_3.router33.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router33.out$o[5].channel.edge_num = 103
+
+VariableBandWidthFatTree_2_3.router34.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router34.out$o[0].channel.edge_num = 30
+VariableBandWidthFatTree_2_3.router34.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router34.out$o[1].channel.edge_num = 32
+VariableBandWidthFatTree_2_3.router34.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router34.out$o[2].channel.edge_num = 34
+VariableBandWidthFatTree_2_3.router34.out$o[3].channel.bw = 54
+VariableBandWidthFatTree_2_3.router34.out$o[3].channel.edge_num = 145
+VariableBandWidthFatTree_2_3.router34.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router34.out$o[4].channel.edge_num = 151
+VariableBandWidthFatTree_2_3.router34.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router34.out$o[5].channel.edge_num = 157
+
+VariableBandWidthFatTree_2_3.router35.out$o[0].channel.bw = 14
+VariableBandWidthFatTree_2_3.router35.out$o[0].channel.edge_num = 45
+VariableBandWidthFatTree_2_3.router35.out$o[1].channel.bw = 27
+VariableBandWidthFatTree_2_3.router35.out$o[1].channel.edge_num = 46
+VariableBandWidthFatTree_2_3.router35.out$o[2].channel.bw = 17
+VariableBandWidthFatTree_2_3.router35.out$o[2].channel.edge_num = 47
+VariableBandWidthFatTree_2_3.router35.out$o[3].channel.bw = 21
+VariableBandWidthFatTree_2_3.router35.out$o[3].channel.edge_num = 57
+VariableBandWidthFatTree_2_3.router35.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router35.out$o[4].channel.edge_num = 63
+VariableBandWidthFatTree_2_3.router35.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router35.out$o[5].channel.edge_num = 69
+
+VariableBandWidthFatTree_2_3.router36.out$o[0].channel.bw = 24
+VariableBandWidthFatTree_2_3.router36.out$o[0].channel.edge_num = 9
+VariableBandWidthFatTree_2_3.router36.out$o[1].channel.bw = 16
+VariableBandWidthFatTree_2_3.router36.out$o[1].channel.edge_num = 10
+VariableBandWidthFatTree_2_3.router36.out$o[2].channel.bw = 11
+VariableBandWidthFatTree_2_3.router36.out$o[2].channel.edge_num = 11
+VariableBandWidthFatTree_2_3.router36.out$o[3].channel.bw = 21
+VariableBandWidthFatTree_2_3.router36.out$o[3].channel.edge_num = 21
+VariableBandWidthFatTree_2_3.router36.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router36.out$o[4].channel.edge_num = 27
+VariableBandWidthFatTree_2_3.router36.out$o[5].channel.bw = 25
+VariableBandWidthFatTree_2_3.router36.out$o[5].channel.edge_num = 33
+
+VariableBandWidthFatTree_2_3.router37.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router37.out$o[0].channel.edge_num = 81
+VariableBandWidthFatTree_2_3.router37.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router37.out$o[1].channel.edge_num = 82
+VariableBandWidthFatTree_2_3.router37.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router37.out$o[2].channel.edge_num = 83
+VariableBandWidthFatTree_2_3.router37.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router37.out$o[3].channel.edge_num = 93
+VariableBandWidthFatTree_2_3.router37.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router37.out$o[4].channel.edge_num = 99
+VariableBandWidthFatTree_2_3.router37.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router37.out$o[5].channel.edge_num = 105
+
+VariableBandWidthFatTree_2_3.router38.out$o[0].channel.bw = 11
+VariableBandWidthFatTree_2_3.router38.out$o[0].channel.edge_num = 3
+VariableBandWidthFatTree_2_3.router38.out$o[1].channel.bw = 17
+VariableBandWidthFatTree_2_3.router38.out$o[1].channel.edge_num = 4
+VariableBandWidthFatTree_2_3.router38.out$o[2].channel.bw = 36
+VariableBandWidthFatTree_2_3.router38.out$o[2].channel.edge_num = 5
+VariableBandWidthFatTree_2_3.router38.out$o[3].channel.bw = 18
+VariableBandWidthFatTree_2_3.router38.out$o[3].channel.edge_num = 19
+VariableBandWidthFatTree_2_3.router38.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router38.out$o[4].channel.edge_num = 25
+VariableBandWidthFatTree_2_3.router38.out$o[5].channel.bw = 13
+VariableBandWidthFatTree_2_3.router38.out$o[5].channel.edge_num = 31
+
+VariableBandWidthFatTree_2_3.router39.out$o[0].channel.bw = 10
+VariableBandWidthFatTree_2_3.router39.out$o[0].channel.edge_num = 15
+VariableBandWidthFatTree_2_3.router39.out$o[1].channel.bw = 2
+VariableBandWidthFatTree_2_3.router39.out$o[1].channel.edge_num = 16
+VariableBandWidthFatTree_2_3.router39.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router39.out$o[2].channel.edge_num = 17
+VariableBandWidthFatTree_2_3.router39.out$o[3].channel.bw = 36
+VariableBandWidthFatTree_2_3.router39.out$o[3].channel.edge_num = 23
+VariableBandWidthFatTree_2_3.router39.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router39.out$o[4].channel.edge_num = 29
+VariableBandWidthFatTree_2_3.router39.out$o[5].channel.bw = 17
+VariableBandWidthFatTree_2_3.router39.out$o[5].channel.edge_num = 35
+
+VariableBandWidthFatTree_2_3.router40.out$o[0].channel.bw = 16
+VariableBandWidthFatTree_2_3.router40.out$o[0].channel.edge_num = 51
+VariableBandWidthFatTree_2_3.router40.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router40.out$o[1].channel.edge_num = 52
+VariableBandWidthFatTree_2_3.router40.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router40.out$o[2].channel.edge_num = 53
+VariableBandWidthFatTree_2_3.router40.out$o[3].channel.bw = 16
+VariableBandWidthFatTree_2_3.router40.out$o[3].channel.edge_num = 59
+VariableBandWidthFatTree_2_3.router40.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router40.out$o[4].channel.edge_num = 65
+VariableBandWidthFatTree_2_3.router40.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router40.out$o[5].channel.edge_num = 71
+
+VariableBandWidthFatTree_2_3.router41.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router41.out$o[0].channel.edge_num = 87
+VariableBandWidthFatTree_2_3.router41.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router41.out$o[1].channel.edge_num = 88
+VariableBandWidthFatTree_2_3.router41.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router41.out$o[2].channel.edge_num = 89
+VariableBandWidthFatTree_2_3.router41.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router41.out$o[3].channel.edge_num = 95
+VariableBandWidthFatTree_2_3.router41.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router41.out$o[4].channel.edge_num = 101
+VariableBandWidthFatTree_2_3.router41.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router41.out$o[5].channel.edge_num = 107
+
+VariableBandWidthFatTree_2_3.router42.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router42.out$o[0].channel.edge_num = 90
+VariableBandWidthFatTree_2_3.router42.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router42.out$o[1].channel.edge_num = 92
+VariableBandWidthFatTree_2_3.router42.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router42.out$o[2].channel.edge_num = 94
+VariableBandWidthFatTree_2_3.router42.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router42.out$o[3].channel.edge_num = 113
+VariableBandWidthFatTree_2_3.router42.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router42.out$o[4].channel.edge_num = 119
+VariableBandWidthFatTree_2_3.router42.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router42.out$o[5].channel.edge_num = 125
+
+VariableBandWidthFatTree_2_3.router43.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router43.out$o[0].channel.edge_num = 96
+VariableBandWidthFatTree_2_3.router43.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router43.out$o[1].channel.edge_num = 98
+VariableBandWidthFatTree_2_3.router43.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router43.out$o[2].channel.edge_num = 100
+VariableBandWidthFatTree_2_3.router43.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router43.out$o[3].channel.edge_num = 131
+VariableBandWidthFatTree_2_3.router43.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router43.out$o[4].channel.edge_num = 137
+VariableBandWidthFatTree_2_3.router43.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router43.out$o[5].channel.edge_num = 143
+
+VariableBandWidthFatTree_2_3.router44.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router44.out$o[0].channel.edge_num = 102
+VariableBandWidthFatTree_2_3.router44.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router44.out$o[1].channel.edge_num = 104
+VariableBandWidthFatTree_2_3.router44.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router44.out$o[2].channel.edge_num = 106
+VariableBandWidthFatTree_2_3.router44.out$o[3].channel.bw = 0
+VariableBandWidthFatTree_2_3.router44.out$o[3].channel.edge_num = 149
+VariableBandWidthFatTree_2_3.router44.out$o[4].channel.bw = 0
+VariableBandWidthFatTree_2_3.router44.out$o[4].channel.edge_num = 155
+VariableBandWidthFatTree_2_3.router44.out$o[5].channel.bw = 0
+VariableBandWidthFatTree_2_3.router44.out$o[5].channel.edge_num = 161
+
+VariableBandWidthFatTree_2_3.router45.out$o[0].channel.bw = 53
+VariableBandWidthFatTree_2_3.router45.out$o[0].channel.edge_num = 108
+VariableBandWidthFatTree_2_3.router45.out$o[1].channel.bw = 15
+VariableBandWidthFatTree_2_3.router45.out$o[1].channel.edge_num = 110
+VariableBandWidthFatTree_2_3.router45.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router45.out$o[2].channel.edge_num = 112
+
+VariableBandWidthFatTree_2_3.router46.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router46.out$o[0].channel.edge_num = 114
+VariableBandWidthFatTree_2_3.router46.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router46.out$o[1].channel.edge_num = 116
+VariableBandWidthFatTree_2_3.router46.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router46.out$o[2].channel.edge_num = 118
+
+VariableBandWidthFatTree_2_3.router47.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router47.out$o[0].channel.edge_num = 120
+VariableBandWidthFatTree_2_3.router47.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router47.out$o[1].channel.edge_num = 122
+VariableBandWidthFatTree_2_3.router47.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router47.out$o[2].channel.edge_num = 124
+
+VariableBandWidthFatTree_2_3.router48.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router48.out$o[0].channel.edge_num = 126
+VariableBandWidthFatTree_2_3.router48.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router48.out$o[1].channel.edge_num = 128
+VariableBandWidthFatTree_2_3.router48.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router48.out$o[2].channel.edge_num = 130
+
+VariableBandWidthFatTree_2_3.router49.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router49.out$o[0].channel.edge_num = 132
+VariableBandWidthFatTree_2_3.router49.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router49.out$o[1].channel.edge_num = 134
+VariableBandWidthFatTree_2_3.router49.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router49.out$o[2].channel.edge_num = 136
+
+VariableBandWidthFatTree_2_3.router50.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router50.out$o[0].channel.edge_num = 138
+VariableBandWidthFatTree_2_3.router50.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router50.out$o[1].channel.edge_num = 140
+VariableBandWidthFatTree_2_3.router50.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router50.out$o[2].channel.edge_num = 142
+
+VariableBandWidthFatTree_2_3.router51.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router51.out$o[0].channel.edge_num = 144
+VariableBandWidthFatTree_2_3.router51.out$o[1].channel.bw = 54
+VariableBandWidthFatTree_2_3.router51.out$o[1].channel.edge_num = 146
+VariableBandWidthFatTree_2_3.router51.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router51.out$o[2].channel.edge_num = 148
+
+VariableBandWidthFatTree_2_3.router52.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router52.out$o[0].channel.edge_num = 150
+VariableBandWidthFatTree_2_3.router52.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router52.out$o[1].channel.edge_num = 152
+VariableBandWidthFatTree_2_3.router52.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router52.out$o[2].channel.edge_num = 154
+
+VariableBandWidthFatTree_2_3.router53.out$o[0].channel.bw = 0
+VariableBandWidthFatTree_2_3.router53.out$o[0].channel.edge_num = 156
+VariableBandWidthFatTree_2_3.router53.out$o[1].channel.bw = 0
+VariableBandWidthFatTree_2_3.router53.out$o[1].channel.edge_num = 158
+VariableBandWidthFatTree_2_3.router53.out$o[2].channel.bw = 0
+VariableBandWidthFatTree_2_3.router53.out$o[2].channel.edge_num = 160
+
+**.channel.edge_num = -1
+**.channel.bw = 0

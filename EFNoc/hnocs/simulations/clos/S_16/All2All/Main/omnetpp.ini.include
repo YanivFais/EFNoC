@@ -1,0 +1,131 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = efnoc.clos.S_16.All2All.VariableBandWidthClos_1_2_4_3
+
+**.timeslots = 8
+**.source.fileName = ""
+# Edges total wire width:896, Edges: 48 Average: 18.6667
+# Edges total wire cost:2116.72, Edges: 48 Average: 44.0983
+VariableBandWidthClos_1_2_4_3.router0.out$o[0].channel.bw = 18
+VariableBandWidthClos_1_2_4_3.router0.out$o[0].channel.edge_num = 16
+
+VariableBandWidthClos_1_2_4_3.router1.out$o[0].channel.bw = 8
+VariableBandWidthClos_1_2_4_3.router1.out$o[0].channel.edge_num = 18
+
+VariableBandWidthClos_1_2_4_3.router2.out$o[0].channel.bw = 6
+VariableBandWidthClos_1_2_4_3.router2.out$o[0].channel.edge_num = 20
+
+VariableBandWidthClos_1_2_4_3.router3.out$o[0].channel.bw = 18
+VariableBandWidthClos_1_2_4_3.router3.out$o[0].channel.edge_num = 22
+
+VariableBandWidthClos_1_2_4_3.router4.out$o[0].channel.bw = 11
+VariableBandWidthClos_1_2_4_3.router4.out$o[0].channel.edge_num = 24
+
+VariableBandWidthClos_1_2_4_3.router5.out$o[0].channel.bw = 19
+VariableBandWidthClos_1_2_4_3.router5.out$o[0].channel.edge_num = 26
+
+VariableBandWidthClos_1_2_4_3.router6.out$o[0].channel.bw = 18
+VariableBandWidthClos_1_2_4_3.router6.out$o[0].channel.edge_num = 28
+
+VariableBandWidthClos_1_2_4_3.router7.out$o[0].channel.bw = 16
+VariableBandWidthClos_1_2_4_3.router7.out$o[0].channel.edge_num = 30
+
+VariableBandWidthClos_1_2_4_3.router8.out$o[0].channel.bw = 29
+VariableBandWidthClos_1_2_4_3.router8.out$o[0].channel.edge_num = 32
+
+VariableBandWidthClos_1_2_4_3.router9.out$o[0].channel.bw = 11
+VariableBandWidthClos_1_2_4_3.router9.out$o[0].channel.edge_num = 34
+
+VariableBandWidthClos_1_2_4_3.router10.out$o[0].channel.bw = 27
+VariableBandWidthClos_1_2_4_3.router10.out$o[0].channel.edge_num = 36
+
+VariableBandWidthClos_1_2_4_3.router11.out$o[0].channel.bw = 8
+VariableBandWidthClos_1_2_4_3.router11.out$o[0].channel.edge_num = 38
+
+VariableBandWidthClos_1_2_4_3.router12.out$o[0].channel.bw = 6
+VariableBandWidthClos_1_2_4_3.router12.out$o[0].channel.edge_num = 40
+
+VariableBandWidthClos_1_2_4_3.router13.out$o[0].channel.bw = 10
+VariableBandWidthClos_1_2_4_3.router13.out$o[0].channel.edge_num = 42
+
+VariableBandWidthClos_1_2_4_3.router14.out$o[0].channel.bw = 7
+VariableBandWidthClos_1_2_4_3.router14.out$o[0].channel.edge_num = 44
+
+VariableBandWidthClos_1_2_4_3.router15.out$o[0].channel.bw = 16
+VariableBandWidthClos_1_2_4_3.router15.out$o[0].channel.edge_num = 46
+
+VariableBandWidthClos_1_2_4_3.router16.out$o[0].channel.bw = 18
+VariableBandWidthClos_1_2_4_3.router16.out$o[0].channel.edge_num = 12
+VariableBandWidthClos_1_2_4_3.router16.out$o[1].channel.bw = 8
+VariableBandWidthClos_1_2_4_3.router16.out$o[1].channel.edge_num = 35
+VariableBandWidthClos_1_2_4_3.router16.out$o[2].channel.bw = 8
+VariableBandWidthClos_1_2_4_3.router16.out$o[2].channel.edge_num = 39
+
+VariableBandWidthClos_1_2_4_3.router17.out$o[0].channel.bw = 25
+VariableBandWidthClos_1_2_4_3.router17.out$o[0].channel.edge_num = 14
+VariableBandWidthClos_1_2_4_3.router17.out$o[1].channel.bw = 27
+VariableBandWidthClos_1_2_4_3.router17.out$o[1].channel.edge_num = 43
+VariableBandWidthClos_1_2_4_3.router17.out$o[2].channel.bw = 16
+VariableBandWidthClos_1_2_4_3.router17.out$o[2].channel.edge_num = 47
+
+VariableBandWidthClos_1_2_4_3.router18.out$o[0].channel.bw = 23
+VariableBandWidthClos_1_2_4_3.router18.out$o[0].channel.edge_num = 0
+VariableBandWidthClos_1_2_4_3.router18.out$o[1].channel.bw = 11
+VariableBandWidthClos_1_2_4_3.router18.out$o[1].channel.edge_num = 17
+VariableBandWidthClos_1_2_4_3.router18.out$o[2].channel.bw = 36
+VariableBandWidthClos_1_2_4_3.router18.out$o[2].channel.edge_num = 21
+
+VariableBandWidthClos_1_2_4_3.router19.out$o[0].channel.bw = 28
+VariableBandWidthClos_1_2_4_3.router19.out$o[0].channel.edge_num = 2
+VariableBandWidthClos_1_2_4_3.router19.out$o[1].channel.bw = 16
+VariableBandWidthClos_1_2_4_3.router19.out$o[1].channel.edge_num = 25
+VariableBandWidthClos_1_2_4_3.router19.out$o[2].channel.bw = 10
+VariableBandWidthClos_1_2_4_3.router19.out$o[2].channel.edge_num = 29
+
+VariableBandWidthClos_1_2_4_3.router20.out$o[0].channel.bw = 56
+VariableBandWidthClos_1_2_4_3.router20.out$o[0].channel.edge_num = 4
+VariableBandWidthClos_1_2_4_3.router20.out$o[1].channel.bw = 0
+VariableBandWidthClos_1_2_4_3.router20.out$o[1].channel.edge_num = 33
+VariableBandWidthClos_1_2_4_3.router20.out$o[2].channel.bw = 10
+VariableBandWidthClos_1_2_4_3.router20.out$o[2].channel.edge_num = 37
+
+VariableBandWidthClos_1_2_4_3.router21.out$o[0].channel.bw = 12
+VariableBandWidthClos_1_2_4_3.router21.out$o[0].channel.edge_num = 6
+VariableBandWidthClos_1_2_4_3.router21.out$o[1].channel.bw = 14
+VariableBandWidthClos_1_2_4_3.router21.out$o[1].channel.edge_num = 41
+VariableBandWidthClos_1_2_4_3.router21.out$o[2].channel.bw = 17
+VariableBandWidthClos_1_2_4_3.router21.out$o[2].channel.edge_num = 45
+
+VariableBandWidthClos_1_2_4_3.router22.out$o[0].channel.bw = 46
+VariableBandWidthClos_1_2_4_3.router22.out$o[0].channel.edge_num = 1
+VariableBandWidthClos_1_2_4_3.router22.out$o[1].channel.bw = 25
+VariableBandWidthClos_1_2_4_3.router22.out$o[1].channel.edge_num = 3
+VariableBandWidthClos_1_2_4_3.router22.out$o[2].channel.bw = 10
+VariableBandWidthClos_1_2_4_3.router22.out$o[2].channel.edge_num = 5
+VariableBandWidthClos_1_2_4_3.router22.out$o[3].channel.bw = 30
+VariableBandWidthClos_1_2_4_3.router22.out$o[3].channel.edge_num = 7
+VariableBandWidthClos_1_2_4_3.router22.out$o[4].channel.bw = 40
+VariableBandWidthClos_1_2_4_3.router22.out$o[4].channel.edge_num = 9
+VariableBandWidthClos_1_2_4_3.router22.out$o[5].channel.bw = 12
+VariableBandWidthClos_1_2_4_3.router22.out$o[5].channel.edge_num = 11
+VariableBandWidthClos_1_2_4_3.router22.out$o[6].channel.bw = 15
+VariableBandWidthClos_1_2_4_3.router22.out$o[6].channel.edge_num = 13
+VariableBandWidthClos_1_2_4_3.router22.out$o[7].channel.bw = 42
+VariableBandWidthClos_1_2_4_3.router22.out$o[7].channel.edge_num = 15
+
+VariableBandWidthClos_1_2_4_3.router23.out$o[0].channel.bw = 25
+VariableBandWidthClos_1_2_4_3.router23.out$o[0].channel.edge_num = 8
+VariableBandWidthClos_1_2_4_3.router23.out$o[1].channel.bw = 17
+VariableBandWidthClos_1_2_4_3.router23.out$o[1].channel.edge_num = 19
+VariableBandWidthClos_1_2_4_3.router23.out$o[2].channel.bw = 24
+VariableBandWidthClos_1_2_4_3.router23.out$o[2].channel.edge_num = 23
+
+VariableBandWidthClos_1_2_4_3.router24.out$o[0].channel.bw = 34
+VariableBandWidthClos_1_2_4_3.router24.out$o[0].channel.edge_num = 10
+VariableBandWidthClos_1_2_4_3.router24.out$o[1].channel.bw = 11
+VariableBandWidthClos_1_2_4_3.router24.out$o[1].channel.edge_num = 27
+VariableBandWidthClos_1_2_4_3.router24.out$o[2].channel.bw = 2
+VariableBandWidthClos_1_2_4_3.router24.out$o[2].channel.edge_num = 31
+
+**.channel.edge_num = -1
+**.channel.bw = 0

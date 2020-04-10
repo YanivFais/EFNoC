@@ -1,0 +1,1041 @@
+version 2
+run General-0-20140306-12:45:08-11672
+attr configname General
+attr datetime 20140306-12:45:08
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network efnoc.benesh.S_16.All2All.VariableBandWidthBenes_4_2
+attr processid 11672
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 0" 	1480
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 1" 	1610
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 2" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 3" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 4" 	1369
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 5" 	1847
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 6" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 7" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 8" 	2164
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 9" 	1501
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 10" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 11" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 12" 	1307
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 13" 	1357
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 14" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 15" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 16" 	41
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 17" 	838
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 18" 	214
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 19" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 20" 	535
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 21" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 22" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 23" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 24" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 25" 	318
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 26" 	238
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 27" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 28" 	580
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 29" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 30" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 31" 	444
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 32" 	776
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 33" 	1610
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 34" 	307
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 35" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 36" 	704
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 37" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 38" 	255
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 39" 	1155
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 40" 	949
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 41" 	740
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 42" 	474
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 43" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 44" 	637
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 45" 	1324
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 46" 	51
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 47" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 48" 	1224
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 49" 	1532
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 50" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 51" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 52" 	965
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 53" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 54" 	238
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 55" 	318
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 56" 	820
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 57" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 58" 	580
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 59" 	443
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 60" 	1307
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 61" 	2167
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 62" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 63" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 64" 	1346
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 65" 	402
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 66" 	1160
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 67" 	790
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 68" 	820
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 69" 	1216
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 70" 	1288
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 71" 	729
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 72" 	960
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 73" 	887
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 74" 	1364
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 75" 	277
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 76" 	958
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 77" 	268
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 78" 	1042
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 79" 	51
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 80" 	1504
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 81" 	0
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 82" 	1640
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 83" 	240
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 84" 	1342
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 85" 	740
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 86" 	1160
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 87" 	205
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 88" 	820
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 89" 	632
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 90" 	1480
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 91" 	1296
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 92" 	556
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 93" 	693
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 94" 	1134
+scalar VariableBandWidthBenes_4_2.core0.source 	"#sent 95" 	859
+scalar VariableBandWidthBenes_4_2.core0.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core0.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router0.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router0.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core1.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core1.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router1.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router1.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core2.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core2.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router2.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router2.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core3.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core3.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router3.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router3.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core4.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core4.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router4.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router4.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core5.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core5.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router5.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router5.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core6.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core6.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router6.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router6.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core7.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core7.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router7.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router7.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core8.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core8.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router8.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router8.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core9.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core9.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router9.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router9.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core10.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core10.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router10.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router10.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core11.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core11.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router11.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router11.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core12.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core12.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router12.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router12.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core13.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core13.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router13.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router13.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core14.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core14.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router14.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router14.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+scalar VariableBandWidthBenes_4_2.core15.sink 	flit-per-vc-0 	0
+scalar VariableBandWidthBenes_4_2.core15.sink 	flit-per-vc-1 	0
+statistic VariableBandWidthBenes_4_2.router15.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router15.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router16.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router16.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router16.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router16.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router17.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router17.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router17.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router17.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router18.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router18.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router18.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router18.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router19.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router19.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router19.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router19.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router20.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router20.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router20.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router20.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router21.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router21.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router21.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router21.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router22.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router22.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router22.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router22.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router23.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router23.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router23.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router23.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router24.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router24.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router24.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router24.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router25.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router25.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router25.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router25.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router26.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router26.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router26.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router26.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router27.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router27.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router27.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router27.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router28.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router28.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router28.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router28.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router29.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router29.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router29.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router29.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router30.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router30.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router30.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router30.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router31.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router31.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router31.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router31.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router32.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router32.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router32.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router32.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router33.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router33.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router33.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router33.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router34.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router34.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router34.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router34.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router35.port[0].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router35.port[1].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router35.port[2].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1
+statistic VariableBandWidthBenes_4_2.router35.port[3].sched 	link-utilization
+field count 1
+field mean -1
+field stddev -1.#IND
+field sum -1
+field sqrsum 1
+field min -1
+field max -1

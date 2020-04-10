@@ -1,0 +1,22 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = efnoc.mesh.S_4.# Num of edegs , num of vertices
+
+**.timeslots = 4
+**.source.fileName = ""
+# Edges total wire width:6, Edges: 4 Average: 1.5
+# Edges total wire cost:6, Edges: 4 Average: 1.5
+# Num of edegs , num of vertices.router0.out$o[0].channel.bw = 2
+# Num of edegs , num of vertices.router0.out$o[0].channel.edge_num = 0
+# Num of edegs , num of vertices.router0.out$o[1].channel.bw = 0
+# Num of edegs , num of vertices.router0.out$o[1].channel.edge_num = 1
+
+
+# Num of edegs , num of vertices.router2.out$o[0].channel.bw = 4
+# Num of edegs , num of vertices.router2.out$o[0].channel.edge_num = 2
+# Num of edegs , num of vertices.router2.out$o[1].channel.bw = 0
+# Num of edegs , num of vertices.router2.out$o[1].channel.edge_num = 3
+
+
+**.channel.edge_num = -1
+**.channel.bw = 0

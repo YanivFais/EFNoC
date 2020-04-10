@@ -1,0 +1,53 @@
+// output files
+COMMUNICATION_GRAPH_FILENAME, string, CommGraph.txt
+REQUESTS_FILENAME, string, Requests.txt
+OMNET_FILENAME, string, omnetpp.ini
+
+// Name of package for network
+//OMNET_PACKAGE_NAME,string,
+
+// 1-Mesh,2-FatTree,3-Butterly,4-Clos,5-K-ary N-fly,6-random,7-benes,8-Kary Nfly tree,9-MCSL based
+//TOPOLOGY,int,<TOPOLOGY_NUMBER>
+
+// TOPOLOGY parameter
+//K,int,<K>
+//N,int,<N>
+//M,int,<M>
+//R,int,<R>
+//LEVELS,int,<LEVELS>
+
+RATIO_CLIENTS,double,0.1
+RATIO_PAYLOAD,double,0.5
+PAYLOAD,double,20
+// Relative to when between task start and end can start sending messages (0-1,0-start,1-end)
+//TASK_MSG_START,double,0.25
+// lag of task finish when messages can arrive
+//L,int,1
+// delay compared to optimal relative to message size
+//ALPHA,double,1
+
+MCSL_REQ_PER_EDGE,int,2
+//MCSL_FILENAME,string,<MCSL_FILENAME>
+
+
+// 1-Mesh,2-FatTree,3-Butterly,4-Clos,5-K-ary N-fly,6-random,7-benes,8-Kary Nfly tree,9-MCSL based
+TOPOLOGY,int,9
+// Name of package of generated network
+OMNET_PACKAGE_NAME,string,mesh.S_64.Fpppp.L_0.Alpha_0_25.M_0
+// TOPOLOGY parameter
+K,int,8
+N,int,8
+M,int,1
+R,int,4
+
+TASK_MSG_START,double,0
+
+// lag of task finish when messages can arrive
+L,int,0
+// delay compared to optimal relative to message size
+ALPHA,double,0.25
+
+LEVELS,int,3
+MCSL_FILENAME,string,mcsl.rtp
+
+

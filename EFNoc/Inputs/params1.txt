@@ -1,0 +1,77 @@
+// output files
+COMMUNICATION_GRAPH_FILENAME, string, C:\RescueProject\Inputs\CommGraph.txt
+INTERFERENCE_GRAPH_FILENAME, string, C:\RescueProject\Inputs\InterfGraph.txt
+COORDS_FILENAME, string, C:\RescueProject\Inputs\Coords.txt
+REQUESTS_FILENAME, string, C:\RescueProject\Inputs\Requests.txt
+SCHEDULE_FILENAME, string, C:\RescueProject\Inputs\schedule.txt
+   
+N_FREQS_FOR_SCHEDULE, int, 3
+N_TIME_SLOTS, int, 1000
+
+// output period and resolution
+TIME_PERIOD, int, 600
+TIME_RESOLUTION, int, 1
+
+// number of clients
+N_CLIENTS, int, 50
+
+// number of requests from each type
+N_NEAR_REQUEST, int, 3
+N_FAR_REQUEST, int, 3
+// definition of when a request is considered far
+FAR_THRESHOLD, double, 0.3
+
+// 1 km square - the program select points in the unit square,
+// and then scales them up
+SCALE_IN_METERS, int, 600
+
+// dynamic model (velocities are normalized to unit square)
+// so 0.2 for a square of 30km means 6 km / h
+MEAN_VELOCITY, double, 0.2  
+STD_VELOCITY, double, 0.1
+MAX_VELOCITY, double, 0.4
+
+// communication parameters
+// in GHZ
+FREQUENCY, double, 2.4
+// the power is approximately 15 dbm
+TRANSMISSION_POWER_IN_MILI_WATTS, double, 100
+
+// Path loss model 1- book, 2-elbit, 3-directly use alpha,beta
+PATHLOSS_MODEL, int, 2 
+PATHLOSS_ALPHA, double, -1
+PATHLOSS_BETA, double, -1
+PATHLOSS_ELBIT_C, double, 0
+PATHLOSS_ELBIT_H_TR, double, 3
+PATHLOSS_ELBIT_H_RC, double, 3
+
+
+// NOISE_IN_DBM, double, -101.7
+NOISE_IN_DBM, double, -100
+SNR_TO_PER_FILE_NAME, string, C:\RescueProject\Inputs\snr2per.txt
+// In meters (different model before and after)
+D_BREAKPOINT, double, 30.
+// STD in DB
+SF_BEFORE_BREAKPOINT, double, 3.
+SF_AFTER_BREAKPOINT, double, 6.
+// Arbitrary - to get yes no for and edge instead of distribution
+NUM_STD_FOR_DECAY, double, 0.
+
+// Sensitivity parameters - for communication and interference (in db)
+MIN_SNR_FOR_COMMUNICATION, double, 3.
+MIN_SNR_FOR_INTERFERENCE, double, -5.
+
+// protocol parameters - data size are in kbyte, other lengths in bits, times are in micro-seconds, rates are in mbit/sec
+HEADER_TIME, double, 4.
+PREAMBLE_TIME, double, 16.
+MAC_SERVICE_TRAILER_TIME, double, 8
+MAC_HEADER_LEN, double, 240. 
+MAC_FCS_LEN, double, 32. 
+MAC_RTS_LEN, double, 160.
+MAC_CTS_LEN, double, 112.
+MAC_ACK_LEN, double, 112.
+DIFS_TIME, double, 28.
+SIFS_TIME, double, 10.
+CW_TIME, double, 135.
+// this means 2kbytes = 16 kbits of data before encoding
+PAYLOAD, double, 2.  

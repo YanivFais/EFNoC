@@ -1,0 +1,239 @@
+#!/usr/bin/perl
+
+use File::Spec;
+use strict;
+use warnings;
+use Data::Dumper;
+use Cwd;
+use POSIX;
+
+use Getopt::Long;
+my $alpha = -1;
+my $l=-1;
+my $start_time = -1;
+my $topology = "";
+my $start_ratio = -1;
+my $size = -1;
+my $base_dir = "";
+my $debug = 1;
+my $program = "";
+my $result = GetOptions ("alpha=s" => \$alpha,    # numeric
+					  "l=i" => \$l,
+					  "program=s" => \$program,
+					  "start_ratio=s" => \$start_ratio,
+					  "topology=s" => \$topology,
+					  "size=s" => \$size,
+					   "base_dir=s"   => \$base_dir,      # string
+					   "debug"  => \$debug);  # flag
+				
+sub log_msg {
+	my ($msg) = (@_);
+	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime(time);
+#	printf "%4d-%02d-%02d %02d:%02d:%02d $msg\n",$year+1900,$mon+1,$mday,$hour,$min,$sec;
+	printf "%02d:%02d:%02d $msg\n",$hour,$min,$sec;
+}
+
+require "benchmark.prl";
+our (@scenarios,@configurations);
+
+if ($base_dir ne "") {
+    @scenarios = ();
+	my $entry = 
+	{
+ 	   Dir => "$base_dir",
+	   TOPOLOGY => $topology,
+	   ALPHA => $alpha,
+	   L=>$l,
+	   TASK_MSG_START=>$start_ratio,
+	   Size => $size,
+	   PROGRAM => $program,
+ 	};
+
+	push(@scenarios,$entry);
+}
+
+log_msg("Running EFNoc Analysis");
+
+my $pwd = Cwd::cwd();
+
+open(RESULTS_FILE, ">", "results.csv")	or die "cannot open > results.csv: $!" if ($base_dir eq "");
+my $first = 1;
+
+our @print_order = ('Topology','Timeslots','Cores','Switches','Links','PROGRAM','L','ALPHA','TASK_MSG_START',"Average Link Length","Average Wire Width","Total Wire Width",
+					"Total Wire Cost","Average Wire Cost","Total Schedule Size","Total Memory","Average Memory","Average Latency","Max Latency","Total Utilization","Total Schedule Utilization","Total Lag");
+
+for my $scenario_ra (@scenarios) {
+	my %scenario = %$scenario_ra;
+	my $dir = $scenario{Dir};
+
+	my %parameters = ();
+	
+	$parameters{dir} = $dir;
+	$parameters{Topology} = $scenario{TOPOLOGY};
+	$parameters{L} = $scenario{L};
+	$parameters{ALPHA} = $scenario{ALPHA};
+	$parameters{TASK_MSG_START} = $scenario{TASK_MSG_START};
+	$parameters{PROGRAM} = $scenario{PROGRAM};
+	$parameters{Size} = $scenario{Size};
+	my %results = getParameters(\%parameters);
+	$results{dir} = $dir;
+	my ($header,$values) = WriteParameters(\%results);
+	print RESULTS_FILE "$header\n" if ($first eq 1 and $base_dir eq "");
+	print RESULTS_FILE "$values\n" if ($base_dir eq "");
+	$first="";
+}
+close(RESULTS_FILE) if ($base_dir eq "");
+
+sub WriteParameters {
+  my $params = shift;
+  my %parameters = %$params;
+  my $header="";
+  my $values="";
+  my $fopened = 1;
+  my $fname = "$parameters{dir}/results.csv";
+  $fname = "$parameters{dir}/results2.csv" if (-e $fname);
+  open(FH, ">", "$fname")	or $fopened = 0; #die "cannot open > $fname: $!";
+  for my $key (@print_order) {
+    #print "KEY=$key\n";
+	my $value = $parameters{$key};
+	$value = " " if not defined $value;
+    $value =~ s/\n//g;
+    $value =~ s/\r//g;
+    #$value =~ s/\./_DOT_/g;
+    #print "\n\nH=$header:\nV=$values:\nK=$key:\nV=$value:\n\n\n";
+	if ($header eq "") {
+	  $header = $key;
+	  $values = $value;
+	}
+	else {
+	  $header = "$header,$key";
+	  $values = "$values,$value";
+	}
+  }
+  $values =~ s/\\n//g;
+  $values =~ s/\\r//g;
+  print FH ("$header\n$values\n") if ($fopened eq 1);
+  close(FH) if ($fopened eq 1);
+  return ($header,$values);
+}
+
+sub getParameters {
+  my $params = shift;
+  my %parameters = %$params;
+  return if not -d $parameters{dir};
+  return readCsv("$parameters{dir}/results.csv",\%parameters) if (-e "$parameters{dir}/results.csv");
+  psystem("rm -f $parameters{dir}/results.csv");
+  return if (not -e "$parameters{dir}/generator.log");
+  psystem("gunzip $parameters{dir}/generator.log.gz") if (-e "$parameters{dir}/generator.log.gz");
+  psystem("tail -20 $parameters{dir}/generator.log > /tmp/gen.log");
+  psystem("gzip $parameters{dir}/generator.log");
+  open(FH, "<", "/tmp/gen.log");#	or die "cannot open < /tmp/gen.log: $!";
+  while (<FH>) {
+	 my($line) = $_;
+	chomp($line);
+	if ($line =~ m/Cores:(\d+) Switches:(\d+) Links:(\d+),Average link length=(.*)/) {
+	  $parameters{Cores} = $1;
+	  $parameters{Switches} = $2;
+	  $parameters{Links} = $3;
+	  $parameters{"Average Link Length"} = $4;
+	}
+  }
+  close (FH);
+
+  psystem("gunzip $parameters{dir}/Main/scheduler.log.gz") if (-e "$parameters{dir}/Main/scheduler.log.gz");
+  psystem("tail -20 $parameters{dir}/Main/scheduler.log > /tmp/sched.log");
+  psystem("gzip $parameters{dir}/Main/scheduler.log");
+  open(FH, "<", "/tmp/sched.log");#	or die "cannot open < /tmp/sched.log: $!";
+  while (<FH>) {
+	 my($line) = $_;
+	chomp($line);
+	if ($line =~ m/Total Memory:(\d+) Average: (.*)/) {
+	  $parameters{"Total Memory"} = $1;
+	  $parameters{"Average Memory"} = $2;
+	}
+	if ($line =~ m/Edges total wire width:(.*), Edges: (\d+) Average: (.*)/) {
+	  $parameters{"Total Wire Width"} = $1;
+	  $parameters{"Num Edges"} = $2;
+	  $parameters{"Average Wire Width"} = $3;
+	}
+	if ($line =~ m/Edges total wire cost:(.*), Edges: (\d+) Average: (.*)/) {
+	  $parameters{"Total Wire Cost"} = $1;
+	  $parameters{"Num Edges"} = $2;
+	  $parameters{"Average Wire Cost"} = $3;
+	}
+
+  }
+  close (FH);
+
+  psystem("gunzip $parameters{dir}/Main/simulator.log.gz") if (-e "$parameters{dir}/Main/simulator.log.gz");
+  psystem("tail -20 $parameters{dir}/Main/simulator.log > /tmp/sim.log");
+  psystem("gzip $parameters{dir}/Main/simulator.log");
+  open(FH, "<", "/tmp/sim.log");#	or die "cannot open < /tmp/sim.log: $!";
+  while (<FH>) {
+	 my($line) = $_;
+	chomp($line);
+	if ($line =~ m/Total Lag:(.*)/) {
+	  $parameters{"Total Lag"} = $1;
+	}
+	if ($line =~ m/Total Utilization:(.*)%/) {
+	  $parameters{"Total Utilization"} = $1*4;
+	}
+ 	if ($line =~ m/Total Schedule size:(.*),NoC Capacity:(.*),Schedule Utilization:(.*)/) {
+	  $parameters{"Total Schedule Size"} = $1;
+	  $parameters{"Total Schedule Utilization"} = $3*100;
+	}
+	if ($line =~ m/Max Delay:(\d+),Timeslots:(\d+)/) {
+	  $parameters{"Max Latency"} = $1;
+	  $parameters{"Timeslots"} = $2;
+	}
+	if ($line =~ m/Flits:(\d+),Average Latency:(.*)/) {
+	  $parameters{"Average Latency"} = $2;
+	}
+  }
+  close (FH);
+  return %parameters;
+}
+
+sub readCsv {
+  my ($csv_fname,$params) = (@_);
+  print "Reading from CSV $csv_fname\n";
+  my %parameters = %$params;
+  open(FH, "<", "$csv_fname");#	or die "cannot open < $csv_fname: $!";
+  my $header = "";
+  my $results = "";
+  while (<FH>) {
+	 my($line) = $_;
+	 chomp($line);
+	 $header = $line if $header eq "";
+	 $results = $line;
+  }
+  my $index1=0;
+  my $index2=0;
+  my $offset1=0;
+  my $offset2=0;
+  do {
+	$index1 = index($header,',',$offset1);
+	$index2 = index($results,',',$offset2);
+	if ($index1 ne -1) {
+			my $key = substr($header,$offset1,$index1-$offset1);
+			my $value = substr($results,$offset2,$index2-$offset2);
+			$parameters{$key} = $value;
+			#print "K:$key;V:$value;I1=$index1;I2=$index2;O1=$offset1;O2=$offset2;\n";
+			$offset1=$index1+1;
+			$offset2=$index2+1;
+	}
+  } while ($index1!=-1);
+  return %parameters;
+}
+
+sub psystem {
+	my ($cmd) = (@_);
+	my $path = Cwd::cwd();
+	log_msg("Running: $cmd") if ($debug);
+	eval { 
+		     system($cmd);
+        };
+	if ($@) {
+            warn "While running $cmd, got error $@\n";
+        }
+}

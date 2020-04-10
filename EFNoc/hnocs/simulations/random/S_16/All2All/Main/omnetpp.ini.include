@@ -1,0 +1,142 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = efnoc.random.S_16.All2All.VariableBandWidthRandom_16
+
+**.timeslots = 8
+**.source.fileName = ""
+# Edges total wire width:488, Edges: 58 Average: 8.41379
+# Edges total wire cost:1001.86, Edges: 58 Average: 17.2735
+VariableBandWidthRandom_16.router0.out$o[0].channel.bw = 0
+VariableBandWidthRandom_16.router0.out$o[0].channel.edge_num = 27
+VariableBandWidthRandom_16.router0.out$o[1].channel.bw = 25
+VariableBandWidthRandom_16.router0.out$o[1].channel.edge_num = 38
+VariableBandWidthRandom_16.router0.out$o[2].channel.bw = 0
+VariableBandWidthRandom_16.router0.out$o[2].channel.edge_num = 42
+VariableBandWidthRandom_16.router0.out$o[3].channel.bw = 2
+VariableBandWidthRandom_16.router0.out$o[3].channel.edge_num = 44
+VariableBandWidthRandom_16.router0.out$o[4].channel.bw = 8
+VariableBandWidthRandom_16.router0.out$o[4].channel.edge_num = 54
+VariableBandWidthRandom_16.router0.out$o[5].channel.bw = 9
+VariableBandWidthRandom_16.router0.out$o[5].channel.edge_num = 56
+
+VariableBandWidthRandom_16.router1.out$o[0].channel.bw = 0
+VariableBandWidthRandom_16.router1.out$o[0].channel.edge_num = 17
+VariableBandWidthRandom_16.router1.out$o[1].channel.bw = 0
+VariableBandWidthRandom_16.router1.out$o[1].channel.edge_num = 21
+VariableBandWidthRandom_16.router1.out$o[2].channel.bw = 8
+VariableBandWidthRandom_16.router1.out$o[2].channel.edge_num = 25
+VariableBandWidthRandom_16.router1.out$o[3].channel.bw = 15
+VariableBandWidthRandom_16.router1.out$o[3].channel.edge_num = 32
+VariableBandWidthRandom_16.router1.out$o[4].channel.bw = 0
+VariableBandWidthRandom_16.router1.out$o[4].channel.edge_num = 41
+
+VariableBandWidthRandom_16.router2.out$o[0].channel.bw = 6
+VariableBandWidthRandom_16.router2.out$o[0].channel.edge_num = 4
+VariableBandWidthRandom_16.router2.out$o[1].channel.bw = 0
+VariableBandWidthRandom_16.router2.out$o[1].channel.edge_num = 28
+
+VariableBandWidthRandom_16.router3.out$o[0].channel.bw = 0
+VariableBandWidthRandom_16.router3.out$o[0].channel.edge_num = 12
+VariableBandWidthRandom_16.router3.out$o[1].channel.bw = 11
+VariableBandWidthRandom_16.router3.out$o[1].channel.edge_num = 50
+VariableBandWidthRandom_16.router3.out$o[2].channel.bw = 8
+VariableBandWidthRandom_16.router3.out$o[2].channel.edge_num = 52
+
+VariableBandWidthRandom_16.router4.out$o[0].channel.bw = 10
+VariableBandWidthRandom_16.router4.out$o[0].channel.edge_num = 35
+VariableBandWidthRandom_16.router4.out$o[1].channel.bw = 2
+VariableBandWidthRandom_16.router4.out$o[1].channel.edge_num = 57
+
+VariableBandWidthRandom_16.router5.out$o[0].channel.bw = 0
+VariableBandWidthRandom_16.router5.out$o[0].channel.edge_num = 22
+VariableBandWidthRandom_16.router5.out$o[1].channel.bw = 19
+VariableBandWidthRandom_16.router5.out$o[1].channel.edge_num = 45
+
+VariableBandWidthRandom_16.router6.out$o[0].channel.bw = 15
+VariableBandWidthRandom_16.router6.out$o[0].channel.edge_num = 9
+VariableBandWidthRandom_16.router6.out$o[1].channel.bw = 8
+VariableBandWidthRandom_16.router6.out$o[1].channel.edge_num = 10
+VariableBandWidthRandom_16.router6.out$o[2].channel.bw = 0
+VariableBandWidthRandom_16.router6.out$o[2].channel.edge_num = 18
+VariableBandWidthRandom_16.router6.out$o[3].channel.bw = 14
+VariableBandWidthRandom_16.router6.out$o[3].channel.edge_num = 20
+VariableBandWidthRandom_16.router6.out$o[4].channel.bw = 42
+VariableBandWidthRandom_16.router6.out$o[4].channel.edge_num = 30
+
+VariableBandWidthRandom_16.router7.out$o[0].channel.bw = 11
+VariableBandWidthRandom_16.router7.out$o[0].channel.edge_num = 1
+VariableBandWidthRandom_16.router7.out$o[1].channel.bw = 0
+VariableBandWidthRandom_16.router7.out$o[1].channel.edge_num = 15
+VariableBandWidthRandom_16.router7.out$o[2].channel.bw = 17
+VariableBandWidthRandom_16.router7.out$o[2].channel.edge_num = 40
+VariableBandWidthRandom_16.router7.out$o[3].channel.bw = 12
+VariableBandWidthRandom_16.router7.out$o[3].channel.edge_num = 48
+VariableBandWidthRandom_16.router7.out$o[4].channel.bw = 0
+VariableBandWidthRandom_16.router7.out$o[4].channel.edge_num = 51
+
+VariableBandWidthRandom_16.router8.out$o[0].channel.bw = 0
+VariableBandWidthRandom_16.router8.out$o[0].channel.edge_num = 2
+VariableBandWidthRandom_16.router8.out$o[1].channel.bw = 0
+VariableBandWidthRandom_16.router8.out$o[1].channel.edge_num = 7
+VariableBandWidthRandom_16.router8.out$o[2].channel.bw = 0
+VariableBandWidthRandom_16.router8.out$o[2].channel.edge_num = 13
+VariableBandWidthRandom_16.router8.out$o[3].channel.bw = 19
+VariableBandWidthRandom_16.router8.out$o[3].channel.edge_num = 19
+VariableBandWidthRandom_16.router8.out$o[4].channel.bw = 10
+VariableBandWidthRandom_16.router8.out$o[4].channel.edge_num = 23
+VariableBandWidthRandom_16.router8.out$o[5].channel.bw = 11
+VariableBandWidthRandom_16.router8.out$o[5].channel.edge_num = 24
+VariableBandWidthRandom_16.router8.out$o[6].channel.bw = 8
+VariableBandWidthRandom_16.router8.out$o[6].channel.edge_num = 26
+
+VariableBandWidthRandom_16.router9.out$o[0].channel.bw = 11
+VariableBandWidthRandom_16.router9.out$o[0].channel.edge_num = 36
+
+VariableBandWidthRandom_16.router10.out$o[0].channel.bw = 10
+VariableBandWidthRandom_16.router10.out$o[0].channel.edge_num = 3
+VariableBandWidthRandom_16.router10.out$o[1].channel.bw = 31
+VariableBandWidthRandom_16.router10.out$o[1].channel.edge_num = 8
+VariableBandWidthRandom_16.router10.out$o[2].channel.bw = 8
+VariableBandWidthRandom_16.router10.out$o[2].channel.edge_num = 34
+VariableBandWidthRandom_16.router10.out$o[3].channel.bw = 0
+VariableBandWidthRandom_16.router10.out$o[3].channel.edge_num = 39
+VariableBandWidthRandom_16.router10.out$o[4].channel.bw = 10
+VariableBandWidthRandom_16.router10.out$o[4].channel.edge_num = 47
+VariableBandWidthRandom_16.router10.out$o[5].channel.bw = 24
+VariableBandWidthRandom_16.router10.out$o[5].channel.edge_num = 53
+
+VariableBandWidthRandom_16.router11.out$o[0].channel.bw = 10
+VariableBandWidthRandom_16.router11.out$o[0].channel.edge_num = 0
+VariableBandWidthRandom_16.router11.out$o[1].channel.bw = 0
+VariableBandWidthRandom_16.router11.out$o[1].channel.edge_num = 6
+VariableBandWidthRandom_16.router11.out$o[2].channel.bw = 11
+VariableBandWidthRandom_16.router11.out$o[2].channel.edge_num = 11
+VariableBandWidthRandom_16.router11.out$o[3].channel.bw = 8
+VariableBandWidthRandom_16.router11.out$o[3].channel.edge_num = 46
+
+VariableBandWidthRandom_16.router12.out$o[0].channel.bw = 21
+VariableBandWidthRandom_16.router12.out$o[0].channel.edge_num = 5
+VariableBandWidthRandom_16.router12.out$o[1].channel.bw = 0
+VariableBandWidthRandom_16.router12.out$o[1].channel.edge_num = 16
+VariableBandWidthRandom_16.router12.out$o[2].channel.bw = 3
+VariableBandWidthRandom_16.router12.out$o[2].channel.edge_num = 33
+
+VariableBandWidthRandom_16.router13.out$o[0].channel.bw = 16
+VariableBandWidthRandom_16.router13.out$o[0].channel.edge_num = 29
+VariableBandWidthRandom_16.router13.out$o[1].channel.bw = 10
+VariableBandWidthRandom_16.router13.out$o[1].channel.edge_num = 31
+
+VariableBandWidthRandom_16.router14.out$o[0].channel.bw = 0
+VariableBandWidthRandom_16.router14.out$o[0].channel.edge_num = 14
+VariableBandWidthRandom_16.router14.out$o[1].channel.bw = 8
+VariableBandWidthRandom_16.router14.out$o[1].channel.edge_num = 37
+VariableBandWidthRandom_16.router14.out$o[2].channel.bw = 9
+VariableBandWidthRandom_16.router14.out$o[2].channel.edge_num = 49
+
+VariableBandWidthRandom_16.router15.out$o[0].channel.bw = 0
+VariableBandWidthRandom_16.router15.out$o[0].channel.edge_num = 43
+VariableBandWidthRandom_16.router15.out$o[1].channel.bw = 8
+VariableBandWidthRandom_16.router15.out$o[1].channel.edge_num = 55
+
+**.channel.edge_num = -1
+**.channel.bw = 0

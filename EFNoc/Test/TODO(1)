@@ -1,0 +1,56 @@
+
+* adapt sim to MCSL RTP iterations, measure after half , use 20 from MCSL
+* STP ?
+* Scheduler - use original slots increase iteration
+X Benchmark - random AllxAll
+* MCSL - map to other topologies
+* Analysis...
+* Graphs,Results summary
+* Flit size
+* MCSL_ITERATIONS , remove dependency on 20
+X Wire Length
+* Feed wire length to router (need 'width')
+X LP edge cost ?
+X fix BW for all routers..
+X parameter for iteration
+* parameter for scheduler 0.25 edge capacity increase
+X latency
+* switch to csv extension
+* butterfly?
+X statistics after half of iterations
+
+* average link length
+* average width
+* utilization
+X total schedule entries without NI
+* #switches
+* #FatTree
+X max latency 
+* fix division to slots
+* check lag is working correctly
+* look for L based on alpha
+* analyze to csv
+- 256
+- 
+
+2 x applicatation
+2 x topology
+
+L - additive end time from end time
+lag = \sigma (end_i - deliver_i)
+
+L, w(e), \sigma ,w(r)*c(e) ,avg q,utilation
+find good enough (min) L such that no lag
+histogram of lag
+
+different NoC sizes
+
+* \alpha , L = 1
+* queue size ? not increasing
+* word length
+
+* inform MCSL on bug with rec_traffic schedule order
+* update hnocs with MCSL
+
+
+

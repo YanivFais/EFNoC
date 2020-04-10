@@ -1,0 +1,86 @@
+\documentclass{minimal}
+
+\usepackage{tikz}
+%%%<
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}%
+%%%>
+
+\usetikzlibrary{calc}
+\usepackage{keyval}
+
+\makeatletter
+
+\newcommand{\mygear}[6]{%
+\foreach \i in {1,...,#1} {%
+[rotate=(\i-1)*360/#1]  (0:#2)  arc (0:#4:#2) {[rounded corners=1.5pt]
+                 -- (#4+#5:#3)   arc (#4+#5:360/#1-#5:#3)} --  (360/#1:#2)
+    };
+
+\foreach \i/\j in {#6}
+{
+\pgfmathsetmacro{\CogAngle}{-(\i-1)*360/#1-(#4+1.4*#5)};
+\pgfmathsetmacro{\RadAvg}{(#3+#2)/2};
+    \node at (\CogAngle:\RadAvg) {\j};
+};
+
+\pgfmathsetmacro{\ArcRad}{(#2)/2};
+\draw[->] (90:\ArcRad) arc (90:-180:\ArcRad);
+}
+
+\def\defgear#1#2#3#4#5#6{%
+    \foreach \i in {1,...,#1} {%
+      [rotate=(\i-1)*360/#1] (0:#2) arc (0:#4:#2) {[rounded corners=1.5pt] --
+        (#4+#5:#3) arc (#4+#5:360/#1-#5:#3)} -- (360/#1:#2) };
+
+    \foreach \i/\j in {#6} { \pgfmathsetmacro{\CogAngle}{-(\i-1)*360/#1-(#4+0.3*#5)};
+      \pgfmathsetmacro{\RadAvg}{(#3+#2)/2}; \node at (\CogAngle:\RadAvg) {\j}; };
+
+    \pgfmathsetmacro{\ArcRad}{(#2)/2}; \draw[->] (90:\ArcRad) arc (90:-180:\ArcRad);
+}
+
+
+\tikzset{fill colour/.style={fill=blue}}
+
+\define@key{switch}{fill colour}{\tikzset{fill colour/.style={fill=#1}}}
+\def\switch@{1}
+
+\def\switch{\@ifnextchar[\draw@switch{\draw@switch[]}}
+\def\draw@switch[#1]#2{%
+   % Set the relative scale of the switch.
+   \def\switch@scale{#2}
+   \setkeys{switch}{#1}
+   \begin{tikzpicture}[domain=-2:8]
+   [scale=#2]
+
+                                
+\begin{scope}[shift={(0,0)}]
+{
+\draw (0,0) rectangle (6,6);
+\draw[->,thick] (-1,4.5) -- (0,4.5);
+\draw[->,thick] (-1,1.5) -- (0,1.5);
+\draw[->,thick] (6,4.5) -- (7,4.5);
+\draw[->,thick] (6,1.5) -- (7,1.5);
+  \begin{scope}[shift={(5,4.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{1,2,3,4,5,6};
+  \end{scope}
+  \begin{scope}[shift={(5,1.5)}]
+    \draw[thick]\defgear{6}{0.5}{1}{20}{4}{1,2,3,4,5,6}
+  \end{scope}
+}
+\end{scope};
+
+   \end{tikzpicture}
+}
+
+\makeatother
+
+\begin{document}
+\begin{tikzpicture}
+   \draw (0,7) node[anchor=south]{\switch{0.2}}
+         (9,4) node[anchor=south]{\switch[fill colour=green!40]{0.1}};
+         (9,0) node[anchor=south]{\switch[fill colour=blue!40]{0.1}};
+\end{tikzpicture}
+\end{document}

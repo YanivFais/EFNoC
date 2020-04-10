@@ -1,0 +1,4 @@
+# Num of edegs,Num of vertices
+1,2
+# edge number (start from 0),from,to,price
+0,0,1,1

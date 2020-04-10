@@ -1,0 +1,151 @@
+#!/usr/bin/perl
+
+use File::Spec;
+use strict;
+use warnings;
+use Data::Dumper;
+use Cwd;
+use POSIX;
+
+sub log_msg {
+	my ($msg) = (@_);
+	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime(time);
+#	printf "%4d-%02d-%02d %02d:%02d:%02d $msg\n",$year+1900,$mon+1,$mday,$hour,$min,$sec;
+	printf "%02d:%02d:%02d $msg\n",$hour,$min,$sec;
+}
+
+
+my $debug = 1;
+
+my $base_dir = "/c/Users/Yaniv/Documents/Google\\ Drive/TAU/NOC/EFNoc/Release/";
+my $generator_exe = $base_dir."ScenarioGenerator.exe";
+my $scheduler_exe =  $base_dir."ScheduleCalculator.exe";
+my $matlab_exe = "matlab";
+my $base_hnocs_dir = "../../../../../src/";
+my $sim_exe = $base_hnocs_dir."run_nocs -u Cmdenv";
+
+my $add_params_sched = '
+N_TIME_SLOTS, int, 8
+ROUTER_TYPE,int, 1
+SCHEDULER_TYPE,int,1
+ALLOW_ADDING_SLOTS,int,1
+SCHEDULE_BATCH_SIZE,int,200
+ROUNDING_FACTOR,double,0.95
+OMNET_PACKAGE_NAME,string,<TOPOLOGY>.S_<SIZE>.<PROGRAM>
+';
+
+my $add_params_gen = '
+// 1-Mesh,2-FatTree,3-Butterly,4-Clos,5-K-ary N-fly,6-random,7-benes,8-Kary Nfly tree,9-MCSL based
+TOPOLOGY,int,<TOPOLOGY_NUMBER>
+// Name of package of generated network
+OMNET_PACKAGE_NAME,string,<TOPOLOGY>.S_<SIZE>.<PROGRAM>
+// TOPOLOGY parameter
+K,int,<K>
+N,int,<N>
+M,int,<M>
+R,int,<R>
+LEVELS,int,<LEVELS>
+MCSL_FILENAME,string,<MCSL_FILENAME>
+';
+
+
+require "benchmark.prl";
+our (@scenarios,@configurations);
+
+log_msg("Running EFNoc Benchmark");
+
+my $pwd = Cwd::cwd();
+
+for my $scenario_ra (@scenarios) {
+	my %scenario = %$scenario_ra;
+	my $dir = $scenario{Dir};
+	log_msg("Runing scenario:$dir");
+	psystem("cd \"$pwd\"");
+	if ($scenario{Generator}) {
+		psystem("rm -rf $dir && mkdir -p $dir");
+		my $add_params_gen_spec = $add_params_gen;
+		$add_params_gen_spec =~ s/<TOPOLOGY_NUMBER>/$scenario{TOPOLOGY_NUMBER}/g;
+		$add_params_gen_spec =~ s/<TOPOLOGY>/$scenario{TOPOLOGY}/g;
+		$add_params_gen_spec =~ s/<SIZE>/$scenario{Size}/g;
+		$add_params_gen_spec =~ s/<PROGRAM>/$scenario{PROGRAM}/g;
+		$add_params_gen_spec =~ s/<MCSL_FILENAME>/$scenario{MCSL_FILENAME}/g if ($scenario{TOPOLOGY_NUMBER}==9);
+		$add_params_gen_spec =~ s/<MCSL_FILENAME>/NULL/g if ($scenario{TOPOLOGY_NUMBER}!=9);
+		$add_params_gen_spec =~ s/<K>/$scenario{K}/g;
+		$add_params_gen_spec =~ s/<N>/$scenario{N}/g;
+		$add_params_gen_spec =~ s/<M>/$scenario{M}/g;
+		$add_params_gen_spec =~ s/<R>/$scenario{R}/g;
+		$add_params_gen_spec =~ s/<LEVELS>/$scenario{LEVELS}/g;
+		gen_params_file($dir,"","params_gen.txt",$add_params_gen_spec,$scenario{MCSL});
+		psystem("cd $dir && $generator_exe params_gen.txt > generator.log");
+	}
+	foreach my $config_ra (@configurations) {
+			psystem("cd \"$pwd\"");
+			my %config_hash = %$config_ra;
+	        my $config = $config_hash{Name};
+			log_msg("Running scenario:$dir,configuration:$config");
+			psystem("mkdir $dir/$config") if (not -d "$dir/$config");
+	        my $config_params = $config_hash{Params};
+			my $add_config_params = "$add_params_sched\n$config_params";
+
+			$add_config_params =~ s/<TOPOLOGY_NUMBER>/$scenario{TOPOLOGY_NUMBER}/g;
+			$add_config_params =~ s/<TOPOLOGY>/$scenario{TOPOLOGY}/g;
+			$add_config_params =~ s/<SIZE>/$scenario{Size}/g;
+			$add_config_params =~ s/<PROGRAM>/$scenario{PROGRAM}/g;
+			$add_config_params =~ s/<MCSL_FILENAME>/$scenario{MCSL_FILENAME}/g if ($scenario{TOPOLOGY_NUMBER}==9);
+			$add_config_params =~ s/<MCSL_FILENAME>/NULL/g if ($scenario{TOPOLOGY_NUMBER}!=9);
+			$add_config_params =~ s/<K>/$scenario{K}/g;
+			$add_config_params =~ s/<N>/$scenario{N}/g;
+			$add_config_params =~ s/<M>/$scenario{M}/g;
+			$add_config_params =~ s/<R>/$scenario{R}/g;
+			$add_config_params =~ s/<LEVELS>/$scenario{LEVELS}/g;
+
+			gen_params_file($dir,"$config/","params.txt",$add_config_params,"");
+			if ($scenario{Scheduler}) {
+				psystem("cp $pwd/common/Requests_$scenario{Size}.txt $dir/Requests.txt") if ($scenario{MCSL} eq "");
+				psystem("cd $dir/$config/ && ln -sfv ../*.txt .");
+				psystem("cd $dir/$config/ && $scheduler_exe params.txt > scheduler.log");
+			}
+			if ($scenario{Simulation}) {
+				my $rel_dir = $dir;
+				$rel_dir =~ s/^..\///g;
+		        #psystem("make -C ../results TEST=$rel_dir/$config COPY=1 CONFIG=$config > simulator.log");
+				psystem("cp common/omnetpp.ini  $dir/$config/ ");
+				psystem("cd  $dir/$config/ && $sim_exe > simulator.log");
+            }
+			if ($scenario{Analyze}) {
+				psystem("rm -rf jpg eps fig");
+				my $config_name = "$dir/$config/$config"."_log.csv";
+		        psystem("$matlab_exe  -minimize -noFigureWindows -nosplash -nodesktop -wait -logfile $dir/$config/analyze.log -r \"try, EFNoc('$dir/$config/$config.csv','$config_name'), catch, 'Got error', end, quit \"");
+				psystem("rm -rf $dir/$config/jpg && mv jpg $dir/$config");
+				psystem("rm -rf $dir/$config/eps && mv eps $dir/$config");
+				psystem("rm -rf $dir/$config/fig && mv fig $dir/$config");
+				psystem("gzip $dir/$config/$config.csv");
+				psystem("gzip $dir/$config/$config"."_log.csv");
+            }
+	}
+}
+
+sub gen_params_file {
+	my ($dir,$config,$params_file,$add_params_base,$mcsl_file) = (@_);
+	my $add_params = $add_params_base;
+	$add_params =~ s/BASE_DIR/$dir/g;
+	$add_params =~ s/CONFIG/$config/g;
+	psystem("cp $mcsl_file $dir/mcsl.rtp") if (($mcsl_file ne "") and (-e $mcsl_file));
+	psystem("cp common/$params_file $dir/$config"."$params_file");
+	open(PARAMS,">>$dir/$params_file") || die("Cannot Open File $dir/$params_file");
+	print PARAMS $add_params;
+	close(PARAMS);
+}
+
+sub psystem {
+	my ($cmd) = (@_);
+	my $path = Cwd::cwd();
+	log_msg("Running: $cmd") if ($debug);
+	eval { 
+		     system($cmd);
+        };
+	if ($@) {
+            warn "While running $cmd, got error $@\n";
+        }
+}
+

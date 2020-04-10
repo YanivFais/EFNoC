@@ -1,0 +1,2186 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = efnoc.mesh.S_256.All2All.VariableBandWidthMesh_16_16
+
+**.timeslots = 8
+**.source.fileName = ""
+# Edges total wire width:171110, Edges: 960 Average: 178.24
+# Edges total wire cost:171110, Edges: 960 Average: 178.24
+VariableBandWidthMesh_16_16.router0.out$o[0].channel.bw = 87
+VariableBandWidthMesh_16_16.router0.out$o[0].channel.edge_num = 0
+VariableBandWidthMesh_16_16.router0.out$o[1].channel.bw = 32
+VariableBandWidthMesh_16_16.router0.out$o[1].channel.edge_num = 2
+
+VariableBandWidthMesh_16_16.router1.out$o[0].channel.bw = 77
+VariableBandWidthMesh_16_16.router1.out$o[0].channel.edge_num = 1
+VariableBandWidthMesh_16_16.router1.out$o[1].channel.bw = 202
+VariableBandWidthMesh_16_16.router1.out$o[1].channel.edge_num = 4
+VariableBandWidthMesh_16_16.router1.out$o[2].channel.bw = 33
+VariableBandWidthMesh_16_16.router1.out$o[2].channel.edge_num = 6
+
+VariableBandWidthMesh_16_16.router2.out$o[0].channel.bw = 151
+VariableBandWidthMesh_16_16.router2.out$o[0].channel.edge_num = 5
+VariableBandWidthMesh_16_16.router2.out$o[1].channel.bw = 207
+VariableBandWidthMesh_16_16.router2.out$o[1].channel.edge_num = 8
+VariableBandWidthMesh_16_16.router2.out$o[2].channel.bw = 0
+VariableBandWidthMesh_16_16.router2.out$o[2].channel.edge_num = 10
+
+VariableBandWidthMesh_16_16.router3.out$o[0].channel.bw = 172
+VariableBandWidthMesh_16_16.router3.out$o[0].channel.edge_num = 9
+VariableBandWidthMesh_16_16.router3.out$o[1].channel.bw = 167
+VariableBandWidthMesh_16_16.router3.out$o[1].channel.edge_num = 12
+VariableBandWidthMesh_16_16.router3.out$o[2].channel.bw = 58
+VariableBandWidthMesh_16_16.router3.out$o[2].channel.edge_num = 14
+
+VariableBandWidthMesh_16_16.router4.out$o[0].channel.bw = 160
+VariableBandWidthMesh_16_16.router4.out$o[0].channel.edge_num = 13
+VariableBandWidthMesh_16_16.router4.out$o[1].channel.bw = 177
+VariableBandWidthMesh_16_16.router4.out$o[1].channel.edge_num = 16
+VariableBandWidthMesh_16_16.router4.out$o[2].channel.bw = 72
+VariableBandWidthMesh_16_16.router4.out$o[2].channel.edge_num = 18
+
+VariableBandWidthMesh_16_16.router5.out$o[0].channel.bw = 215
+VariableBandWidthMesh_16_16.router5.out$o[0].channel.edge_num = 17
+VariableBandWidthMesh_16_16.router5.out$o[1].channel.bw = 227
+VariableBandWidthMesh_16_16.router5.out$o[1].channel.edge_num = 20
+VariableBandWidthMesh_16_16.router5.out$o[2].channel.bw = 106
+VariableBandWidthMesh_16_16.router5.out$o[2].channel.edge_num = 22
+
+VariableBandWidthMesh_16_16.router6.out$o[0].channel.bw = 244
+VariableBandWidthMesh_16_16.router6.out$o[0].channel.edge_num = 21
+VariableBandWidthMesh_16_16.router6.out$o[1].channel.bw = 257
+VariableBandWidthMesh_16_16.router6.out$o[1].channel.edge_num = 24
+VariableBandWidthMesh_16_16.router6.out$o[2].channel.bw = 85
+VariableBandWidthMesh_16_16.router6.out$o[2].channel.edge_num = 26
+
+VariableBandWidthMesh_16_16.router7.out$o[0].channel.bw = 215
+VariableBandWidthMesh_16_16.router7.out$o[0].channel.edge_num = 25
+VariableBandWidthMesh_16_16.router7.out$o[1].channel.bw = 265
+VariableBandWidthMesh_16_16.router7.out$o[1].channel.edge_num = 28
+VariableBandWidthMesh_16_16.router7.out$o[2].channel.bw = 98
+VariableBandWidthMesh_16_16.router7.out$o[2].channel.edge_num = 30
+
+VariableBandWidthMesh_16_16.router8.out$o[0].channel.bw = 223
+VariableBandWidthMesh_16_16.router8.out$o[0].channel.edge_num = 29
+VariableBandWidthMesh_16_16.router8.out$o[1].channel.bw = 286
+VariableBandWidthMesh_16_16.router8.out$o[1].channel.edge_num = 32
+VariableBandWidthMesh_16_16.router8.out$o[2].channel.bw = 53
+VariableBandWidthMesh_16_16.router8.out$o[2].channel.edge_num = 34
+
+VariableBandWidthMesh_16_16.router9.out$o[0].channel.bw = 232
+VariableBandWidthMesh_16_16.router9.out$o[0].channel.edge_num = 33
+VariableBandWidthMesh_16_16.router9.out$o[1].channel.bw = 293
+VariableBandWidthMesh_16_16.router9.out$o[1].channel.edge_num = 36
+VariableBandWidthMesh_16_16.router9.out$o[2].channel.bw = 35
+VariableBandWidthMesh_16_16.router9.out$o[2].channel.edge_num = 38
+
+VariableBandWidthMesh_16_16.router10.out$o[0].channel.bw = 226
+VariableBandWidthMesh_16_16.router10.out$o[0].channel.edge_num = 37
+VariableBandWidthMesh_16_16.router10.out$o[1].channel.bw = 258
+VariableBandWidthMesh_16_16.router10.out$o[1].channel.edge_num = 40
+VariableBandWidthMesh_16_16.router10.out$o[2].channel.bw = 39
+VariableBandWidthMesh_16_16.router10.out$o[2].channel.edge_num = 42
+
+VariableBandWidthMesh_16_16.router11.out$o[0].channel.bw = 179
+VariableBandWidthMesh_16_16.router11.out$o[0].channel.edge_num = 41
+VariableBandWidthMesh_16_16.router11.out$o[1].channel.bw = 253
+VariableBandWidthMesh_16_16.router11.out$o[1].channel.edge_num = 44
+VariableBandWidthMesh_16_16.router11.out$o[2].channel.bw = 95
+VariableBandWidthMesh_16_16.router11.out$o[2].channel.edge_num = 46
+
+VariableBandWidthMesh_16_16.router12.out$o[0].channel.bw = 140
+VariableBandWidthMesh_16_16.router12.out$o[0].channel.edge_num = 45
+VariableBandWidthMesh_16_16.router12.out$o[1].channel.bw = 212
+VariableBandWidthMesh_16_16.router12.out$o[1].channel.edge_num = 48
+VariableBandWidthMesh_16_16.router12.out$o[2].channel.bw = 34
+VariableBandWidthMesh_16_16.router12.out$o[2].channel.edge_num = 50
+
+VariableBandWidthMesh_16_16.router13.out$o[0].channel.bw = 115
+VariableBandWidthMesh_16_16.router13.out$o[0].channel.edge_num = 49
+VariableBandWidthMesh_16_16.router13.out$o[1].channel.bw = 119
+VariableBandWidthMesh_16_16.router13.out$o[1].channel.edge_num = 52
+VariableBandWidthMesh_16_16.router13.out$o[2].channel.bw = 29
+VariableBandWidthMesh_16_16.router13.out$o[2].channel.edge_num = 54
+
+VariableBandWidthMesh_16_16.router14.out$o[0].channel.bw = 88
+VariableBandWidthMesh_16_16.router14.out$o[0].channel.edge_num = 53
+VariableBandWidthMesh_16_16.router14.out$o[1].channel.bw = 52
+VariableBandWidthMesh_16_16.router14.out$o[1].channel.edge_num = 56
+VariableBandWidthMesh_16_16.router14.out$o[2].channel.bw = 18
+VariableBandWidthMesh_16_16.router14.out$o[2].channel.edge_num = 58
+
+VariableBandWidthMesh_16_16.router15.out$o[0].channel.bw = 40
+VariableBandWidthMesh_16_16.router15.out$o[0].channel.edge_num = 57
+VariableBandWidthMesh_16_16.router15.out$o[1].channel.bw = 33
+VariableBandWidthMesh_16_16.router15.out$o[1].channel.edge_num = 60
+
+VariableBandWidthMesh_16_16.router16.out$o[0].channel.bw = 29
+VariableBandWidthMesh_16_16.router16.out$o[0].channel.edge_num = 3
+VariableBandWidthMesh_16_16.router16.out$o[1].channel.bw = 17
+VariableBandWidthMesh_16_16.router16.out$o[1].channel.edge_num = 62
+VariableBandWidthMesh_16_16.router16.out$o[2].channel.bw = 39
+VariableBandWidthMesh_16_16.router16.out$o[2].channel.edge_num = 64
+
+VariableBandWidthMesh_16_16.router17.out$o[0].channel.bw = 74
+VariableBandWidthMesh_16_16.router17.out$o[0].channel.edge_num = 7
+VariableBandWidthMesh_16_16.router17.out$o[1].channel.bw = 78
+VariableBandWidthMesh_16_16.router17.out$o[1].channel.edge_num = 63
+VariableBandWidthMesh_16_16.router17.out$o[2].channel.bw = 146
+VariableBandWidthMesh_16_16.router17.out$o[2].channel.edge_num = 66
+VariableBandWidthMesh_16_16.router17.out$o[3].channel.bw = 82
+VariableBandWidthMesh_16_16.router17.out$o[3].channel.edge_num = 68
+
+VariableBandWidthMesh_16_16.router18.out$o[0].channel.bw = 64
+VariableBandWidthMesh_16_16.router18.out$o[0].channel.edge_num = 11
+VariableBandWidthMesh_16_16.router18.out$o[1].channel.bw = 156
+VariableBandWidthMesh_16_16.router18.out$o[1].channel.edge_num = 67
+VariableBandWidthMesh_16_16.router18.out$o[2].channel.bw = 203
+VariableBandWidthMesh_16_16.router18.out$o[2].channel.edge_num = 70
+VariableBandWidthMesh_16_16.router18.out$o[3].channel.bw = 108
+VariableBandWidthMesh_16_16.router18.out$o[3].channel.edge_num = 72
+
+VariableBandWidthMesh_16_16.router19.out$o[0].channel.bw = 78
+VariableBandWidthMesh_16_16.router19.out$o[0].channel.edge_num = 15
+VariableBandWidthMesh_16_16.router19.out$o[1].channel.bw = 253
+VariableBandWidthMesh_16_16.router19.out$o[1].channel.edge_num = 71
+VariableBandWidthMesh_16_16.router19.out$o[2].channel.bw = 292
+VariableBandWidthMesh_16_16.router19.out$o[2].channel.edge_num = 74
+VariableBandWidthMesh_16_16.router19.out$o[3].channel.bw = 73
+VariableBandWidthMesh_16_16.router19.out$o[3].channel.edge_num = 76
+
+VariableBandWidthMesh_16_16.router20.out$o[0].channel.bw = 64
+VariableBandWidthMesh_16_16.router20.out$o[0].channel.edge_num = 19
+VariableBandWidthMesh_16_16.router20.out$o[1].channel.bw = 347
+VariableBandWidthMesh_16_16.router20.out$o[1].channel.edge_num = 75
+VariableBandWidthMesh_16_16.router20.out$o[2].channel.bw = 289
+VariableBandWidthMesh_16_16.router20.out$o[2].channel.edge_num = 78
+VariableBandWidthMesh_16_16.router20.out$o[3].channel.bw = 226
+VariableBandWidthMesh_16_16.router20.out$o[3].channel.edge_num = 80
+
+VariableBandWidthMesh_16_16.router21.out$o[0].channel.bw = 110
+VariableBandWidthMesh_16_16.router21.out$o[0].channel.edge_num = 23
+VariableBandWidthMesh_16_16.router21.out$o[1].channel.bw = 398
+VariableBandWidthMesh_16_16.router21.out$o[1].channel.edge_num = 79
+VariableBandWidthMesh_16_16.router21.out$o[2].channel.bw = 275
+VariableBandWidthMesh_16_16.router21.out$o[2].channel.edge_num = 82
+VariableBandWidthMesh_16_16.router21.out$o[3].channel.bw = 132
+VariableBandWidthMesh_16_16.router21.out$o[3].channel.edge_num = 84
+
+VariableBandWidthMesh_16_16.router22.out$o[0].channel.bw = 73
+VariableBandWidthMesh_16_16.router22.out$o[0].channel.edge_num = 27
+VariableBandWidthMesh_16_16.router22.out$o[1].channel.bw = 402
+VariableBandWidthMesh_16_16.router22.out$o[1].channel.edge_num = 83
+VariableBandWidthMesh_16_16.router22.out$o[2].channel.bw = 294
+VariableBandWidthMesh_16_16.router22.out$o[2].channel.edge_num = 86
+VariableBandWidthMesh_16_16.router22.out$o[3].channel.bw = 248
+VariableBandWidthMesh_16_16.router22.out$o[3].channel.edge_num = 88
+
+VariableBandWidthMesh_16_16.router23.out$o[0].channel.bw = 69
+VariableBandWidthMesh_16_16.router23.out$o[0].channel.edge_num = 31
+VariableBandWidthMesh_16_16.router23.out$o[1].channel.bw = 442
+VariableBandWidthMesh_16_16.router23.out$o[1].channel.edge_num = 87
+VariableBandWidthMesh_16_16.router23.out$o[2].channel.bw = 292
+VariableBandWidthMesh_16_16.router23.out$o[2].channel.edge_num = 90
+VariableBandWidthMesh_16_16.router23.out$o[3].channel.bw = 109
+VariableBandWidthMesh_16_16.router23.out$o[3].channel.edge_num = 92
+
+VariableBandWidthMesh_16_16.router24.out$o[0].channel.bw = 77
+VariableBandWidthMesh_16_16.router24.out$o[0].channel.edge_num = 35
+VariableBandWidthMesh_16_16.router24.out$o[1].channel.bw = 401
+VariableBandWidthMesh_16_16.router24.out$o[1].channel.edge_num = 91
+VariableBandWidthMesh_16_16.router24.out$o[2].channel.bw = 296
+VariableBandWidthMesh_16_16.router24.out$o[2].channel.edge_num = 94
+VariableBandWidthMesh_16_16.router24.out$o[3].channel.bw = 118
+VariableBandWidthMesh_16_16.router24.out$o[3].channel.edge_num = 96
+
+VariableBandWidthMesh_16_16.router25.out$o[0].channel.bw = 78
+VariableBandWidthMesh_16_16.router25.out$o[0].channel.edge_num = 39
+VariableBandWidthMesh_16_16.router25.out$o[1].channel.bw = 342
+VariableBandWidthMesh_16_16.router25.out$o[1].channel.edge_num = 95
+VariableBandWidthMesh_16_16.router25.out$o[2].channel.bw = 229
+VariableBandWidthMesh_16_16.router25.out$o[2].channel.edge_num = 98
+VariableBandWidthMesh_16_16.router25.out$o[3].channel.bw = 115
+VariableBandWidthMesh_16_16.router25.out$o[3].channel.edge_num = 100
+
+VariableBandWidthMesh_16_16.router26.out$o[0].channel.bw = 40
+VariableBandWidthMesh_16_16.router26.out$o[0].channel.edge_num = 43
+VariableBandWidthMesh_16_16.router26.out$o[1].channel.bw = 285
+VariableBandWidthMesh_16_16.router26.out$o[1].channel.edge_num = 99
+VariableBandWidthMesh_16_16.router26.out$o[2].channel.bw = 238
+VariableBandWidthMesh_16_16.router26.out$o[2].channel.edge_num = 102
+VariableBandWidthMesh_16_16.router26.out$o[3].channel.bw = 92
+VariableBandWidthMesh_16_16.router26.out$o[3].channel.edge_num = 104
+
+VariableBandWidthMesh_16_16.router27.out$o[0].channel.bw = 93
+VariableBandWidthMesh_16_16.router27.out$o[0].channel.edge_num = 47
+VariableBandWidthMesh_16_16.router27.out$o[1].channel.bw = 266
+VariableBandWidthMesh_16_16.router27.out$o[1].channel.edge_num = 103
+VariableBandWidthMesh_16_16.router27.out$o[2].channel.bw = 250
+VariableBandWidthMesh_16_16.router27.out$o[2].channel.edge_num = 106
+VariableBandWidthMesh_16_16.router27.out$o[3].channel.bw = 151
+VariableBandWidthMesh_16_16.router27.out$o[3].channel.edge_num = 108
+
+VariableBandWidthMesh_16_16.router28.out$o[0].channel.bw = 68
+VariableBandWidthMesh_16_16.router28.out$o[0].channel.edge_num = 51
+VariableBandWidthMesh_16_16.router28.out$o[1].channel.bw = 194
+VariableBandWidthMesh_16_16.router28.out$o[1].channel.edge_num = 107
+VariableBandWidthMesh_16_16.router28.out$o[2].channel.bw = 188
+VariableBandWidthMesh_16_16.router28.out$o[2].channel.edge_num = 110
+VariableBandWidthMesh_16_16.router28.out$o[3].channel.bw = 120
+VariableBandWidthMesh_16_16.router28.out$o[3].channel.edge_num = 112
+
+VariableBandWidthMesh_16_16.router29.out$o[0].channel.bw = 43
+VariableBandWidthMesh_16_16.router29.out$o[0].channel.edge_num = 55
+VariableBandWidthMesh_16_16.router29.out$o[1].channel.bw = 158
+VariableBandWidthMesh_16_16.router29.out$o[1].channel.edge_num = 111
+VariableBandWidthMesh_16_16.router29.out$o[2].channel.bw = 128
+VariableBandWidthMesh_16_16.router29.out$o[2].channel.edge_num = 114
+VariableBandWidthMesh_16_16.router29.out$o[3].channel.bw = 81
+VariableBandWidthMesh_16_16.router29.out$o[3].channel.edge_num = 116
+
+VariableBandWidthMesh_16_16.router30.out$o[0].channel.bw = 14
+VariableBandWidthMesh_16_16.router30.out$o[0].channel.edge_num = 59
+VariableBandWidthMesh_16_16.router30.out$o[1].channel.bw = 90
+VariableBandWidthMesh_16_16.router30.out$o[1].channel.edge_num = 115
+VariableBandWidthMesh_16_16.router30.out$o[2].channel.bw = 33
+VariableBandWidthMesh_16_16.router30.out$o[2].channel.edge_num = 118
+VariableBandWidthMesh_16_16.router30.out$o[3].channel.bw = 71
+VariableBandWidthMesh_16_16.router30.out$o[3].channel.edge_num = 120
+
+VariableBandWidthMesh_16_16.router31.out$o[0].channel.bw = 55
+VariableBandWidthMesh_16_16.router31.out$o[0].channel.edge_num = 61
+VariableBandWidthMesh_16_16.router31.out$o[1].channel.bw = 49
+VariableBandWidthMesh_16_16.router31.out$o[1].channel.edge_num = 119
+VariableBandWidthMesh_16_16.router31.out$o[2].channel.bw = 38
+VariableBandWidthMesh_16_16.router31.out$o[2].channel.edge_num = 122
+
+VariableBandWidthMesh_16_16.router32.out$o[0].channel.bw = 46
+VariableBandWidthMesh_16_16.router32.out$o[0].channel.edge_num = 65
+VariableBandWidthMesh_16_16.router32.out$o[1].channel.bw = 73
+VariableBandWidthMesh_16_16.router32.out$o[1].channel.edge_num = 124
+VariableBandWidthMesh_16_16.router32.out$o[2].channel.bw = 110
+VariableBandWidthMesh_16_16.router32.out$o[2].channel.edge_num = 126
+
+VariableBandWidthMesh_16_16.router33.out$o[0].channel.bw = 167
+VariableBandWidthMesh_16_16.router33.out$o[0].channel.edge_num = 69
+VariableBandWidthMesh_16_16.router33.out$o[1].channel.bw = 100
+VariableBandWidthMesh_16_16.router33.out$o[1].channel.edge_num = 125
+VariableBandWidthMesh_16_16.router33.out$o[2].channel.bw = 122
+VariableBandWidthMesh_16_16.router33.out$o[2].channel.edge_num = 128
+VariableBandWidthMesh_16_16.router33.out$o[3].channel.bw = 110
+VariableBandWidthMesh_16_16.router33.out$o[3].channel.edge_num = 130
+
+VariableBandWidthMesh_16_16.router34.out$o[0].channel.bw = 78
+VariableBandWidthMesh_16_16.router34.out$o[0].channel.edge_num = 73
+VariableBandWidthMesh_16_16.router34.out$o[1].channel.bw = 182
+VariableBandWidthMesh_16_16.router34.out$o[1].channel.edge_num = 129
+VariableBandWidthMesh_16_16.router34.out$o[2].channel.bw = 156
+VariableBandWidthMesh_16_16.router34.out$o[2].channel.edge_num = 132
+VariableBandWidthMesh_16_16.router34.out$o[3].channel.bw = 189
+VariableBandWidthMesh_16_16.router34.out$o[3].channel.edge_num = 134
+
+VariableBandWidthMesh_16_16.router35.out$o[0].channel.bw = 107
+VariableBandWidthMesh_16_16.router35.out$o[0].channel.edge_num = 77
+VariableBandWidthMesh_16_16.router35.out$o[1].channel.bw = 254
+VariableBandWidthMesh_16_16.router35.out$o[1].channel.edge_num = 133
+VariableBandWidthMesh_16_16.router35.out$o[2].channel.bw = 191
+VariableBandWidthMesh_16_16.router35.out$o[2].channel.edge_num = 136
+VariableBandWidthMesh_16_16.router35.out$o[3].channel.bw = 158
+VariableBandWidthMesh_16_16.router35.out$o[3].channel.edge_num = 138
+
+VariableBandWidthMesh_16_16.router36.out$o[0].channel.bw = 125
+VariableBandWidthMesh_16_16.router36.out$o[0].channel.edge_num = 81
+VariableBandWidthMesh_16_16.router36.out$o[1].channel.bw = 337
+VariableBandWidthMesh_16_16.router36.out$o[1].channel.edge_num = 137
+VariableBandWidthMesh_16_16.router36.out$o[2].channel.bw = 299
+VariableBandWidthMesh_16_16.router36.out$o[2].channel.edge_num = 140
+VariableBandWidthMesh_16_16.router36.out$o[3].channel.bw = 329
+VariableBandWidthMesh_16_16.router36.out$o[3].channel.edge_num = 142
+
+VariableBandWidthMesh_16_16.router37.out$o[0].channel.bw = 165
+VariableBandWidthMesh_16_16.router37.out$o[0].channel.edge_num = 85
+VariableBandWidthMesh_16_16.router37.out$o[1].channel.bw = 401
+VariableBandWidthMesh_16_16.router37.out$o[1].channel.edge_num = 141
+VariableBandWidthMesh_16_16.router37.out$o[2].channel.bw = 268
+VariableBandWidthMesh_16_16.router37.out$o[2].channel.edge_num = 144
+VariableBandWidthMesh_16_16.router37.out$o[3].channel.bw = 100
+VariableBandWidthMesh_16_16.router37.out$o[3].channel.edge_num = 146
+
+VariableBandWidthMesh_16_16.router38.out$o[0].channel.bw = 155
+VariableBandWidthMesh_16_16.router38.out$o[0].channel.edge_num = 89
+VariableBandWidthMesh_16_16.router38.out$o[1].channel.bw = 354
+VariableBandWidthMesh_16_16.router38.out$o[1].channel.edge_num = 145
+VariableBandWidthMesh_16_16.router38.out$o[2].channel.bw = 259
+VariableBandWidthMesh_16_16.router38.out$o[2].channel.edge_num = 148
+VariableBandWidthMesh_16_16.router38.out$o[3].channel.bw = 275
+VariableBandWidthMesh_16_16.router38.out$o[3].channel.edge_num = 150
+
+VariableBandWidthMesh_16_16.router39.out$o[0].channel.bw = 154
+VariableBandWidthMesh_16_16.router39.out$o[0].channel.edge_num = 93
+VariableBandWidthMesh_16_16.router39.out$o[1].channel.bw = 380
+VariableBandWidthMesh_16_16.router39.out$o[1].channel.edge_num = 149
+VariableBandWidthMesh_16_16.router39.out$o[2].channel.bw = 268
+VariableBandWidthMesh_16_16.router39.out$o[2].channel.edge_num = 152
+VariableBandWidthMesh_16_16.router39.out$o[3].channel.bw = 138
+VariableBandWidthMesh_16_16.router39.out$o[3].channel.edge_num = 154
+
+VariableBandWidthMesh_16_16.router40.out$o[0].channel.bw = 166
+VariableBandWidthMesh_16_16.router40.out$o[0].channel.edge_num = 97
+VariableBandWidthMesh_16_16.router40.out$o[1].channel.bw = 412
+VariableBandWidthMesh_16_16.router40.out$o[1].channel.edge_num = 153
+VariableBandWidthMesh_16_16.router40.out$o[2].channel.bw = 267
+VariableBandWidthMesh_16_16.router40.out$o[2].channel.edge_num = 156
+VariableBandWidthMesh_16_16.router40.out$o[3].channel.bw = 139
+VariableBandWidthMesh_16_16.router40.out$o[3].channel.edge_num = 158
+
+VariableBandWidthMesh_16_16.router41.out$o[0].channel.bw = 123
+VariableBandWidthMesh_16_16.router41.out$o[0].channel.edge_num = 101
+VariableBandWidthMesh_16_16.router41.out$o[1].channel.bw = 424
+VariableBandWidthMesh_16_16.router41.out$o[1].channel.edge_num = 157
+VariableBandWidthMesh_16_16.router41.out$o[2].channel.bw = 335
+VariableBandWidthMesh_16_16.router41.out$o[2].channel.edge_num = 160
+VariableBandWidthMesh_16_16.router41.out$o[3].channel.bw = 174
+VariableBandWidthMesh_16_16.router41.out$o[3].channel.edge_num = 162
+
+VariableBandWidthMesh_16_16.router42.out$o[0].channel.bw = 93
+VariableBandWidthMesh_16_16.router42.out$o[0].channel.edge_num = 105
+VariableBandWidthMesh_16_16.router42.out$o[1].channel.bw = 410
+VariableBandWidthMesh_16_16.router42.out$o[1].channel.edge_num = 161
+VariableBandWidthMesh_16_16.router42.out$o[2].channel.bw = 307
+VariableBandWidthMesh_16_16.router42.out$o[2].channel.edge_num = 164
+VariableBandWidthMesh_16_16.router42.out$o[3].channel.bw = 58
+VariableBandWidthMesh_16_16.router42.out$o[3].channel.edge_num = 166
+
+VariableBandWidthMesh_16_16.router43.out$o[0].channel.bw = 139
+VariableBandWidthMesh_16_16.router43.out$o[0].channel.edge_num = 109
+VariableBandWidthMesh_16_16.router43.out$o[1].channel.bw = 308
+VariableBandWidthMesh_16_16.router43.out$o[1].channel.edge_num = 165
+VariableBandWidthMesh_16_16.router43.out$o[2].channel.bw = 219
+VariableBandWidthMesh_16_16.router43.out$o[2].channel.edge_num = 168
+VariableBandWidthMesh_16_16.router43.out$o[3].channel.bw = 239
+VariableBandWidthMesh_16_16.router43.out$o[3].channel.edge_num = 170
+
+VariableBandWidthMesh_16_16.router44.out$o[0].channel.bw = 109
+VariableBandWidthMesh_16_16.router44.out$o[0].channel.edge_num = 113
+VariableBandWidthMesh_16_16.router44.out$o[1].channel.bw = 285
+VariableBandWidthMesh_16_16.router44.out$o[1].channel.edge_num = 169
+VariableBandWidthMesh_16_16.router44.out$o[2].channel.bw = 149
+VariableBandWidthMesh_16_16.router44.out$o[2].channel.edge_num = 172
+VariableBandWidthMesh_16_16.router44.out$o[3].channel.bw = 188
+VariableBandWidthMesh_16_16.router44.out$o[3].channel.edge_num = 174
+
+VariableBandWidthMesh_16_16.router45.out$o[0].channel.bw = 126
+VariableBandWidthMesh_16_16.router45.out$o[0].channel.edge_num = 117
+VariableBandWidthMesh_16_16.router45.out$o[1].channel.bw = 240
+VariableBandWidthMesh_16_16.router45.out$o[1].channel.edge_num = 173
+VariableBandWidthMesh_16_16.router45.out$o[2].channel.bw = 140
+VariableBandWidthMesh_16_16.router45.out$o[2].channel.edge_num = 176
+VariableBandWidthMesh_16_16.router45.out$o[3].channel.bw = 65
+VariableBandWidthMesh_16_16.router45.out$o[3].channel.edge_num = 178
+
+VariableBandWidthMesh_16_16.router46.out$o[0].channel.bw = 0
+VariableBandWidthMesh_16_16.router46.out$o[0].channel.edge_num = 121
+VariableBandWidthMesh_16_16.router46.out$o[1].channel.bw = 221
+VariableBandWidthMesh_16_16.router46.out$o[1].channel.edge_num = 177
+VariableBandWidthMesh_16_16.router46.out$o[2].channel.bw = 35
+VariableBandWidthMesh_16_16.router46.out$o[2].channel.edge_num = 180
+VariableBandWidthMesh_16_16.router46.out$o[3].channel.bw = 101
+VariableBandWidthMesh_16_16.router46.out$o[3].channel.edge_num = 182
+
+VariableBandWidthMesh_16_16.router47.out$o[0].channel.bw = 111
+VariableBandWidthMesh_16_16.router47.out$o[0].channel.edge_num = 123
+VariableBandWidthMesh_16_16.router47.out$o[1].channel.bw = 168
+VariableBandWidthMesh_16_16.router47.out$o[1].channel.edge_num = 181
+VariableBandWidthMesh_16_16.router47.out$o[2].channel.bw = 59
+VariableBandWidthMesh_16_16.router47.out$o[2].channel.edge_num = 184
+
+VariableBandWidthMesh_16_16.router48.out$o[0].channel.bw = 45
+VariableBandWidthMesh_16_16.router48.out$o[0].channel.edge_num = 127
+VariableBandWidthMesh_16_16.router48.out$o[1].channel.bw = 68
+VariableBandWidthMesh_16_16.router48.out$o[1].channel.edge_num = 186
+VariableBandWidthMesh_16_16.router48.out$o[2].channel.bw = 114
+VariableBandWidthMesh_16_16.router48.out$o[2].channel.edge_num = 188
+
+VariableBandWidthMesh_16_16.router49.out$o[0].channel.bw = 215
+VariableBandWidthMesh_16_16.router49.out$o[0].channel.edge_num = 131
+VariableBandWidthMesh_16_16.router49.out$o[1].channel.bw = 89
+VariableBandWidthMesh_16_16.router49.out$o[1].channel.edge_num = 187
+VariableBandWidthMesh_16_16.router49.out$o[2].channel.bw = 171
+VariableBandWidthMesh_16_16.router49.out$o[2].channel.edge_num = 190
+VariableBandWidthMesh_16_16.router49.out$o[3].channel.bw = 117
+VariableBandWidthMesh_16_16.router49.out$o[3].channel.edge_num = 192
+
+VariableBandWidthMesh_16_16.router50.out$o[0].channel.bw = 91
+VariableBandWidthMesh_16_16.router50.out$o[0].channel.edge_num = 135
+VariableBandWidthMesh_16_16.router50.out$o[1].channel.bw = 93
+VariableBandWidthMesh_16_16.router50.out$o[1].channel.edge_num = 191
+VariableBandWidthMesh_16_16.router50.out$o[2].channel.bw = 356
+VariableBandWidthMesh_16_16.router50.out$o[2].channel.edge_num = 194
+VariableBandWidthMesh_16_16.router50.out$o[3].channel.bw = 279
+VariableBandWidthMesh_16_16.router50.out$o[3].channel.edge_num = 196
+
+VariableBandWidthMesh_16_16.router51.out$o[0].channel.bw = 139
+VariableBandWidthMesh_16_16.router51.out$o[0].channel.edge_num = 139
+VariableBandWidthMesh_16_16.router51.out$o[1].channel.bw = 200
+VariableBandWidthMesh_16_16.router51.out$o[1].channel.edge_num = 195
+VariableBandWidthMesh_16_16.router51.out$o[2].channel.bw = 334
+VariableBandWidthMesh_16_16.router51.out$o[2].channel.edge_num = 198
+VariableBandWidthMesh_16_16.router51.out$o[3].channel.bw = 249
+VariableBandWidthMesh_16_16.router51.out$o[3].channel.edge_num = 200
+
+VariableBandWidthMesh_16_16.router52.out$o[0].channel.bw = 201
+VariableBandWidthMesh_16_16.router52.out$o[0].channel.edge_num = 143
+VariableBandWidthMesh_16_16.router52.out$o[1].channel.bw = 253
+VariableBandWidthMesh_16_16.router52.out$o[1].channel.edge_num = 199
+VariableBandWidthMesh_16_16.router52.out$o[2].channel.bw = 406
+VariableBandWidthMesh_16_16.router52.out$o[2].channel.edge_num = 202
+VariableBandWidthMesh_16_16.router52.out$o[3].channel.bw = 322
+VariableBandWidthMesh_16_16.router52.out$o[3].channel.edge_num = 204
+
+VariableBandWidthMesh_16_16.router53.out$o[0].channel.bw = 195
+VariableBandWidthMesh_16_16.router53.out$o[0].channel.edge_num = 147
+VariableBandWidthMesh_16_16.router53.out$o[1].channel.bw = 261
+VariableBandWidthMesh_16_16.router53.out$o[1].channel.edge_num = 203
+VariableBandWidthMesh_16_16.router53.out$o[2].channel.bw = 363
+VariableBandWidthMesh_16_16.router53.out$o[2].channel.edge_num = 206
+VariableBandWidthMesh_16_16.router53.out$o[3].channel.bw = 128
+VariableBandWidthMesh_16_16.router53.out$o[3].channel.edge_num = 208
+
+VariableBandWidthMesh_16_16.router54.out$o[0].channel.bw = 221
+VariableBandWidthMesh_16_16.router54.out$o[0].channel.edge_num = 151
+VariableBandWidthMesh_16_16.router54.out$o[1].channel.bw = 320
+VariableBandWidthMesh_16_16.router54.out$o[1].channel.edge_num = 207
+VariableBandWidthMesh_16_16.router54.out$o[2].channel.bw = 261
+VariableBandWidthMesh_16_16.router54.out$o[2].channel.edge_num = 210
+VariableBandWidthMesh_16_16.router54.out$o[3].channel.bw = 380
+VariableBandWidthMesh_16_16.router54.out$o[3].channel.edge_num = 212
+
+VariableBandWidthMesh_16_16.router55.out$o[0].channel.bw = 213
+VariableBandWidthMesh_16_16.router55.out$o[0].channel.edge_num = 155
+VariableBandWidthMesh_16_16.router55.out$o[1].channel.bw = 307
+VariableBandWidthMesh_16_16.router55.out$o[1].channel.edge_num = 211
+VariableBandWidthMesh_16_16.router55.out$o[2].channel.bw = 251
+VariableBandWidthMesh_16_16.router55.out$o[2].channel.edge_num = 214
+VariableBandWidthMesh_16_16.router55.out$o[3].channel.bw = 84
+VariableBandWidthMesh_16_16.router55.out$o[3].channel.edge_num = 216
+
+VariableBandWidthMesh_16_16.router56.out$o[0].channel.bw = 251
+VariableBandWidthMesh_16_16.router56.out$o[0].channel.edge_num = 159
+VariableBandWidthMesh_16_16.router56.out$o[1].channel.bw = 249
+VariableBandWidthMesh_16_16.router56.out$o[1].channel.edge_num = 215
+VariableBandWidthMesh_16_16.router56.out$o[2].channel.bw = 317
+VariableBandWidthMesh_16_16.router56.out$o[2].channel.edge_num = 218
+VariableBandWidthMesh_16_16.router56.out$o[3].channel.bw = 169
+VariableBandWidthMesh_16_16.router56.out$o[3].channel.edge_num = 220
+
+VariableBandWidthMesh_16_16.router57.out$o[0].channel.bw = 195
+VariableBandWidthMesh_16_16.router57.out$o[0].channel.edge_num = 163
+VariableBandWidthMesh_16_16.router57.out$o[1].channel.bw = 254
+VariableBandWidthMesh_16_16.router57.out$o[1].channel.edge_num = 219
+VariableBandWidthMesh_16_16.router57.out$o[2].channel.bw = 244
+VariableBandWidthMesh_16_16.router57.out$o[2].channel.edge_num = 222
+VariableBandWidthMesh_16_16.router57.out$o[3].channel.bw = 198
+VariableBandWidthMesh_16_16.router57.out$o[3].channel.edge_num = 224
+
+VariableBandWidthMesh_16_16.router58.out$o[0].channel.bw = 187
+VariableBandWidthMesh_16_16.router58.out$o[0].channel.edge_num = 167
+VariableBandWidthMesh_16_16.router58.out$o[1].channel.bw = 20
+VariableBandWidthMesh_16_16.router58.out$o[1].channel.edge_num = 223
+VariableBandWidthMesh_16_16.router58.out$o[2].channel.bw = 293
+VariableBandWidthMesh_16_16.router58.out$o[2].channel.edge_num = 226
+VariableBandWidthMesh_16_16.router58.out$o[3].channel.bw = 22
+VariableBandWidthMesh_16_16.router58.out$o[3].channel.edge_num = 228
+
+VariableBandWidthMesh_16_16.router59.out$o[0].channel.bw = 157
+VariableBandWidthMesh_16_16.router59.out$o[0].channel.edge_num = 171
+VariableBandWidthMesh_16_16.router59.out$o[1].channel.bw = 84
+VariableBandWidthMesh_16_16.router59.out$o[1].channel.edge_num = 227
+VariableBandWidthMesh_16_16.router59.out$o[2].channel.bw = 278
+VariableBandWidthMesh_16_16.router59.out$o[2].channel.edge_num = 230
+VariableBandWidthMesh_16_16.router59.out$o[3].channel.bw = 312
+VariableBandWidthMesh_16_16.router59.out$o[3].channel.edge_num = 232
+
+VariableBandWidthMesh_16_16.router60.out$o[0].channel.bw = 140
+VariableBandWidthMesh_16_16.router60.out$o[0].channel.edge_num = 175
+VariableBandWidthMesh_16_16.router60.out$o[1].channel.bw = 172
+VariableBandWidthMesh_16_16.router60.out$o[1].channel.edge_num = 231
+VariableBandWidthMesh_16_16.router60.out$o[2].channel.bw = 195
+VariableBandWidthMesh_16_16.router60.out$o[2].channel.edge_num = 234
+VariableBandWidthMesh_16_16.router60.out$o[3].channel.bw = 188
+VariableBandWidthMesh_16_16.router60.out$o[3].channel.edge_num = 236
+
+VariableBandWidthMesh_16_16.router61.out$o[0].channel.bw = 128
+VariableBandWidthMesh_16_16.router61.out$o[0].channel.edge_num = 179
+VariableBandWidthMesh_16_16.router61.out$o[1].channel.bw = 10
+VariableBandWidthMesh_16_16.router61.out$o[1].channel.edge_num = 235
+VariableBandWidthMesh_16_16.router61.out$o[2].channel.bw = 15
+VariableBandWidthMesh_16_16.router61.out$o[2].channel.edge_num = 238
+VariableBandWidthMesh_16_16.router61.out$o[3].channel.bw = 145
+VariableBandWidthMesh_16_16.router61.out$o[3].channel.edge_num = 240
+
+VariableBandWidthMesh_16_16.router62.out$o[0].channel.bw = 93
+VariableBandWidthMesh_16_16.router62.out$o[0].channel.edge_num = 183
+VariableBandWidthMesh_16_16.router62.out$o[1].channel.bw = 74
+VariableBandWidthMesh_16_16.router62.out$o[1].channel.edge_num = 239
+VariableBandWidthMesh_16_16.router62.out$o[2].channel.bw = 92
+VariableBandWidthMesh_16_16.router62.out$o[2].channel.edge_num = 242
+VariableBandWidthMesh_16_16.router62.out$o[3].channel.bw = 131
+VariableBandWidthMesh_16_16.router62.out$o[3].channel.edge_num = 244
+
+VariableBandWidthMesh_16_16.router63.out$o[0].channel.bw = 170
+VariableBandWidthMesh_16_16.router63.out$o[0].channel.edge_num = 185
+VariableBandWidthMesh_16_16.router63.out$o[1].channel.bw = 71
+VariableBandWidthMesh_16_16.router63.out$o[1].channel.edge_num = 243
+VariableBandWidthMesh_16_16.router63.out$o[2].channel.bw = 73
+VariableBandWidthMesh_16_16.router63.out$o[2].channel.edge_num = 246
+
+VariableBandWidthMesh_16_16.router64.out$o[0].channel.bw = 46
+VariableBandWidthMesh_16_16.router64.out$o[0].channel.edge_num = 189
+VariableBandWidthMesh_16_16.router64.out$o[1].channel.bw = 25
+VariableBandWidthMesh_16_16.router64.out$o[1].channel.edge_num = 248
+VariableBandWidthMesh_16_16.router64.out$o[2].channel.bw = 97
+VariableBandWidthMesh_16_16.router64.out$o[2].channel.edge_num = 250
+
+VariableBandWidthMesh_16_16.router65.out$o[0].channel.bw = 297
+VariableBandWidthMesh_16_16.router65.out$o[0].channel.edge_num = 193
+VariableBandWidthMesh_16_16.router65.out$o[1].channel.bw = 143
+VariableBandWidthMesh_16_16.router65.out$o[1].channel.edge_num = 249
+VariableBandWidthMesh_16_16.router65.out$o[2].channel.bw = 123
+VariableBandWidthMesh_16_16.router65.out$o[2].channel.edge_num = 252
+VariableBandWidthMesh_16_16.router65.out$o[3].channel.bw = 107
+VariableBandWidthMesh_16_16.router65.out$o[3].channel.edge_num = 254
+
+VariableBandWidthMesh_16_16.router66.out$o[0].channel.bw = 177
+VariableBandWidthMesh_16_16.router66.out$o[0].channel.edge_num = 197
+VariableBandWidthMesh_16_16.router66.out$o[1].channel.bw = 194
+VariableBandWidthMesh_16_16.router66.out$o[1].channel.edge_num = 253
+VariableBandWidthMesh_16_16.router66.out$o[2].channel.bw = 200
+VariableBandWidthMesh_16_16.router66.out$o[2].channel.edge_num = 256
+VariableBandWidthMesh_16_16.router66.out$o[3].channel.bw = 301
+VariableBandWidthMesh_16_16.router66.out$o[3].channel.edge_num = 258
+
+VariableBandWidthMesh_16_16.router67.out$o[0].channel.bw = 169
+VariableBandWidthMesh_16_16.router67.out$o[0].channel.edge_num = 201
+VariableBandWidthMesh_16_16.router67.out$o[1].channel.bw = 249
+VariableBandWidthMesh_16_16.router67.out$o[1].channel.edge_num = 257
+VariableBandWidthMesh_16_16.router67.out$o[2].channel.bw = 230
+VariableBandWidthMesh_16_16.router67.out$o[2].channel.edge_num = 260
+VariableBandWidthMesh_16_16.router67.out$o[3].channel.bw = 292
+VariableBandWidthMesh_16_16.router67.out$o[3].channel.edge_num = 262
+
+VariableBandWidthMesh_16_16.router68.out$o[0].channel.bw = 217
+VariableBandWidthMesh_16_16.router68.out$o[0].channel.edge_num = 205
+VariableBandWidthMesh_16_16.router68.out$o[1].channel.bw = 329
+VariableBandWidthMesh_16_16.router68.out$o[1].channel.edge_num = 261
+VariableBandWidthMesh_16_16.router68.out$o[2].channel.bw = 326
+VariableBandWidthMesh_16_16.router68.out$o[2].channel.edge_num = 264
+VariableBandWidthMesh_16_16.router68.out$o[3].channel.bw = 326
+VariableBandWidthMesh_16_16.router68.out$o[3].channel.edge_num = 266
+
+VariableBandWidthMesh_16_16.router69.out$o[0].channel.bw = 185
+VariableBandWidthMesh_16_16.router69.out$o[0].channel.edge_num = 209
+VariableBandWidthMesh_16_16.router69.out$o[1].channel.bw = 315
+VariableBandWidthMesh_16_16.router69.out$o[1].channel.edge_num = 265
+VariableBandWidthMesh_16_16.router69.out$o[2].channel.bw = 322
+VariableBandWidthMesh_16_16.router69.out$o[2].channel.edge_num = 268
+VariableBandWidthMesh_16_16.router69.out$o[3].channel.bw = 94
+VariableBandWidthMesh_16_16.router69.out$o[3].channel.edge_num = 270
+
+VariableBandWidthMesh_16_16.router70.out$o[0].channel.bw = 222
+VariableBandWidthMesh_16_16.router70.out$o[0].channel.edge_num = 213
+VariableBandWidthMesh_16_16.router70.out$o[1].channel.bw = 289
+VariableBandWidthMesh_16_16.router70.out$o[1].channel.edge_num = 269
+VariableBandWidthMesh_16_16.router70.out$o[2].channel.bw = 444
+VariableBandWidthMesh_16_16.router70.out$o[2].channel.edge_num = 272
+VariableBandWidthMesh_16_16.router70.out$o[3].channel.bw = 366
+VariableBandWidthMesh_16_16.router70.out$o[3].channel.edge_num = 274
+
+VariableBandWidthMesh_16_16.router71.out$o[0].channel.bw = 225
+VariableBandWidthMesh_16_16.router71.out$o[0].channel.edge_num = 217
+VariableBandWidthMesh_16_16.router71.out$o[1].channel.bw = 378
+VariableBandWidthMesh_16_16.router71.out$o[1].channel.edge_num = 273
+VariableBandWidthMesh_16_16.router71.out$o[2].channel.bw = 371
+VariableBandWidthMesh_16_16.router71.out$o[2].channel.edge_num = 276
+VariableBandWidthMesh_16_16.router71.out$o[3].channel.bw = 261
+VariableBandWidthMesh_16_16.router71.out$o[3].channel.edge_num = 278
+
+VariableBandWidthMesh_16_16.router72.out$o[0].channel.bw = 358
+VariableBandWidthMesh_16_16.router72.out$o[0].channel.edge_num = 221
+VariableBandWidthMesh_16_16.router72.out$o[1].channel.bw = 412
+VariableBandWidthMesh_16_16.router72.out$o[1].channel.edge_num = 277
+VariableBandWidthMesh_16_16.router72.out$o[2].channel.bw = 425
+VariableBandWidthMesh_16_16.router72.out$o[2].channel.edge_num = 280
+VariableBandWidthMesh_16_16.router72.out$o[3].channel.bw = 105
+VariableBandWidthMesh_16_16.router72.out$o[3].channel.edge_num = 282
+
+VariableBandWidthMesh_16_16.router73.out$o[0].channel.bw = 388
+VariableBandWidthMesh_16_16.router73.out$o[0].channel.edge_num = 225
+VariableBandWidthMesh_16_16.router73.out$o[1].channel.bw = 345
+VariableBandWidthMesh_16_16.router73.out$o[1].channel.edge_num = 281
+VariableBandWidthMesh_16_16.router73.out$o[2].channel.bw = 405
+VariableBandWidthMesh_16_16.router73.out$o[2].channel.edge_num = 284
+VariableBandWidthMesh_16_16.router73.out$o[3].channel.bw = 241
+VariableBandWidthMesh_16_16.router73.out$o[3].channel.edge_num = 286
+
+VariableBandWidthMesh_16_16.router74.out$o[0].channel.bw = 162
+VariableBandWidthMesh_16_16.router74.out$o[0].channel.edge_num = 229
+VariableBandWidthMesh_16_16.router74.out$o[1].channel.bw = 494
+VariableBandWidthMesh_16_16.router74.out$o[1].channel.edge_num = 285
+VariableBandWidthMesh_16_16.router74.out$o[2].channel.bw = 314
+VariableBandWidthMesh_16_16.router74.out$o[2].channel.edge_num = 288
+VariableBandWidthMesh_16_16.router74.out$o[3].channel.bw = 221
+VariableBandWidthMesh_16_16.router74.out$o[3].channel.edge_num = 290
+
+VariableBandWidthMesh_16_16.router75.out$o[0].channel.bw = 155
+VariableBandWidthMesh_16_16.router75.out$o[0].channel.edge_num = 233
+VariableBandWidthMesh_16_16.router75.out$o[1].channel.bw = 443
+VariableBandWidthMesh_16_16.router75.out$o[1].channel.edge_num = 289
+VariableBandWidthMesh_16_16.router75.out$o[2].channel.bw = 281
+VariableBandWidthMesh_16_16.router75.out$o[2].channel.edge_num = 292
+VariableBandWidthMesh_16_16.router75.out$o[3].channel.bw = 218
+VariableBandWidthMesh_16_16.router75.out$o[3].channel.edge_num = 294
+
+VariableBandWidthMesh_16_16.router76.out$o[0].channel.bw = 245
+VariableBandWidthMesh_16_16.router76.out$o[0].channel.edge_num = 237
+VariableBandWidthMesh_16_16.router76.out$o[1].channel.bw = 237
+VariableBandWidthMesh_16_16.router76.out$o[1].channel.edge_num = 293
+VariableBandWidthMesh_16_16.router76.out$o[2].channel.bw = 235
+VariableBandWidthMesh_16_16.router76.out$o[2].channel.edge_num = 296
+VariableBandWidthMesh_16_16.router76.out$o[3].channel.bw = 170
+VariableBandWidthMesh_16_16.router76.out$o[3].channel.edge_num = 298
+
+VariableBandWidthMesh_16_16.router77.out$o[0].channel.bw = 74
+VariableBandWidthMesh_16_16.router77.out$o[0].channel.edge_num = 241
+VariableBandWidthMesh_16_16.router77.out$o[1].channel.bw = 203
+VariableBandWidthMesh_16_16.router77.out$o[1].channel.edge_num = 297
+VariableBandWidthMesh_16_16.router77.out$o[2].channel.bw = 212
+VariableBandWidthMesh_16_16.router77.out$o[2].channel.edge_num = 300
+VariableBandWidthMesh_16_16.router77.out$o[3].channel.bw = 131
+VariableBandWidthMesh_16_16.router77.out$o[3].channel.edge_num = 302
+
+VariableBandWidthMesh_16_16.router78.out$o[0].channel.bw = 228
+VariableBandWidthMesh_16_16.router78.out$o[0].channel.edge_num = 245
+VariableBandWidthMesh_16_16.router78.out$o[1].channel.bw = 157
+VariableBandWidthMesh_16_16.router78.out$o[1].channel.edge_num = 301
+VariableBandWidthMesh_16_16.router78.out$o[2].channel.bw = 110
+VariableBandWidthMesh_16_16.router78.out$o[2].channel.edge_num = 304
+VariableBandWidthMesh_16_16.router78.out$o[3].channel.bw = 96
+VariableBandWidthMesh_16_16.router78.out$o[3].channel.edge_num = 306
+
+VariableBandWidthMesh_16_16.router79.out$o[0].channel.bw = 201
+VariableBandWidthMesh_16_16.router79.out$o[0].channel.edge_num = 247
+VariableBandWidthMesh_16_16.router79.out$o[1].channel.bw = 23
+VariableBandWidthMesh_16_16.router79.out$o[1].channel.edge_num = 305
+VariableBandWidthMesh_16_16.router79.out$o[2].channel.bw = 94
+VariableBandWidthMesh_16_16.router79.out$o[2].channel.edge_num = 308
+
+VariableBandWidthMesh_16_16.router80.out$o[0].channel.bw = 1
+VariableBandWidthMesh_16_16.router80.out$o[0].channel.edge_num = 251
+VariableBandWidthMesh_16_16.router80.out$o[1].channel.bw = 0
+VariableBandWidthMesh_16_16.router80.out$o[1].channel.edge_num = 310
+VariableBandWidthMesh_16_16.router80.out$o[2].channel.bw = 135
+VariableBandWidthMesh_16_16.router80.out$o[2].channel.edge_num = 312
+
+VariableBandWidthMesh_16_16.router81.out$o[0].channel.bw = 407
+VariableBandWidthMesh_16_16.router81.out$o[0].channel.edge_num = 255
+VariableBandWidthMesh_16_16.router81.out$o[1].channel.bw = 92
+VariableBandWidthMesh_16_16.router81.out$o[1].channel.edge_num = 311
+VariableBandWidthMesh_16_16.router81.out$o[2].channel.bw = 78
+VariableBandWidthMesh_16_16.router81.out$o[2].channel.edge_num = 314
+VariableBandWidthMesh_16_16.router81.out$o[3].channel.bw = 53
+VariableBandWidthMesh_16_16.router81.out$o[3].channel.edge_num = 316
+
+VariableBandWidthMesh_16_16.router82.out$o[0].channel.bw = 213
+VariableBandWidthMesh_16_16.router82.out$o[0].channel.edge_num = 259
+VariableBandWidthMesh_16_16.router82.out$o[1].channel.bw = 87
+VariableBandWidthMesh_16_16.router82.out$o[1].channel.edge_num = 315
+VariableBandWidthMesh_16_16.router82.out$o[2].channel.bw = 140
+VariableBandWidthMesh_16_16.router82.out$o[2].channel.edge_num = 318
+VariableBandWidthMesh_16_16.router82.out$o[3].channel.bw = 378
+VariableBandWidthMesh_16_16.router82.out$o[3].channel.edge_num = 320
+
+VariableBandWidthMesh_16_16.router83.out$o[0].channel.bw = 254
+VariableBandWidthMesh_16_16.router83.out$o[0].channel.edge_num = 263
+VariableBandWidthMesh_16_16.router83.out$o[1].channel.bw = 175
+VariableBandWidthMesh_16_16.router83.out$o[1].channel.edge_num = 319
+VariableBandWidthMesh_16_16.router83.out$o[2].channel.bw = 238
+VariableBandWidthMesh_16_16.router83.out$o[2].channel.edge_num = 322
+VariableBandWidthMesh_16_16.router83.out$o[3].channel.bw = 308
+VariableBandWidthMesh_16_16.router83.out$o[3].channel.edge_num = 324
+
+VariableBandWidthMesh_16_16.router84.out$o[0].channel.bw = 263
+VariableBandWidthMesh_16_16.router84.out$o[0].channel.edge_num = 267
+VariableBandWidthMesh_16_16.router84.out$o[1].channel.bw = 319
+VariableBandWidthMesh_16_16.router84.out$o[1].channel.edge_num = 323
+VariableBandWidthMesh_16_16.router84.out$o[2].channel.bw = 286
+VariableBandWidthMesh_16_16.router84.out$o[2].channel.edge_num = 326
+VariableBandWidthMesh_16_16.router84.out$o[3].channel.bw = 360
+VariableBandWidthMesh_16_16.router84.out$o[3].channel.edge_num = 328
+
+VariableBandWidthMesh_16_16.router85.out$o[0].channel.bw = 202
+VariableBandWidthMesh_16_16.router85.out$o[0].channel.edge_num = 271
+VariableBandWidthMesh_16_16.router85.out$o[1].channel.bw = 400
+VariableBandWidthMesh_16_16.router85.out$o[1].channel.edge_num = 327
+VariableBandWidthMesh_16_16.router85.out$o[2].channel.bw = 372
+VariableBandWidthMesh_16_16.router85.out$o[2].channel.edge_num = 330
+VariableBandWidthMesh_16_16.router85.out$o[3].channel.bw = 32
+VariableBandWidthMesh_16_16.router85.out$o[3].channel.edge_num = 332
+
+VariableBandWidthMesh_16_16.router86.out$o[0].channel.bw = 241
+VariableBandWidthMesh_16_16.router86.out$o[0].channel.edge_num = 275
+VariableBandWidthMesh_16_16.router86.out$o[1].channel.bw = 322
+VariableBandWidthMesh_16_16.router86.out$o[1].channel.edge_num = 331
+VariableBandWidthMesh_16_16.router86.out$o[2].channel.bw = 375
+VariableBandWidthMesh_16_16.router86.out$o[2].channel.edge_num = 334
+VariableBandWidthMesh_16_16.router86.out$o[3].channel.bw = 344
+VariableBandWidthMesh_16_16.router86.out$o[3].channel.edge_num = 336
+
+VariableBandWidthMesh_16_16.router87.out$o[0].channel.bw = 329
+VariableBandWidthMesh_16_16.router87.out$o[0].channel.edge_num = 279
+VariableBandWidthMesh_16_16.router87.out$o[1].channel.bw = 346
+VariableBandWidthMesh_16_16.router87.out$o[1].channel.edge_num = 335
+VariableBandWidthMesh_16_16.router87.out$o[2].channel.bw = 260
+VariableBandWidthMesh_16_16.router87.out$o[2].channel.edge_num = 338
+VariableBandWidthMesh_16_16.router87.out$o[3].channel.bw = 412
+VariableBandWidthMesh_16_16.router87.out$o[3].channel.edge_num = 340
+
+VariableBandWidthMesh_16_16.router88.out$o[0].channel.bw = 371
+VariableBandWidthMesh_16_16.router88.out$o[0].channel.edge_num = 283
+VariableBandWidthMesh_16_16.router88.out$o[1].channel.bw = 372
+VariableBandWidthMesh_16_16.router88.out$o[1].channel.edge_num = 339
+VariableBandWidthMesh_16_16.router88.out$o[2].channel.bw = 279
+VariableBandWidthMesh_16_16.router88.out$o[2].channel.edge_num = 342
+VariableBandWidthMesh_16_16.router88.out$o[3].channel.bw = 119
+VariableBandWidthMesh_16_16.router88.out$o[3].channel.edge_num = 344
+
+VariableBandWidthMesh_16_16.router89.out$o[0].channel.bw = 275
+VariableBandWidthMesh_16_16.router89.out$o[0].channel.edge_num = 287
+VariableBandWidthMesh_16_16.router89.out$o[1].channel.bw = 280
+VariableBandWidthMesh_16_16.router89.out$o[1].channel.edge_num = 343
+VariableBandWidthMesh_16_16.router89.out$o[2].channel.bw = 352
+VariableBandWidthMesh_16_16.router89.out$o[2].channel.edge_num = 346
+VariableBandWidthMesh_16_16.router89.out$o[3].channel.bw = 210
+VariableBandWidthMesh_16_16.router89.out$o[3].channel.edge_num = 348
+
+VariableBandWidthMesh_16_16.router90.out$o[0].channel.bw = 273
+VariableBandWidthMesh_16_16.router90.out$o[0].channel.edge_num = 291
+VariableBandWidthMesh_16_16.router90.out$o[1].channel.bw = 314
+VariableBandWidthMesh_16_16.router90.out$o[1].channel.edge_num = 347
+VariableBandWidthMesh_16_16.router90.out$o[2].channel.bw = 269
+VariableBandWidthMesh_16_16.router90.out$o[2].channel.edge_num = 350
+VariableBandWidthMesh_16_16.router90.out$o[3].channel.bw = 320
+VariableBandWidthMesh_16_16.router90.out$o[3].channel.edge_num = 352
+
+VariableBandWidthMesh_16_16.router91.out$o[0].channel.bw = 250
+VariableBandWidthMesh_16_16.router91.out$o[0].channel.edge_num = 295
+VariableBandWidthMesh_16_16.router91.out$o[1].channel.bw = 316
+VariableBandWidthMesh_16_16.router91.out$o[1].channel.edge_num = 351
+VariableBandWidthMesh_16_16.router91.out$o[2].channel.bw = 188
+VariableBandWidthMesh_16_16.router91.out$o[2].channel.edge_num = 354
+VariableBandWidthMesh_16_16.router91.out$o[3].channel.bw = 246
+VariableBandWidthMesh_16_16.router91.out$o[3].channel.edge_num = 356
+
+VariableBandWidthMesh_16_16.router92.out$o[0].channel.bw = 272
+VariableBandWidthMesh_16_16.router92.out$o[0].channel.edge_num = 299
+VariableBandWidthMesh_16_16.router92.out$o[1].channel.bw = 206
+VariableBandWidthMesh_16_16.router92.out$o[1].channel.edge_num = 355
+VariableBandWidthMesh_16_16.router92.out$o[2].channel.bw = 181
+VariableBandWidthMesh_16_16.router92.out$o[2].channel.edge_num = 358
+VariableBandWidthMesh_16_16.router92.out$o[3].channel.bw = 183
+VariableBandWidthMesh_16_16.router92.out$o[3].channel.edge_num = 360
+
+VariableBandWidthMesh_16_16.router93.out$o[0].channel.bw = 116
+VariableBandWidthMesh_16_16.router93.out$o[0].channel.edge_num = 303
+VariableBandWidthMesh_16_16.router93.out$o[1].channel.bw = 230
+VariableBandWidthMesh_16_16.router93.out$o[1].channel.edge_num = 359
+VariableBandWidthMesh_16_16.router93.out$o[2].channel.bw = 137
+VariableBandWidthMesh_16_16.router93.out$o[2].channel.edge_num = 362
+VariableBandWidthMesh_16_16.router93.out$o[3].channel.bw = 133
+VariableBandWidthMesh_16_16.router93.out$o[3].channel.edge_num = 364
+
+VariableBandWidthMesh_16_16.router94.out$o[0].channel.bw = 222
+VariableBandWidthMesh_16_16.router94.out$o[0].channel.edge_num = 307
+VariableBandWidthMesh_16_16.router94.out$o[1].channel.bw = 139
+VariableBandWidthMesh_16_16.router94.out$o[1].channel.edge_num = 363
+VariableBandWidthMesh_16_16.router94.out$o[2].channel.bw = 19
+VariableBandWidthMesh_16_16.router94.out$o[2].channel.edge_num = 366
+VariableBandWidthMesh_16_16.router94.out$o[3].channel.bw = 154
+VariableBandWidthMesh_16_16.router94.out$o[3].channel.edge_num = 368
+
+VariableBandWidthMesh_16_16.router95.out$o[0].channel.bw = 222
+VariableBandWidthMesh_16_16.router95.out$o[0].channel.edge_num = 309
+VariableBandWidthMesh_16_16.router95.out$o[1].channel.bw = 78
+VariableBandWidthMesh_16_16.router95.out$o[1].channel.edge_num = 367
+VariableBandWidthMesh_16_16.router95.out$o[2].channel.bw = 95
+VariableBandWidthMesh_16_16.router95.out$o[2].channel.edge_num = 370
+
+VariableBandWidthMesh_16_16.router96.out$o[0].channel.bw = 1
+VariableBandWidthMesh_16_16.router96.out$o[0].channel.edge_num = 313
+VariableBandWidthMesh_16_16.router96.out$o[1].channel.bw = 241
+VariableBandWidthMesh_16_16.router96.out$o[1].channel.edge_num = 372
+VariableBandWidthMesh_16_16.router96.out$o[2].channel.bw = 146
+VariableBandWidthMesh_16_16.router96.out$o[2].channel.edge_num = 374
+
+VariableBandWidthMesh_16_16.router97.out$o[0].channel.bw = 484
+VariableBandWidthMesh_16_16.router97.out$o[0].channel.edge_num = 317
+VariableBandWidthMesh_16_16.router97.out$o[1].channel.bw = 46
+VariableBandWidthMesh_16_16.router97.out$o[1].channel.edge_num = 373
+VariableBandWidthMesh_16_16.router97.out$o[2].channel.bw = 223
+VariableBandWidthMesh_16_16.router97.out$o[2].channel.edge_num = 376
+VariableBandWidthMesh_16_16.router97.out$o[3].channel.bw = 178
+VariableBandWidthMesh_16_16.router97.out$o[3].channel.edge_num = 378
+
+VariableBandWidthMesh_16_16.router98.out$o[0].channel.bw = 218
+VariableBandWidthMesh_16_16.router98.out$o[0].channel.edge_num = 321
+VariableBandWidthMesh_16_16.router98.out$o[1].channel.bw = 265
+VariableBandWidthMesh_16_16.router98.out$o[1].channel.edge_num = 377
+VariableBandWidthMesh_16_16.router98.out$o[2].channel.bw = 307
+VariableBandWidthMesh_16_16.router98.out$o[2].channel.edge_num = 380
+VariableBandWidthMesh_16_16.router98.out$o[3].channel.bw = 325
+VariableBandWidthMesh_16_16.router98.out$o[3].channel.edge_num = 382
+
+VariableBandWidthMesh_16_16.router99.out$o[0].channel.bw = 279
+VariableBandWidthMesh_16_16.router99.out$o[0].channel.edge_num = 325
+VariableBandWidthMesh_16_16.router99.out$o[1].channel.bw = 194
+VariableBandWidthMesh_16_16.router99.out$o[1].channel.edge_num = 381
+VariableBandWidthMesh_16_16.router99.out$o[2].channel.bw = 242
+VariableBandWidthMesh_16_16.router99.out$o[2].channel.edge_num = 384
+VariableBandWidthMesh_16_16.router99.out$o[3].channel.bw = 320
+VariableBandWidthMesh_16_16.router99.out$o[3].channel.edge_num = 386
+
+VariableBandWidthMesh_16_16.router100.out$o[0].channel.bw = 296
+VariableBandWidthMesh_16_16.router100.out$o[0].channel.edge_num = 329
+VariableBandWidthMesh_16_16.router100.out$o[1].channel.bw = 164
+VariableBandWidthMesh_16_16.router100.out$o[1].channel.edge_num = 385
+VariableBandWidthMesh_16_16.router100.out$o[2].channel.bw = 98
+VariableBandWidthMesh_16_16.router100.out$o[2].channel.edge_num = 388
+VariableBandWidthMesh_16_16.router100.out$o[3].channel.bw = 405
+VariableBandWidthMesh_16_16.router100.out$o[3].channel.edge_num = 390
+
+VariableBandWidthMesh_16_16.router101.out$o[0].channel.bw = 276
+VariableBandWidthMesh_16_16.router101.out$o[0].channel.edge_num = 333
+VariableBandWidthMesh_16_16.router101.out$o[1].channel.bw = 0
+VariableBandWidthMesh_16_16.router101.out$o[1].channel.edge_num = 389
+VariableBandWidthMesh_16_16.router101.out$o[2].channel.bw = 32
+VariableBandWidthMesh_16_16.router101.out$o[2].channel.edge_num = 392
+VariableBandWidthMesh_16_16.router101.out$o[3].channel.bw = 0
+VariableBandWidthMesh_16_16.router101.out$o[3].channel.edge_num = 394
+
+VariableBandWidthMesh_16_16.router102.out$o[0].channel.bw = 235
+VariableBandWidthMesh_16_16.router102.out$o[0].channel.edge_num = 337
+VariableBandWidthMesh_16_16.router102.out$o[1].channel.bw = 95
+VariableBandWidthMesh_16_16.router102.out$o[1].channel.edge_num = 393
+VariableBandWidthMesh_16_16.router102.out$o[2].channel.bw = 42
+VariableBandWidthMesh_16_16.router102.out$o[2].channel.edge_num = 396
+VariableBandWidthMesh_16_16.router102.out$o[3].channel.bw = 427
+VariableBandWidthMesh_16_16.router102.out$o[3].channel.edge_num = 398
+
+VariableBandWidthMesh_16_16.router103.out$o[0].channel.bw = 356
+VariableBandWidthMesh_16_16.router103.out$o[0].channel.edge_num = 341
+VariableBandWidthMesh_16_16.router103.out$o[1].channel.bw = 211
+VariableBandWidthMesh_16_16.router103.out$o[1].channel.edge_num = 397
+VariableBandWidthMesh_16_16.router103.out$o[2].channel.bw = 385
+VariableBandWidthMesh_16_16.router103.out$o[2].channel.edge_num = 400
+VariableBandWidthMesh_16_16.router103.out$o[3].channel.bw = 276
+VariableBandWidthMesh_16_16.router103.out$o[3].channel.edge_num = 402
+
+VariableBandWidthMesh_16_16.router104.out$o[0].channel.bw = 395
+VariableBandWidthMesh_16_16.router104.out$o[0].channel.edge_num = 345
+VariableBandWidthMesh_16_16.router104.out$o[1].channel.bw = 275
+VariableBandWidthMesh_16_16.router104.out$o[1].channel.edge_num = 401
+VariableBandWidthMesh_16_16.router104.out$o[2].channel.bw = 263
+VariableBandWidthMesh_16_16.router104.out$o[2].channel.edge_num = 404
+VariableBandWidthMesh_16_16.router104.out$o[3].channel.bw = 276
+VariableBandWidthMesh_16_16.router104.out$o[3].channel.edge_num = 406
+
+VariableBandWidthMesh_16_16.router105.out$o[0].channel.bw = 282
+VariableBandWidthMesh_16_16.router105.out$o[0].channel.edge_num = 349
+VariableBandWidthMesh_16_16.router105.out$o[1].channel.bw = 373
+VariableBandWidthMesh_16_16.router105.out$o[1].channel.edge_num = 405
+VariableBandWidthMesh_16_16.router105.out$o[2].channel.bw = 279
+VariableBandWidthMesh_16_16.router105.out$o[2].channel.edge_num = 408
+VariableBandWidthMesh_16_16.router105.out$o[3].channel.bw = 203
+VariableBandWidthMesh_16_16.router105.out$o[3].channel.edge_num = 410
+
+VariableBandWidthMesh_16_16.router106.out$o[0].channel.bw = 254
+VariableBandWidthMesh_16_16.router106.out$o[0].channel.edge_num = 353
+VariableBandWidthMesh_16_16.router106.out$o[1].channel.bw = 298
+VariableBandWidthMesh_16_16.router106.out$o[1].channel.edge_num = 409
+VariableBandWidthMesh_16_16.router106.out$o[2].channel.bw = 279
+VariableBandWidthMesh_16_16.router106.out$o[2].channel.edge_num = 412
+VariableBandWidthMesh_16_16.router106.out$o[3].channel.bw = 257
+VariableBandWidthMesh_16_16.router106.out$o[3].channel.edge_num = 414
+
+VariableBandWidthMesh_16_16.router107.out$o[0].channel.bw = 282
+VariableBandWidthMesh_16_16.router107.out$o[0].channel.edge_num = 357
+VariableBandWidthMesh_16_16.router107.out$o[1].channel.bw = 119
+VariableBandWidthMesh_16_16.router107.out$o[1].channel.edge_num = 413
+VariableBandWidthMesh_16_16.router107.out$o[2].channel.bw = 277
+VariableBandWidthMesh_16_16.router107.out$o[2].channel.edge_num = 416
+VariableBandWidthMesh_16_16.router107.out$o[3].channel.bw = 285
+VariableBandWidthMesh_16_16.router107.out$o[3].channel.edge_num = 418
+
+VariableBandWidthMesh_16_16.router108.out$o[0].channel.bw = 267
+VariableBandWidthMesh_16_16.router108.out$o[0].channel.edge_num = 361
+VariableBandWidthMesh_16_16.router108.out$o[1].channel.bw = 166
+VariableBandWidthMesh_16_16.router108.out$o[1].channel.edge_num = 417
+VariableBandWidthMesh_16_16.router108.out$o[2].channel.bw = 232
+VariableBandWidthMesh_16_16.router108.out$o[2].channel.edge_num = 420
+VariableBandWidthMesh_16_16.router108.out$o[3].channel.bw = 159
+VariableBandWidthMesh_16_16.router108.out$o[3].channel.edge_num = 422
+
+VariableBandWidthMesh_16_16.router109.out$o[0].channel.bw = 170
+VariableBandWidthMesh_16_16.router109.out$o[0].channel.edge_num = 365
+VariableBandWidthMesh_16_16.router109.out$o[1].channel.bw = 135
+VariableBandWidthMesh_16_16.router109.out$o[1].channel.edge_num = 421
+VariableBandWidthMesh_16_16.router109.out$o[2].channel.bw = 149
+VariableBandWidthMesh_16_16.router109.out$o[2].channel.edge_num = 424
+VariableBandWidthMesh_16_16.router109.out$o[3].channel.bw = 136
+VariableBandWidthMesh_16_16.router109.out$o[3].channel.edge_num = 426
+
+VariableBandWidthMesh_16_16.router110.out$o[0].channel.bw = 209
+VariableBandWidthMesh_16_16.router110.out$o[0].channel.edge_num = 369
+VariableBandWidthMesh_16_16.router110.out$o[1].channel.bw = 159
+VariableBandWidthMesh_16_16.router110.out$o[1].channel.edge_num = 425
+VariableBandWidthMesh_16_16.router110.out$o[2].channel.bw = 61
+VariableBandWidthMesh_16_16.router110.out$o[2].channel.edge_num = 428
+VariableBandWidthMesh_16_16.router110.out$o[3].channel.bw = 167
+VariableBandWidthMesh_16_16.router110.out$o[3].channel.edge_num = 430
+
+VariableBandWidthMesh_16_16.router111.out$o[0].channel.bw = 248
+VariableBandWidthMesh_16_16.router111.out$o[0].channel.edge_num = 371
+VariableBandWidthMesh_16_16.router111.out$o[1].channel.bw = 84
+VariableBandWidthMesh_16_16.router111.out$o[1].channel.edge_num = 429
+VariableBandWidthMesh_16_16.router111.out$o[2].channel.bw = 112
+VariableBandWidthMesh_16_16.router111.out$o[2].channel.edge_num = 432
+
+VariableBandWidthMesh_16_16.router112.out$o[0].channel.bw = 158
+VariableBandWidthMesh_16_16.router112.out$o[0].channel.edge_num = 375
+VariableBandWidthMesh_16_16.router112.out$o[1].channel.bw = 78
+VariableBandWidthMesh_16_16.router112.out$o[1].channel.edge_num = 434
+VariableBandWidthMesh_16_16.router112.out$o[2].channel.bw = 135
+VariableBandWidthMesh_16_16.router112.out$o[2].channel.edge_num = 436
+
+VariableBandWidthMesh_16_16.router113.out$o[0].channel.bw = 348
+VariableBandWidthMesh_16_16.router113.out$o[0].channel.edge_num = 379
+VariableBandWidthMesh_16_16.router113.out$o[1].channel.bw = 60
+VariableBandWidthMesh_16_16.router113.out$o[1].channel.edge_num = 435
+VariableBandWidthMesh_16_16.router113.out$o[2].channel.bw = 127
+VariableBandWidthMesh_16_16.router113.out$o[2].channel.edge_num = 438
+VariableBandWidthMesh_16_16.router113.out$o[3].channel.bw = 237
+VariableBandWidthMesh_16_16.router113.out$o[3].channel.edge_num = 440
+
+VariableBandWidthMesh_16_16.router114.out$o[0].channel.bw = 259
+VariableBandWidthMesh_16_16.router114.out$o[0].channel.edge_num = 383
+VariableBandWidthMesh_16_16.router114.out$o[1].channel.bw = 184
+VariableBandWidthMesh_16_16.router114.out$o[1].channel.edge_num = 439
+VariableBandWidthMesh_16_16.router114.out$o[2].channel.bw = 199
+VariableBandWidthMesh_16_16.router114.out$o[2].channel.edge_num = 442
+VariableBandWidthMesh_16_16.router114.out$o[3].channel.bw = 300
+VariableBandWidthMesh_16_16.router114.out$o[3].channel.edge_num = 444
+
+VariableBandWidthMesh_16_16.router115.out$o[0].channel.bw = 230
+VariableBandWidthMesh_16_16.router115.out$o[0].channel.edge_num = 387
+VariableBandWidthMesh_16_16.router115.out$o[1].channel.bw = 215
+VariableBandWidthMesh_16_16.router115.out$o[1].channel.edge_num = 443
+VariableBandWidthMesh_16_16.router115.out$o[2].channel.bw = 309
+VariableBandWidthMesh_16_16.router115.out$o[2].channel.edge_num = 446
+VariableBandWidthMesh_16_16.router115.out$o[3].channel.bw = 326
+VariableBandWidthMesh_16_16.router115.out$o[3].channel.edge_num = 448
+
+VariableBandWidthMesh_16_16.router116.out$o[0].channel.bw = 319
+VariableBandWidthMesh_16_16.router116.out$o[0].channel.edge_num = 391
+VariableBandWidthMesh_16_16.router116.out$o[1].channel.bw = 316
+VariableBandWidthMesh_16_16.router116.out$o[1].channel.edge_num = 447
+VariableBandWidthMesh_16_16.router116.out$o[2].channel.bw = 435
+VariableBandWidthMesh_16_16.router116.out$o[2].channel.edge_num = 450
+VariableBandWidthMesh_16_16.router116.out$o[3].channel.bw = 343
+VariableBandWidthMesh_16_16.router116.out$o[3].channel.edge_num = 452
+
+VariableBandWidthMesh_16_16.router117.out$o[0].channel.bw = 150
+VariableBandWidthMesh_16_16.router117.out$o[0].channel.edge_num = 395
+VariableBandWidthMesh_16_16.router117.out$o[1].channel.bw = 398
+VariableBandWidthMesh_16_16.router117.out$o[1].channel.edge_num = 451
+VariableBandWidthMesh_16_16.router117.out$o[2].channel.bw = 410
+VariableBandWidthMesh_16_16.router117.out$o[2].channel.edge_num = 454
+VariableBandWidthMesh_16_16.router117.out$o[3].channel.bw = 170
+VariableBandWidthMesh_16_16.router117.out$o[3].channel.edge_num = 456
+
+VariableBandWidthMesh_16_16.router118.out$o[0].channel.bw = 198
+VariableBandWidthMesh_16_16.router118.out$o[0].channel.edge_num = 399
+VariableBandWidthMesh_16_16.router118.out$o[1].channel.bw = 513
+VariableBandWidthMesh_16_16.router118.out$o[1].channel.edge_num = 455
+VariableBandWidthMesh_16_16.router118.out$o[2].channel.bw = 452
+VariableBandWidthMesh_16_16.router118.out$o[2].channel.edge_num = 458
+VariableBandWidthMesh_16_16.router118.out$o[3].channel.bw = 331
+VariableBandWidthMesh_16_16.router118.out$o[3].channel.edge_num = 460
+
+VariableBandWidthMesh_16_16.router119.out$o[0].channel.bw = 425
+VariableBandWidthMesh_16_16.router119.out$o[0].channel.edge_num = 403
+VariableBandWidthMesh_16_16.router119.out$o[1].channel.bw = 405
+VariableBandWidthMesh_16_16.router119.out$o[1].channel.edge_num = 459
+VariableBandWidthMesh_16_16.router119.out$o[2].channel.bw = 387
+VariableBandWidthMesh_16_16.router119.out$o[2].channel.edge_num = 462
+VariableBandWidthMesh_16_16.router119.out$o[3].channel.bw = 273
+VariableBandWidthMesh_16_16.router119.out$o[3].channel.edge_num = 464
+
+VariableBandWidthMesh_16_16.router120.out$o[0].channel.bw = 373
+VariableBandWidthMesh_16_16.router120.out$o[0].channel.edge_num = 407
+VariableBandWidthMesh_16_16.router120.out$o[1].channel.bw = 373
+VariableBandWidthMesh_16_16.router120.out$o[1].channel.edge_num = 463
+VariableBandWidthMesh_16_16.router120.out$o[2].channel.bw = 441
+VariableBandWidthMesh_16_16.router120.out$o[2].channel.edge_num = 466
+VariableBandWidthMesh_16_16.router120.out$o[3].channel.bw = 219
+VariableBandWidthMesh_16_16.router120.out$o[3].channel.edge_num = 468
+
+VariableBandWidthMesh_16_16.router121.out$o[0].channel.bw = 404
+VariableBandWidthMesh_16_16.router121.out$o[0].channel.edge_num = 411
+VariableBandWidthMesh_16_16.router121.out$o[1].channel.bw = 335
+VariableBandWidthMesh_16_16.router121.out$o[1].channel.edge_num = 467
+VariableBandWidthMesh_16_16.router121.out$o[2].channel.bw = 343
+VariableBandWidthMesh_16_16.router121.out$o[2].channel.edge_num = 470
+VariableBandWidthMesh_16_16.router121.out$o[3].channel.bw = 286
+VariableBandWidthMesh_16_16.router121.out$o[3].channel.edge_num = 472
+
+VariableBandWidthMesh_16_16.router122.out$o[0].channel.bw = 326
+VariableBandWidthMesh_16_16.router122.out$o[0].channel.edge_num = 415
+VariableBandWidthMesh_16_16.router122.out$o[1].channel.bw = 330
+VariableBandWidthMesh_16_16.router122.out$o[1].channel.edge_num = 471
+VariableBandWidthMesh_16_16.router122.out$o[2].channel.bw = 283
+VariableBandWidthMesh_16_16.router122.out$o[2].channel.edge_num = 474
+VariableBandWidthMesh_16_16.router122.out$o[3].channel.bw = 309
+VariableBandWidthMesh_16_16.router122.out$o[3].channel.edge_num = 476
+
+VariableBandWidthMesh_16_16.router123.out$o[0].channel.bw = 245
+VariableBandWidthMesh_16_16.router123.out$o[0].channel.edge_num = 419
+VariableBandWidthMesh_16_16.router123.out$o[1].channel.bw = 471
+VariableBandWidthMesh_16_16.router123.out$o[1].channel.edge_num = 475
+VariableBandWidthMesh_16_16.router123.out$o[2].channel.bw = 276
+VariableBandWidthMesh_16_16.router123.out$o[2].channel.edge_num = 478
+VariableBandWidthMesh_16_16.router123.out$o[3].channel.bw = 228
+VariableBandWidthMesh_16_16.router123.out$o[3].channel.edge_num = 480
+
+VariableBandWidthMesh_16_16.router124.out$o[0].channel.bw = 285
+VariableBandWidthMesh_16_16.router124.out$o[0].channel.edge_num = 423
+VariableBandWidthMesh_16_16.router124.out$o[1].channel.bw = 335
+VariableBandWidthMesh_16_16.router124.out$o[1].channel.edge_num = 479
+VariableBandWidthMesh_16_16.router124.out$o[2].channel.bw = 225
+VariableBandWidthMesh_16_16.router124.out$o[2].channel.edge_num = 482
+VariableBandWidthMesh_16_16.router124.out$o[3].channel.bw = 198
+VariableBandWidthMesh_16_16.router124.out$o[3].channel.edge_num = 484
+
+VariableBandWidthMesh_16_16.router125.out$o[0].channel.bw = 126
+VariableBandWidthMesh_16_16.router125.out$o[0].channel.edge_num = 427
+VariableBandWidthMesh_16_16.router125.out$o[1].channel.bw = 213
+VariableBandWidthMesh_16_16.router125.out$o[1].channel.edge_num = 483
+VariableBandWidthMesh_16_16.router125.out$o[2].channel.bw = 184
+VariableBandWidthMesh_16_16.router125.out$o[2].channel.edge_num = 486
+VariableBandWidthMesh_16_16.router125.out$o[3].channel.bw = 174
+VariableBandWidthMesh_16_16.router125.out$o[3].channel.edge_num = 488
+
+VariableBandWidthMesh_16_16.router126.out$o[0].channel.bw = 252
+VariableBandWidthMesh_16_16.router126.out$o[0].channel.edge_num = 431
+VariableBandWidthMesh_16_16.router126.out$o[1].channel.bw = 185
+VariableBandWidthMesh_16_16.router126.out$o[1].channel.edge_num = 487
+VariableBandWidthMesh_16_16.router126.out$o[2].channel.bw = 48
+VariableBandWidthMesh_16_16.router126.out$o[2].channel.edge_num = 490
+VariableBandWidthMesh_16_16.router126.out$o[3].channel.bw = 219
+VariableBandWidthMesh_16_16.router126.out$o[3].channel.edge_num = 492
+
+VariableBandWidthMesh_16_16.router127.out$o[0].channel.bw = 287
+VariableBandWidthMesh_16_16.router127.out$o[0].channel.edge_num = 433
+VariableBandWidthMesh_16_16.router127.out$o[1].channel.bw = 110
+VariableBandWidthMesh_16_16.router127.out$o[1].channel.edge_num = 491
+VariableBandWidthMesh_16_16.router127.out$o[2].channel.bw = 121
+VariableBandWidthMesh_16_16.router127.out$o[2].channel.edge_num = 494
+
+VariableBandWidthMesh_16_16.router128.out$o[0].channel.bw = 183
+VariableBandWidthMesh_16_16.router128.out$o[0].channel.edge_num = 437
+VariableBandWidthMesh_16_16.router128.out$o[1].channel.bw = 97
+VariableBandWidthMesh_16_16.router128.out$o[1].channel.edge_num = 496
+VariableBandWidthMesh_16_16.router128.out$o[2].channel.bw = 174
+VariableBandWidthMesh_16_16.router128.out$o[2].channel.edge_num = 498
+
+VariableBandWidthMesh_16_16.router129.out$o[0].channel.bw = 334
+VariableBandWidthMesh_16_16.router129.out$o[0].channel.edge_num = 441
+VariableBandWidthMesh_16_16.router129.out$o[1].channel.bw = 58
+VariableBandWidthMesh_16_16.router129.out$o[1].channel.edge_num = 497
+VariableBandWidthMesh_16_16.router129.out$o[2].channel.bw = 139
+VariableBandWidthMesh_16_16.router129.out$o[2].channel.edge_num = 500
+VariableBandWidthMesh_16_16.router129.out$o[3].channel.bw = 257
+VariableBandWidthMesh_16_16.router129.out$o[3].channel.edge_num = 502
+
+VariableBandWidthMesh_16_16.router130.out$o[0].channel.bw = 238
+VariableBandWidthMesh_16_16.router130.out$o[0].channel.edge_num = 445
+VariableBandWidthMesh_16_16.router130.out$o[1].channel.bw = 139
+VariableBandWidthMesh_16_16.router130.out$o[1].channel.edge_num = 501
+VariableBandWidthMesh_16_16.router130.out$o[2].channel.bw = 176
+VariableBandWidthMesh_16_16.router130.out$o[2].channel.edge_num = 504
+VariableBandWidthMesh_16_16.router130.out$o[3].channel.bw = 320
+VariableBandWidthMesh_16_16.router130.out$o[3].channel.edge_num = 506
+
+VariableBandWidthMesh_16_16.router131.out$o[0].channel.bw = 246
+VariableBandWidthMesh_16_16.router131.out$o[0].channel.edge_num = 449
+VariableBandWidthMesh_16_16.router131.out$o[1].channel.bw = 208
+VariableBandWidthMesh_16_16.router131.out$o[1].channel.edge_num = 505
+VariableBandWidthMesh_16_16.router131.out$o[2].channel.bw = 187
+VariableBandWidthMesh_16_16.router131.out$o[2].channel.edge_num = 508
+VariableBandWidthMesh_16_16.router131.out$o[3].channel.bw = 272
+VariableBandWidthMesh_16_16.router131.out$o[3].channel.edge_num = 510
+
+VariableBandWidthMesh_16_16.router132.out$o[0].channel.bw = 291
+VariableBandWidthMesh_16_16.router132.out$o[0].channel.edge_num = 453
+VariableBandWidthMesh_16_16.router132.out$o[1].channel.bw = 235
+VariableBandWidthMesh_16_16.router132.out$o[1].channel.edge_num = 509
+VariableBandWidthMesh_16_16.router132.out$o[2].channel.bw = 214
+VariableBandWidthMesh_16_16.router132.out$o[2].channel.edge_num = 512
+VariableBandWidthMesh_16_16.router132.out$o[3].channel.bw = 278
+VariableBandWidthMesh_16_16.router132.out$o[3].channel.edge_num = 514
+
+VariableBandWidthMesh_16_16.router133.out$o[0].channel.bw = 169
+VariableBandWidthMesh_16_16.router133.out$o[0].channel.edge_num = 457
+VariableBandWidthMesh_16_16.router133.out$o[1].channel.bw = 271
+VariableBandWidthMesh_16_16.router133.out$o[1].channel.edge_num = 513
+VariableBandWidthMesh_16_16.router133.out$o[2].channel.bw = 252
+VariableBandWidthMesh_16_16.router133.out$o[2].channel.edge_num = 516
+VariableBandWidthMesh_16_16.router133.out$o[3].channel.bw = 170
+VariableBandWidthMesh_16_16.router133.out$o[3].channel.edge_num = 518
+
+VariableBandWidthMesh_16_16.router134.out$o[0].channel.bw = 185
+VariableBandWidthMesh_16_16.router134.out$o[0].channel.edge_num = 461
+VariableBandWidthMesh_16_16.router134.out$o[1].channel.bw = 300
+VariableBandWidthMesh_16_16.router134.out$o[1].channel.edge_num = 517
+VariableBandWidthMesh_16_16.router134.out$o[2].channel.bw = 239
+VariableBandWidthMesh_16_16.router134.out$o[2].channel.edge_num = 520
+VariableBandWidthMesh_16_16.router134.out$o[3].channel.bw = 346
+VariableBandWidthMesh_16_16.router134.out$o[3].channel.edge_num = 522
+
+VariableBandWidthMesh_16_16.router135.out$o[0].channel.bw = 333
+VariableBandWidthMesh_16_16.router135.out$o[0].channel.edge_num = 465
+VariableBandWidthMesh_16_16.router135.out$o[1].channel.bw = 316
+VariableBandWidthMesh_16_16.router135.out$o[1].channel.edge_num = 521
+VariableBandWidthMesh_16_16.router135.out$o[2].channel.bw = 237
+VariableBandWidthMesh_16_16.router135.out$o[2].channel.edge_num = 524
+VariableBandWidthMesh_16_16.router135.out$o[3].channel.bw = 285
+VariableBandWidthMesh_16_16.router135.out$o[3].channel.edge_num = 526
+
+VariableBandWidthMesh_16_16.router136.out$o[0].channel.bw = 365
+VariableBandWidthMesh_16_16.router136.out$o[0].channel.edge_num = 469
+VariableBandWidthMesh_16_16.router136.out$o[1].channel.bw = 352
+VariableBandWidthMesh_16_16.router136.out$o[1].channel.edge_num = 525
+VariableBandWidthMesh_16_16.router136.out$o[2].channel.bw = 301
+VariableBandWidthMesh_16_16.router136.out$o[2].channel.edge_num = 528
+VariableBandWidthMesh_16_16.router136.out$o[3].channel.bw = 226
+VariableBandWidthMesh_16_16.router136.out$o[3].channel.edge_num = 530
+
+VariableBandWidthMesh_16_16.router137.out$o[0].channel.bw = 387
+VariableBandWidthMesh_16_16.router137.out$o[0].channel.edge_num = 473
+VariableBandWidthMesh_16_16.router137.out$o[1].channel.bw = 382
+VariableBandWidthMesh_16_16.router137.out$o[1].channel.edge_num = 529
+VariableBandWidthMesh_16_16.router137.out$o[2].channel.bw = 282
+VariableBandWidthMesh_16_16.router137.out$o[2].channel.edge_num = 532
+VariableBandWidthMesh_16_16.router137.out$o[3].channel.bw = 278
+VariableBandWidthMesh_16_16.router137.out$o[3].channel.edge_num = 534
+
+VariableBandWidthMesh_16_16.router138.out$o[0].channel.bw = 184
+VariableBandWidthMesh_16_16.router138.out$o[0].channel.edge_num = 477
+VariableBandWidthMesh_16_16.router138.out$o[1].channel.bw = 297
+VariableBandWidthMesh_16_16.router138.out$o[1].channel.edge_num = 533
+VariableBandWidthMesh_16_16.router138.out$o[2].channel.bw = 261
+VariableBandWidthMesh_16_16.router138.out$o[2].channel.edge_num = 536
+VariableBandWidthMesh_16_16.router138.out$o[3].channel.bw = 334
+VariableBandWidthMesh_16_16.router138.out$o[3].channel.edge_num = 538
+
+VariableBandWidthMesh_16_16.router139.out$o[0].channel.bw = 319
+VariableBandWidthMesh_16_16.router139.out$o[0].channel.edge_num = 481
+VariableBandWidthMesh_16_16.router139.out$o[1].channel.bw = 363
+VariableBandWidthMesh_16_16.router139.out$o[1].channel.edge_num = 537
+VariableBandWidthMesh_16_16.router139.out$o[2].channel.bw = 229
+VariableBandWidthMesh_16_16.router139.out$o[2].channel.edge_num = 540
+VariableBandWidthMesh_16_16.router139.out$o[3].channel.bw = 208
+VariableBandWidthMesh_16_16.router139.out$o[3].channel.edge_num = 542
+
+VariableBandWidthMesh_16_16.router140.out$o[0].channel.bw = 380
+VariableBandWidthMesh_16_16.router140.out$o[0].channel.edge_num = 485
+VariableBandWidthMesh_16_16.router140.out$o[1].channel.bw = 342
+VariableBandWidthMesh_16_16.router140.out$o[1].channel.edge_num = 541
+VariableBandWidthMesh_16_16.router140.out$o[2].channel.bw = 231
+VariableBandWidthMesh_16_16.router140.out$o[2].channel.edge_num = 544
+VariableBandWidthMesh_16_16.router140.out$o[3].channel.bw = 196
+VariableBandWidthMesh_16_16.router140.out$o[3].channel.edge_num = 546
+
+VariableBandWidthMesh_16_16.router141.out$o[0].channel.bw = 101
+VariableBandWidthMesh_16_16.router141.out$o[0].channel.edge_num = 489
+VariableBandWidthMesh_16_16.router141.out$o[1].channel.bw = 218
+VariableBandWidthMesh_16_16.router141.out$o[1].channel.edge_num = 545
+VariableBandWidthMesh_16_16.router141.out$o[2].channel.bw = 136
+VariableBandWidthMesh_16_16.router141.out$o[2].channel.edge_num = 548
+VariableBandWidthMesh_16_16.router141.out$o[3].channel.bw = 157
+VariableBandWidthMesh_16_16.router141.out$o[3].channel.edge_num = 550
+
+VariableBandWidthMesh_16_16.router142.out$o[0].channel.bw = 216
+VariableBandWidthMesh_16_16.router142.out$o[0].channel.edge_num = 493
+VariableBandWidthMesh_16_16.router142.out$o[1].channel.bw = 200
+VariableBandWidthMesh_16_16.router142.out$o[1].channel.edge_num = 549
+VariableBandWidthMesh_16_16.router142.out$o[2].channel.bw = 37
+VariableBandWidthMesh_16_16.router142.out$o[2].channel.edge_num = 552
+VariableBandWidthMesh_16_16.router142.out$o[3].channel.bw = 282
+VariableBandWidthMesh_16_16.router142.out$o[3].channel.edge_num = 554
+
+VariableBandWidthMesh_16_16.router143.out$o[0].channel.bw = 271
+VariableBandWidthMesh_16_16.router143.out$o[0].channel.edge_num = 495
+VariableBandWidthMesh_16_16.router143.out$o[1].channel.bw = 105
+VariableBandWidthMesh_16_16.router143.out$o[1].channel.edge_num = 553
+VariableBandWidthMesh_16_16.router143.out$o[2].channel.bw = 104
+VariableBandWidthMesh_16_16.router143.out$o[2].channel.edge_num = 556
+
+VariableBandWidthMesh_16_16.router144.out$o[0].channel.bw = 215
+VariableBandWidthMesh_16_16.router144.out$o[0].channel.edge_num = 499
+VariableBandWidthMesh_16_16.router144.out$o[1].channel.bw = 81
+VariableBandWidthMesh_16_16.router144.out$o[1].channel.edge_num = 558
+VariableBandWidthMesh_16_16.router144.out$o[2].channel.bw = 149
+VariableBandWidthMesh_16_16.router144.out$o[2].channel.edge_num = 560
+
+VariableBandWidthMesh_16_16.router145.out$o[0].channel.bw = 248
+VariableBandWidthMesh_16_16.router145.out$o[0].channel.edge_num = 503
+VariableBandWidthMesh_16_16.router145.out$o[1].channel.bw = 87
+VariableBandWidthMesh_16_16.router145.out$o[1].channel.edge_num = 559
+VariableBandWidthMesh_16_16.router145.out$o[2].channel.bw = 120
+VariableBandWidthMesh_16_16.router145.out$o[2].channel.edge_num = 562
+VariableBandWidthMesh_16_16.router145.out$o[3].channel.bw = 223
+VariableBandWidthMesh_16_16.router145.out$o[3].channel.edge_num = 564
+
+VariableBandWidthMesh_16_16.router146.out$o[0].channel.bw = 264
+VariableBandWidthMesh_16_16.router146.out$o[0].channel.edge_num = 507
+VariableBandWidthMesh_16_16.router146.out$o[1].channel.bw = 115
+VariableBandWidthMesh_16_16.router146.out$o[1].channel.edge_num = 563
+VariableBandWidthMesh_16_16.router146.out$o[2].channel.bw = 172
+VariableBandWidthMesh_16_16.router146.out$o[2].channel.edge_num = 566
+VariableBandWidthMesh_16_16.router146.out$o[3].channel.bw = 319
+VariableBandWidthMesh_16_16.router146.out$o[3].channel.edge_num = 568
+
+VariableBandWidthMesh_16_16.router147.out$o[0].channel.bw = 205
+VariableBandWidthMesh_16_16.router147.out$o[0].channel.edge_num = 511
+VariableBandWidthMesh_16_16.router147.out$o[1].channel.bw = 165
+VariableBandWidthMesh_16_16.router147.out$o[1].channel.edge_num = 567
+VariableBandWidthMesh_16_16.router147.out$o[2].channel.bw = 208
+VariableBandWidthMesh_16_16.router147.out$o[2].channel.edge_num = 570
+VariableBandWidthMesh_16_16.router147.out$o[3].channel.bw = 301
+VariableBandWidthMesh_16_16.router147.out$o[3].channel.edge_num = 572
+
+VariableBandWidthMesh_16_16.router148.out$o[0].channel.bw = 229
+VariableBandWidthMesh_16_16.router148.out$o[0].channel.edge_num = 515
+VariableBandWidthMesh_16_16.router148.out$o[1].channel.bw = 195
+VariableBandWidthMesh_16_16.router148.out$o[1].channel.edge_num = 571
+VariableBandWidthMesh_16_16.router148.out$o[2].channel.bw = 233
+VariableBandWidthMesh_16_16.router148.out$o[2].channel.edge_num = 574
+VariableBandWidthMesh_16_16.router148.out$o[3].channel.bw = 231
+VariableBandWidthMesh_16_16.router148.out$o[3].channel.edge_num = 576
+
+VariableBandWidthMesh_16_16.router149.out$o[0].channel.bw = 150
+VariableBandWidthMesh_16_16.router149.out$o[0].channel.edge_num = 519
+VariableBandWidthMesh_16_16.router149.out$o[1].channel.bw = 154
+VariableBandWidthMesh_16_16.router149.out$o[1].channel.edge_num = 575
+VariableBandWidthMesh_16_16.router149.out$o[2].channel.bw = 271
+VariableBandWidthMesh_16_16.router149.out$o[2].channel.edge_num = 578
+VariableBandWidthMesh_16_16.router149.out$o[3].channel.bw = 187
+VariableBandWidthMesh_16_16.router149.out$o[3].channel.edge_num = 580
+
+VariableBandWidthMesh_16_16.router150.out$o[0].channel.bw = 190
+VariableBandWidthMesh_16_16.router150.out$o[0].channel.edge_num = 523
+VariableBandWidthMesh_16_16.router150.out$o[1].channel.bw = 183
+VariableBandWidthMesh_16_16.router150.out$o[1].channel.edge_num = 579
+VariableBandWidthMesh_16_16.router150.out$o[2].channel.bw = 276
+VariableBandWidthMesh_16_16.router150.out$o[2].channel.edge_num = 582
+VariableBandWidthMesh_16_16.router150.out$o[3].channel.bw = 343
+VariableBandWidthMesh_16_16.router150.out$o[3].channel.edge_num = 584
+
+VariableBandWidthMesh_16_16.router151.out$o[0].channel.bw = 237
+VariableBandWidthMesh_16_16.router151.out$o[0].channel.edge_num = 527
+VariableBandWidthMesh_16_16.router151.out$o[1].channel.bw = 241
+VariableBandWidthMesh_16_16.router151.out$o[1].channel.edge_num = 583
+VariableBandWidthMesh_16_16.router151.out$o[2].channel.bw = 221
+VariableBandWidthMesh_16_16.router151.out$o[2].channel.edge_num = 586
+VariableBandWidthMesh_16_16.router151.out$o[3].channel.bw = 312
+VariableBandWidthMesh_16_16.router151.out$o[3].channel.edge_num = 588
+
+VariableBandWidthMesh_16_16.router152.out$o[0].channel.bw = 363
+VariableBandWidthMesh_16_16.router152.out$o[0].channel.edge_num = 531
+VariableBandWidthMesh_16_16.router152.out$o[1].channel.bw = 203
+VariableBandWidthMesh_16_16.router152.out$o[1].channel.edge_num = 587
+VariableBandWidthMesh_16_16.router152.out$o[2].channel.bw = 273
+VariableBandWidthMesh_16_16.router152.out$o[2].channel.edge_num = 590
+VariableBandWidthMesh_16_16.router152.out$o[3].channel.bw = 194
+VariableBandWidthMesh_16_16.router152.out$o[3].channel.edge_num = 592
+
+VariableBandWidthMesh_16_16.router153.out$o[0].channel.bw = 389
+VariableBandWidthMesh_16_16.router153.out$o[0].channel.edge_num = 535
+VariableBandWidthMesh_16_16.router153.out$o[1].channel.bw = 180
+VariableBandWidthMesh_16_16.router153.out$o[1].channel.edge_num = 591
+VariableBandWidthMesh_16_16.router153.out$o[2].channel.bw = 266
+VariableBandWidthMesh_16_16.router153.out$o[2].channel.edge_num = 594
+VariableBandWidthMesh_16_16.router153.out$o[3].channel.bw = 209
+VariableBandWidthMesh_16_16.router153.out$o[3].channel.edge_num = 596
+
+VariableBandWidthMesh_16_16.router154.out$o[0].channel.bw = 136
+VariableBandWidthMesh_16_16.router154.out$o[0].channel.edge_num = 539
+VariableBandWidthMesh_16_16.router154.out$o[1].channel.bw = 154
+VariableBandWidthMesh_16_16.router154.out$o[1].channel.edge_num = 595
+VariableBandWidthMesh_16_16.router154.out$o[2].channel.bw = 225
+VariableBandWidthMesh_16_16.router154.out$o[2].channel.edge_num = 598
+VariableBandWidthMesh_16_16.router154.out$o[3].channel.bw = 274
+VariableBandWidthMesh_16_16.router154.out$o[3].channel.edge_num = 600
+
+VariableBandWidthMesh_16_16.router155.out$o[0].channel.bw = 260
+VariableBandWidthMesh_16_16.router155.out$o[0].channel.edge_num = 543
+VariableBandWidthMesh_16_16.router155.out$o[1].channel.bw = 112
+VariableBandWidthMesh_16_16.router155.out$o[1].channel.edge_num = 599
+VariableBandWidthMesh_16_16.router155.out$o[2].channel.bw = 178
+VariableBandWidthMesh_16_16.router155.out$o[2].channel.edge_num = 602
+VariableBandWidthMesh_16_16.router155.out$o[3].channel.bw = 226
+VariableBandWidthMesh_16_16.router155.out$o[3].channel.edge_num = 604
+
+VariableBandWidthMesh_16_16.router156.out$o[0].channel.bw = 444
+VariableBandWidthMesh_16_16.router156.out$o[0].channel.edge_num = 547
+VariableBandWidthMesh_16_16.router156.out$o[1].channel.bw = 95
+VariableBandWidthMesh_16_16.router156.out$o[1].channel.edge_num = 603
+VariableBandWidthMesh_16_16.router156.out$o[2].channel.bw = 122
+VariableBandWidthMesh_16_16.router156.out$o[2].channel.edge_num = 606
+VariableBandWidthMesh_16_16.router156.out$o[3].channel.bw = 188
+VariableBandWidthMesh_16_16.router156.out$o[3].channel.edge_num = 608
+
+VariableBandWidthMesh_16_16.router157.out$o[0].channel.bw = 37
+VariableBandWidthMesh_16_16.router157.out$o[0].channel.edge_num = 551
+VariableBandWidthMesh_16_16.router157.out$o[1].channel.bw = 18
+VariableBandWidthMesh_16_16.router157.out$o[1].channel.edge_num = 607
+VariableBandWidthMesh_16_16.router157.out$o[2].channel.bw = 11
+VariableBandWidthMesh_16_16.router157.out$o[2].channel.edge_num = 610
+VariableBandWidthMesh_16_16.router157.out$o[3].channel.bw = 220
+VariableBandWidthMesh_16_16.router157.out$o[3].channel.edge_num = 612
+
+VariableBandWidthMesh_16_16.router158.out$o[0].channel.bw = 227
+VariableBandWidthMesh_16_16.router158.out$o[0].channel.edge_num = 555
+VariableBandWidthMesh_16_16.router158.out$o[1].channel.bw = 30
+VariableBandWidthMesh_16_16.router158.out$o[1].channel.edge_num = 611
+VariableBandWidthMesh_16_16.router158.out$o[2].channel.bw = 69
+VariableBandWidthMesh_16_16.router158.out$o[2].channel.edge_num = 614
+VariableBandWidthMesh_16_16.router158.out$o[3].channel.bw = 207
+VariableBandWidthMesh_16_16.router158.out$o[3].channel.edge_num = 616
+
+VariableBandWidthMesh_16_16.router159.out$o[0].channel.bw = 282
+VariableBandWidthMesh_16_16.router159.out$o[0].channel.edge_num = 557
+VariableBandWidthMesh_16_16.router159.out$o[1].channel.bw = 40
+VariableBandWidthMesh_16_16.router159.out$o[1].channel.edge_num = 615
+VariableBandWidthMesh_16_16.router159.out$o[2].channel.bw = 138
+VariableBandWidthMesh_16_16.router159.out$o[2].channel.edge_num = 618
+
+VariableBandWidthMesh_16_16.router160.out$o[0].channel.bw = 190
+VariableBandWidthMesh_16_16.router160.out$o[0].channel.edge_num = 561
+VariableBandWidthMesh_16_16.router160.out$o[1].channel.bw = 38
+VariableBandWidthMesh_16_16.router160.out$o[1].channel.edge_num = 620
+VariableBandWidthMesh_16_16.router160.out$o[2].channel.bw = 161
+VariableBandWidthMesh_16_16.router160.out$o[2].channel.edge_num = 622
+
+VariableBandWidthMesh_16_16.router161.out$o[0].channel.bw = 277
+VariableBandWidthMesh_16_16.router161.out$o[0].channel.edge_num = 565
+VariableBandWidthMesh_16_16.router161.out$o[1].channel.bw = 96
+VariableBandWidthMesh_16_16.router161.out$o[1].channel.edge_num = 621
+VariableBandWidthMesh_16_16.router161.out$o[2].channel.bw = 108
+VariableBandWidthMesh_16_16.router161.out$o[2].channel.edge_num = 624
+VariableBandWidthMesh_16_16.router161.out$o[3].channel.bw = 273
+VariableBandWidthMesh_16_16.router161.out$o[3].channel.edge_num = 626
+
+VariableBandWidthMesh_16_16.router162.out$o[0].channel.bw = 230
+VariableBandWidthMesh_16_16.router162.out$o[0].channel.edge_num = 569
+VariableBandWidthMesh_16_16.router162.out$o[1].channel.bw = 170
+VariableBandWidthMesh_16_16.router162.out$o[1].channel.edge_num = 625
+VariableBandWidthMesh_16_16.router162.out$o[2].channel.bw = 196
+VariableBandWidthMesh_16_16.router162.out$o[2].channel.edge_num = 628
+VariableBandWidthMesh_16_16.router162.out$o[3].channel.bw = 292
+VariableBandWidthMesh_16_16.router162.out$o[3].channel.edge_num = 630
+
+VariableBandWidthMesh_16_16.router163.out$o[0].channel.bw = 201
+VariableBandWidthMesh_16_16.router163.out$o[0].channel.edge_num = 573
+VariableBandWidthMesh_16_16.router163.out$o[1].channel.bw = 194
+VariableBandWidthMesh_16_16.router163.out$o[1].channel.edge_num = 629
+VariableBandWidthMesh_16_16.router163.out$o[2].channel.bw = 179
+VariableBandWidthMesh_16_16.router163.out$o[2].channel.edge_num = 632
+VariableBandWidthMesh_16_16.router163.out$o[3].channel.bw = 261
+VariableBandWidthMesh_16_16.router163.out$o[3].channel.edge_num = 634
+
+VariableBandWidthMesh_16_16.router164.out$o[0].channel.bw = 254
+VariableBandWidthMesh_16_16.router164.out$o[0].channel.edge_num = 577
+VariableBandWidthMesh_16_16.router164.out$o[1].channel.bw = 192
+VariableBandWidthMesh_16_16.router164.out$o[1].channel.edge_num = 633
+VariableBandWidthMesh_16_16.router164.out$o[2].channel.bw = 216
+VariableBandWidthMesh_16_16.router164.out$o[2].channel.edge_num = 636
+VariableBandWidthMesh_16_16.router164.out$o[3].channel.bw = 253
+VariableBandWidthMesh_16_16.router164.out$o[3].channel.edge_num = 638
+
+VariableBandWidthMesh_16_16.router165.out$o[0].channel.bw = 96
+VariableBandWidthMesh_16_16.router165.out$o[0].channel.edge_num = 581
+VariableBandWidthMesh_16_16.router165.out$o[1].channel.bw = 241
+VariableBandWidthMesh_16_16.router165.out$o[1].channel.edge_num = 637
+VariableBandWidthMesh_16_16.router165.out$o[2].channel.bw = 247
+VariableBandWidthMesh_16_16.router165.out$o[2].channel.edge_num = 640
+VariableBandWidthMesh_16_16.router165.out$o[3].channel.bw = 237
+VariableBandWidthMesh_16_16.router165.out$o[3].channel.edge_num = 642
+
+VariableBandWidthMesh_16_16.router166.out$o[0].channel.bw = 196
+VariableBandWidthMesh_16_16.router166.out$o[0].channel.edge_num = 585
+VariableBandWidthMesh_16_16.router166.out$o[1].channel.bw = 338
+VariableBandWidthMesh_16_16.router166.out$o[1].channel.edge_num = 641
+VariableBandWidthMesh_16_16.router166.out$o[2].channel.bw = 277
+VariableBandWidthMesh_16_16.router166.out$o[2].channel.edge_num = 644
+VariableBandWidthMesh_16_16.router166.out$o[3].channel.bw = 214
+VariableBandWidthMesh_16_16.router166.out$o[3].channel.edge_num = 646
+
+VariableBandWidthMesh_16_16.router167.out$o[0].channel.bw = 188
+VariableBandWidthMesh_16_16.router167.out$o[0].channel.edge_num = 589
+VariableBandWidthMesh_16_16.router167.out$o[1].channel.bw = 265
+VariableBandWidthMesh_16_16.router167.out$o[1].channel.edge_num = 645
+VariableBandWidthMesh_16_16.router167.out$o[2].channel.bw = 319
+VariableBandWidthMesh_16_16.router167.out$o[2].channel.edge_num = 648
+VariableBandWidthMesh_16_16.router167.out$o[3].channel.bw = 314
+VariableBandWidthMesh_16_16.router167.out$o[3].channel.edge_num = 650
+
+VariableBandWidthMesh_16_16.router168.out$o[0].channel.bw = 375
+VariableBandWidthMesh_16_16.router168.out$o[0].channel.edge_num = 593
+VariableBandWidthMesh_16_16.router168.out$o[1].channel.bw = 316
+VariableBandWidthMesh_16_16.router168.out$o[1].channel.edge_num = 649
+VariableBandWidthMesh_16_16.router168.out$o[2].channel.bw = 265
+VariableBandWidthMesh_16_16.router168.out$o[2].channel.edge_num = 652
+VariableBandWidthMesh_16_16.router168.out$o[3].channel.bw = 187
+VariableBandWidthMesh_16_16.router168.out$o[3].channel.edge_num = 654
+
+VariableBandWidthMesh_16_16.router169.out$o[0].channel.bw = 305
+VariableBandWidthMesh_16_16.router169.out$o[0].channel.edge_num = 597
+VariableBandWidthMesh_16_16.router169.out$o[1].channel.bw = 245
+VariableBandWidthMesh_16_16.router169.out$o[1].channel.edge_num = 653
+VariableBandWidthMesh_16_16.router169.out$o[2].channel.bw = 218
+VariableBandWidthMesh_16_16.router169.out$o[2].channel.edge_num = 656
+VariableBandWidthMesh_16_16.router169.out$o[3].channel.bw = 203
+VariableBandWidthMesh_16_16.router169.out$o[3].channel.edge_num = 658
+
+VariableBandWidthMesh_16_16.router170.out$o[0].channel.bw = 125
+VariableBandWidthMesh_16_16.router170.out$o[0].channel.edge_num = 601
+VariableBandWidthMesh_16_16.router170.out$o[1].channel.bw = 214
+VariableBandWidthMesh_16_16.router170.out$o[1].channel.edge_num = 657
+VariableBandWidthMesh_16_16.router170.out$o[2].channel.bw = 250
+VariableBandWidthMesh_16_16.router170.out$o[2].channel.edge_num = 660
+VariableBandWidthMesh_16_16.router170.out$o[3].channel.bw = 247
+VariableBandWidthMesh_16_16.router170.out$o[3].channel.edge_num = 662
+
+VariableBandWidthMesh_16_16.router171.out$o[0].channel.bw = 247
+VariableBandWidthMesh_16_16.router171.out$o[0].channel.edge_num = 605
+VariableBandWidthMesh_16_16.router171.out$o[1].channel.bw = 234
+VariableBandWidthMesh_16_16.router171.out$o[1].channel.edge_num = 661
+VariableBandWidthMesh_16_16.router171.out$o[2].channel.bw = 242
+VariableBandWidthMesh_16_16.router171.out$o[2].channel.edge_num = 664
+VariableBandWidthMesh_16_16.router171.out$o[3].channel.bw = 214
+VariableBandWidthMesh_16_16.router171.out$o[3].channel.edge_num = 666
+
+VariableBandWidthMesh_16_16.router172.out$o[0].channel.bw = 506
+VariableBandWidthMesh_16_16.router172.out$o[0].channel.edge_num = 609
+VariableBandWidthMesh_16_16.router172.out$o[1].channel.bw = 191
+VariableBandWidthMesh_16_16.router172.out$o[1].channel.edge_num = 665
+VariableBandWidthMesh_16_16.router172.out$o[2].channel.bw = 222
+VariableBandWidthMesh_16_16.router172.out$o[2].channel.edge_num = 668
+VariableBandWidthMesh_16_16.router172.out$o[3].channel.bw = 188
+VariableBandWidthMesh_16_16.router172.out$o[3].channel.edge_num = 670
+
+VariableBandWidthMesh_16_16.router173.out$o[0].channel.bw = 37
+VariableBandWidthMesh_16_16.router173.out$o[0].channel.edge_num = 613
+VariableBandWidthMesh_16_16.router173.out$o[1].channel.bw = 471
+VariableBandWidthMesh_16_16.router173.out$o[1].channel.edge_num = 669
+VariableBandWidthMesh_16_16.router173.out$o[2].channel.bw = 198
+VariableBandWidthMesh_16_16.router173.out$o[2].channel.edge_num = 672
+VariableBandWidthMesh_16_16.router173.out$o[3].channel.bw = 271
+VariableBandWidthMesh_16_16.router173.out$o[3].channel.edge_num = 674
+
+VariableBandWidthMesh_16_16.router174.out$o[0].channel.bw = 266
+VariableBandWidthMesh_16_16.router174.out$o[0].channel.edge_num = 617
+VariableBandWidthMesh_16_16.router174.out$o[1].channel.bw = 194
+VariableBandWidthMesh_16_16.router174.out$o[1].channel.edge_num = 673
+VariableBandWidthMesh_16_16.router174.out$o[2].channel.bw = 60
+VariableBandWidthMesh_16_16.router174.out$o[2].channel.edge_num = 676
+VariableBandWidthMesh_16_16.router174.out$o[3].channel.bw = 174
+VariableBandWidthMesh_16_16.router174.out$o[3].channel.edge_num = 678
+
+VariableBandWidthMesh_16_16.router175.out$o[0].channel.bw = 197
+VariableBandWidthMesh_16_16.router175.out$o[0].channel.edge_num = 619
+VariableBandWidthMesh_16_16.router175.out$o[1].channel.bw = 116
+VariableBandWidthMesh_16_16.router175.out$o[1].channel.edge_num = 677
+VariableBandWidthMesh_16_16.router175.out$o[2].channel.bw = 109
+VariableBandWidthMesh_16_16.router175.out$o[2].channel.edge_num = 680
+
+VariableBandWidthMesh_16_16.router176.out$o[0].channel.bw = 178
+VariableBandWidthMesh_16_16.router176.out$o[0].channel.edge_num = 623
+VariableBandWidthMesh_16_16.router176.out$o[1].channel.bw = 44
+VariableBandWidthMesh_16_16.router176.out$o[1].channel.edge_num = 682
+VariableBandWidthMesh_16_16.router176.out$o[2].channel.bw = 151
+VariableBandWidthMesh_16_16.router176.out$o[2].channel.edge_num = 684
+
+VariableBandWidthMesh_16_16.router177.out$o[0].channel.bw = 287
+VariableBandWidthMesh_16_16.router177.out$o[0].channel.edge_num = 627
+VariableBandWidthMesh_16_16.router177.out$o[1].channel.bw = 76
+VariableBandWidthMesh_16_16.router177.out$o[1].channel.edge_num = 683
+VariableBandWidthMesh_16_16.router177.out$o[2].channel.bw = 111
+VariableBandWidthMesh_16_16.router177.out$o[2].channel.edge_num = 686
+VariableBandWidthMesh_16_16.router177.out$o[3].channel.bw = 164
+VariableBandWidthMesh_16_16.router177.out$o[3].channel.edge_num = 688
+
+VariableBandWidthMesh_16_16.router178.out$o[0].channel.bw = 226
+VariableBandWidthMesh_16_16.router178.out$o[0].channel.edge_num = 631
+VariableBandWidthMesh_16_16.router178.out$o[1].channel.bw = 134
+VariableBandWidthMesh_16_16.router178.out$o[1].channel.edge_num = 687
+VariableBandWidthMesh_16_16.router178.out$o[2].channel.bw = 150
+VariableBandWidthMesh_16_16.router178.out$o[2].channel.edge_num = 690
+VariableBandWidthMesh_16_16.router178.out$o[3].channel.bw = 213
+VariableBandWidthMesh_16_16.router178.out$o[3].channel.edge_num = 692
+
+VariableBandWidthMesh_16_16.router179.out$o[0].channel.bw = 210
+VariableBandWidthMesh_16_16.router179.out$o[0].channel.edge_num = 635
+VariableBandWidthMesh_16_16.router179.out$o[1].channel.bw = 115
+VariableBandWidthMesh_16_16.router179.out$o[1].channel.edge_num = 691
+VariableBandWidthMesh_16_16.router179.out$o[2].channel.bw = 183
+VariableBandWidthMesh_16_16.router179.out$o[2].channel.edge_num = 694
+VariableBandWidthMesh_16_16.router179.out$o[3].channel.bw = 231
+VariableBandWidthMesh_16_16.router179.out$o[3].channel.edge_num = 696
+
+VariableBandWidthMesh_16_16.router180.out$o[0].channel.bw = 213
+VariableBandWidthMesh_16_16.router180.out$o[0].channel.edge_num = 639
+VariableBandWidthMesh_16_16.router180.out$o[1].channel.bw = 135
+VariableBandWidthMesh_16_16.router180.out$o[1].channel.edge_num = 695
+VariableBandWidthMesh_16_16.router180.out$o[2].channel.bw = 224
+VariableBandWidthMesh_16_16.router180.out$o[2].channel.edge_num = 698
+VariableBandWidthMesh_16_16.router180.out$o[3].channel.bw = 239
+VariableBandWidthMesh_16_16.router180.out$o[3].channel.edge_num = 700
+
+VariableBandWidthMesh_16_16.router181.out$o[0].channel.bw = 95
+VariableBandWidthMesh_16_16.router181.out$o[0].channel.edge_num = 643
+VariableBandWidthMesh_16_16.router181.out$o[1].channel.bw = 195
+VariableBandWidthMesh_16_16.router181.out$o[1].channel.edge_num = 699
+VariableBandWidthMesh_16_16.router181.out$o[2].channel.bw = 231
+VariableBandWidthMesh_16_16.router181.out$o[2].channel.edge_num = 702
+VariableBandWidthMesh_16_16.router181.out$o[3].channel.bw = 200
+VariableBandWidthMesh_16_16.router181.out$o[3].channel.edge_num = 704
+
+VariableBandWidthMesh_16_16.router182.out$o[0].channel.bw = 146
+VariableBandWidthMesh_16_16.router182.out$o[0].channel.edge_num = 647
+VariableBandWidthMesh_16_16.router182.out$o[1].channel.bw = 243
+VariableBandWidthMesh_16_16.router182.out$o[1].channel.edge_num = 703
+VariableBandWidthMesh_16_16.router182.out$o[2].channel.bw = 241
+VariableBandWidthMesh_16_16.router182.out$o[2].channel.edge_num = 706
+VariableBandWidthMesh_16_16.router182.out$o[3].channel.bw = 135
+VariableBandWidthMesh_16_16.router182.out$o[3].channel.edge_num = 708
+
+VariableBandWidthMesh_16_16.router183.out$o[0].channel.bw = 167
+VariableBandWidthMesh_16_16.router183.out$o[0].channel.edge_num = 651
+VariableBandWidthMesh_16_16.router183.out$o[1].channel.bw = 225
+VariableBandWidthMesh_16_16.router183.out$o[1].channel.edge_num = 707
+VariableBandWidthMesh_16_16.router183.out$o[2].channel.bw = 266
+VariableBandWidthMesh_16_16.router183.out$o[2].channel.edge_num = 710
+VariableBandWidthMesh_16_16.router183.out$o[3].channel.bw = 259
+VariableBandWidthMesh_16_16.router183.out$o[3].channel.edge_num = 712
+
+VariableBandWidthMesh_16_16.router184.out$o[0].channel.bw = 301
+VariableBandWidthMesh_16_16.router184.out$o[0].channel.edge_num = 655
+VariableBandWidthMesh_16_16.router184.out$o[1].channel.bw = 211
+VariableBandWidthMesh_16_16.router184.out$o[1].channel.edge_num = 711
+VariableBandWidthMesh_16_16.router184.out$o[2].channel.bw = 242
+VariableBandWidthMesh_16_16.router184.out$o[2].channel.edge_num = 714
+VariableBandWidthMesh_16_16.router184.out$o[3].channel.bw = 193
+VariableBandWidthMesh_16_16.router184.out$o[3].channel.edge_num = 716
+
+VariableBandWidthMesh_16_16.router185.out$o[0].channel.bw = 317
+VariableBandWidthMesh_16_16.router185.out$o[0].channel.edge_num = 659
+VariableBandWidthMesh_16_16.router185.out$o[1].channel.bw = 158
+VariableBandWidthMesh_16_16.router185.out$o[1].channel.edge_num = 715
+VariableBandWidthMesh_16_16.router185.out$o[2].channel.bw = 227
+VariableBandWidthMesh_16_16.router185.out$o[2].channel.edge_num = 718
+VariableBandWidthMesh_16_16.router185.out$o[3].channel.bw = 215
+VariableBandWidthMesh_16_16.router185.out$o[3].channel.edge_num = 720
+
+VariableBandWidthMesh_16_16.router186.out$o[0].channel.bw = 109
+VariableBandWidthMesh_16_16.router186.out$o[0].channel.edge_num = 663
+VariableBandWidthMesh_16_16.router186.out$o[1].channel.bw = 188
+VariableBandWidthMesh_16_16.router186.out$o[1].channel.edge_num = 719
+VariableBandWidthMesh_16_16.router186.out$o[2].channel.bw = 186
+VariableBandWidthMesh_16_16.router186.out$o[2].channel.edge_num = 722
+VariableBandWidthMesh_16_16.router186.out$o[3].channel.bw = 175
+VariableBandWidthMesh_16_16.router186.out$o[3].channel.edge_num = 724
+
+VariableBandWidthMesh_16_16.router187.out$o[0].channel.bw = 188
+VariableBandWidthMesh_16_16.router187.out$o[0].channel.edge_num = 667
+VariableBandWidthMesh_16_16.router187.out$o[1].channel.bw = 184
+VariableBandWidthMesh_16_16.router187.out$o[1].channel.edge_num = 723
+VariableBandWidthMesh_16_16.router187.out$o[2].channel.bw = 127
+VariableBandWidthMesh_16_16.router187.out$o[2].channel.edge_num = 726
+VariableBandWidthMesh_16_16.router187.out$o[3].channel.bw = 237
+VariableBandWidthMesh_16_16.router187.out$o[3].channel.edge_num = 728
+
+VariableBandWidthMesh_16_16.router188.out$o[0].channel.bw = 162
+VariableBandWidthMesh_16_16.router188.out$o[0].channel.edge_num = 671
+VariableBandWidthMesh_16_16.router188.out$o[1].channel.bw = 177
+VariableBandWidthMesh_16_16.router188.out$o[1].channel.edge_num = 727
+VariableBandWidthMesh_16_16.router188.out$o[2].channel.bw = 145
+VariableBandWidthMesh_16_16.router188.out$o[2].channel.edge_num = 730
+VariableBandWidthMesh_16_16.router188.out$o[3].channel.bw = 133
+VariableBandWidthMesh_16_16.router188.out$o[3].channel.edge_num = 732
+
+VariableBandWidthMesh_16_16.router189.out$o[0].channel.bw = 295
+VariableBandWidthMesh_16_16.router189.out$o[0].channel.edge_num = 675
+VariableBandWidthMesh_16_16.router189.out$o[1].channel.bw = 104
+VariableBandWidthMesh_16_16.router189.out$o[1].channel.edge_num = 731
+VariableBandWidthMesh_16_16.router189.out$o[2].channel.bw = 142
+VariableBandWidthMesh_16_16.router189.out$o[2].channel.edge_num = 734
+VariableBandWidthMesh_16_16.router189.out$o[3].channel.bw = 174
+VariableBandWidthMesh_16_16.router189.out$o[3].channel.edge_num = 736
+
+VariableBandWidthMesh_16_16.router190.out$o[0].channel.bw = 156
+VariableBandWidthMesh_16_16.router190.out$o[0].channel.edge_num = 679
+VariableBandWidthMesh_16_16.router190.out$o[1].channel.bw = 35
+VariableBandWidthMesh_16_16.router190.out$o[1].channel.edge_num = 735
+VariableBandWidthMesh_16_16.router190.out$o[2].channel.bw = 60
+VariableBandWidthMesh_16_16.router190.out$o[2].channel.edge_num = 738
+VariableBandWidthMesh_16_16.router190.out$o[3].channel.bw = 155
+VariableBandWidthMesh_16_16.router190.out$o[3].channel.edge_num = 740
+
+VariableBandWidthMesh_16_16.router191.out$o[0].channel.bw = 190
+VariableBandWidthMesh_16_16.router191.out$o[0].channel.edge_num = 681
+VariableBandWidthMesh_16_16.router191.out$o[1].channel.bw = 19
+VariableBandWidthMesh_16_16.router191.out$o[1].channel.edge_num = 739
+VariableBandWidthMesh_16_16.router191.out$o[2].channel.bw = 77
+VariableBandWidthMesh_16_16.router191.out$o[2].channel.edge_num = 742
+
+VariableBandWidthMesh_16_16.router192.out$o[0].channel.bw = 109
+VariableBandWidthMesh_16_16.router192.out$o[0].channel.edge_num = 685
+VariableBandWidthMesh_16_16.router192.out$o[1].channel.bw = 22
+VariableBandWidthMesh_16_16.router192.out$o[1].channel.edge_num = 744
+VariableBandWidthMesh_16_16.router192.out$o[2].channel.bw = 111
+VariableBandWidthMesh_16_16.router192.out$o[2].channel.edge_num = 746
+
+VariableBandWidthMesh_16_16.router193.out$o[0].channel.bw = 208
+VariableBandWidthMesh_16_16.router193.out$o[0].channel.edge_num = 689
+VariableBandWidthMesh_16_16.router193.out$o[1].channel.bw = 41
+VariableBandWidthMesh_16_16.router193.out$o[1].channel.edge_num = 745
+VariableBandWidthMesh_16_16.router193.out$o[2].channel.bw = 43
+VariableBandWidthMesh_16_16.router193.out$o[2].channel.edge_num = 748
+VariableBandWidthMesh_16_16.router193.out$o[3].channel.bw = 133
+VariableBandWidthMesh_16_16.router193.out$o[3].channel.edge_num = 750
+
+VariableBandWidthMesh_16_16.router194.out$o[0].channel.bw = 137
+VariableBandWidthMesh_16_16.router194.out$o[0].channel.edge_num = 693
+VariableBandWidthMesh_16_16.router194.out$o[1].channel.bw = 77
+VariableBandWidthMesh_16_16.router194.out$o[1].channel.edge_num = 749
+VariableBandWidthMesh_16_16.router194.out$o[2].channel.bw = 80
+VariableBandWidthMesh_16_16.router194.out$o[2].channel.edge_num = 752
+VariableBandWidthMesh_16_16.router194.out$o[3].channel.bw = 155
+VariableBandWidthMesh_16_16.router194.out$o[3].channel.edge_num = 754
+
+VariableBandWidthMesh_16_16.router195.out$o[0].channel.bw = 188
+VariableBandWidthMesh_16_16.router195.out$o[0].channel.edge_num = 697
+VariableBandWidthMesh_16_16.router195.out$o[1].channel.bw = 140
+VariableBandWidthMesh_16_16.router195.out$o[1].channel.edge_num = 753
+VariableBandWidthMesh_16_16.router195.out$o[2].channel.bw = 103
+VariableBandWidthMesh_16_16.router195.out$o[2].channel.edge_num = 756
+VariableBandWidthMesh_16_16.router195.out$o[3].channel.bw = 158
+VariableBandWidthMesh_16_16.router195.out$o[3].channel.edge_num = 758
+
+VariableBandWidthMesh_16_16.router196.out$o[0].channel.bw = 141
+VariableBandWidthMesh_16_16.router196.out$o[0].channel.edge_num = 701
+VariableBandWidthMesh_16_16.router196.out$o[1].channel.bw = 84
+VariableBandWidthMesh_16_16.router196.out$o[1].channel.edge_num = 757
+VariableBandWidthMesh_16_16.router196.out$o[2].channel.bw = 96
+VariableBandWidthMesh_16_16.router196.out$o[2].channel.edge_num = 760
+VariableBandWidthMesh_16_16.router196.out$o[3].channel.bw = 226
+VariableBandWidthMesh_16_16.router196.out$o[3].channel.edge_num = 762
+
+VariableBandWidthMesh_16_16.router197.out$o[0].channel.bw = 100
+VariableBandWidthMesh_16_16.router197.out$o[0].channel.edge_num = 705
+VariableBandWidthMesh_16_16.router197.out$o[1].channel.bw = 84
+VariableBandWidthMesh_16_16.router197.out$o[1].channel.edge_num = 761
+VariableBandWidthMesh_16_16.router197.out$o[2].channel.bw = 79
+VariableBandWidthMesh_16_16.router197.out$o[2].channel.edge_num = 764
+VariableBandWidthMesh_16_16.router197.out$o[3].channel.bw = 114
+VariableBandWidthMesh_16_16.router197.out$o[3].channel.edge_num = 766
+
+VariableBandWidthMesh_16_16.router198.out$o[0].channel.bw = 123
+VariableBandWidthMesh_16_16.router198.out$o[0].channel.edge_num = 709
+VariableBandWidthMesh_16_16.router198.out$o[1].channel.bw = 22
+VariableBandWidthMesh_16_16.router198.out$o[1].channel.edge_num = 765
+VariableBandWidthMesh_16_16.router198.out$o[2].channel.bw = 6
+VariableBandWidthMesh_16_16.router198.out$o[2].channel.edge_num = 768
+VariableBandWidthMesh_16_16.router198.out$o[3].channel.bw = 173
+VariableBandWidthMesh_16_16.router198.out$o[3].channel.edge_num = 770
+
+VariableBandWidthMesh_16_16.router199.out$o[0].channel.bw = 149
+VariableBandWidthMesh_16_16.router199.out$o[0].channel.edge_num = 713
+VariableBandWidthMesh_16_16.router199.out$o[1].channel.bw = 40
+VariableBandWidthMesh_16_16.router199.out$o[1].channel.edge_num = 769
+VariableBandWidthMesh_16_16.router199.out$o[2].channel.bw = 79
+VariableBandWidthMesh_16_16.router199.out$o[2].channel.edge_num = 772
+VariableBandWidthMesh_16_16.router199.out$o[3].channel.bw = 182
+VariableBandWidthMesh_16_16.router199.out$o[3].channel.edge_num = 774
+
+VariableBandWidthMesh_16_16.router200.out$o[0].channel.bw = 304
+VariableBandWidthMesh_16_16.router200.out$o[0].channel.edge_num = 717
+VariableBandWidthMesh_16_16.router200.out$o[1].channel.bw = 113
+VariableBandWidthMesh_16_16.router200.out$o[1].channel.edge_num = 773
+VariableBandWidthMesh_16_16.router200.out$o[2].channel.bw = 104
+VariableBandWidthMesh_16_16.router200.out$o[2].channel.edge_num = 776
+VariableBandWidthMesh_16_16.router200.out$o[3].channel.bw = 93
+VariableBandWidthMesh_16_16.router200.out$o[3].channel.edge_num = 778
+
+VariableBandWidthMesh_16_16.router201.out$o[0].channel.bw = 285
+VariableBandWidthMesh_16_16.router201.out$o[0].channel.edge_num = 721
+VariableBandWidthMesh_16_16.router201.out$o[1].channel.bw = 69
+VariableBandWidthMesh_16_16.router201.out$o[1].channel.edge_num = 777
+VariableBandWidthMesh_16_16.router201.out$o[2].channel.bw = 54
+VariableBandWidthMesh_16_16.router201.out$o[2].channel.edge_num = 780
+VariableBandWidthMesh_16_16.router201.out$o[3].channel.bw = 175
+VariableBandWidthMesh_16_16.router201.out$o[3].channel.edge_num = 782
+
+VariableBandWidthMesh_16_16.router202.out$o[0].channel.bw = 0
+VariableBandWidthMesh_16_16.router202.out$o[0].channel.edge_num = 725
+VariableBandWidthMesh_16_16.router202.out$o[1].channel.bw = 0
+VariableBandWidthMesh_16_16.router202.out$o[1].channel.edge_num = 781
+VariableBandWidthMesh_16_16.router202.out$o[2].channel.bw = 6
+VariableBandWidthMesh_16_16.router202.out$o[2].channel.edge_num = 784
+VariableBandWidthMesh_16_16.router202.out$o[3].channel.bw = 202
+VariableBandWidthMesh_16_16.router202.out$o[3].channel.edge_num = 786
+
+VariableBandWidthMesh_16_16.router203.out$o[0].channel.bw = 129
+VariableBandWidthMesh_16_16.router203.out$o[0].channel.edge_num = 729
+VariableBandWidthMesh_16_16.router203.out$o[1].channel.bw = 54
+VariableBandWidthMesh_16_16.router203.out$o[1].channel.edge_num = 785
+VariableBandWidthMesh_16_16.router203.out$o[2].channel.bw = 98
+VariableBandWidthMesh_16_16.router203.out$o[2].channel.edge_num = 788
+VariableBandWidthMesh_16_16.router203.out$o[3].channel.bw = 157
+VariableBandWidthMesh_16_16.router203.out$o[3].channel.edge_num = 790
+
+VariableBandWidthMesh_16_16.router204.out$o[0].channel.bw = 170
+VariableBandWidthMesh_16_16.router204.out$o[0].channel.edge_num = 733
+VariableBandWidthMesh_16_16.router204.out$o[1].channel.bw = 76
+VariableBandWidthMesh_16_16.router204.out$o[1].channel.edge_num = 789
+VariableBandWidthMesh_16_16.router204.out$o[2].channel.bw = 59
+VariableBandWidthMesh_16_16.router204.out$o[2].channel.edge_num = 792
+VariableBandWidthMesh_16_16.router204.out$o[3].channel.bw = 142
+VariableBandWidthMesh_16_16.router204.out$o[3].channel.edge_num = 794
+
+VariableBandWidthMesh_16_16.router205.out$o[0].channel.bw = 263
+VariableBandWidthMesh_16_16.router205.out$o[0].channel.edge_num = 737
+VariableBandWidthMesh_16_16.router205.out$o[1].channel.bw = 54
+VariableBandWidthMesh_16_16.router205.out$o[1].channel.edge_num = 793
+VariableBandWidthMesh_16_16.router205.out$o[2].channel.bw = 68
+VariableBandWidthMesh_16_16.router205.out$o[2].channel.edge_num = 796
+VariableBandWidthMesh_16_16.router205.out$o[3].channel.bw = 109
+VariableBandWidthMesh_16_16.router205.out$o[3].channel.edge_num = 798
+
+VariableBandWidthMesh_16_16.router206.out$o[0].channel.bw = 134
+VariableBandWidthMesh_16_16.router206.out$o[0].channel.edge_num = 741
+VariableBandWidthMesh_16_16.router206.out$o[1].channel.bw = 63
+VariableBandWidthMesh_16_16.router206.out$o[1].channel.edge_num = 797
+VariableBandWidthMesh_16_16.router206.out$o[2].channel.bw = 34
+VariableBandWidthMesh_16_16.router206.out$o[2].channel.edge_num = 800
+VariableBandWidthMesh_16_16.router206.out$o[3].channel.bw = 125
+VariableBandWidthMesh_16_16.router206.out$o[3].channel.edge_num = 802
+
+VariableBandWidthMesh_16_16.router207.out$o[0].channel.bw = 139
+VariableBandWidthMesh_16_16.router207.out$o[0].channel.edge_num = 743
+VariableBandWidthMesh_16_16.router207.out$o[1].channel.bw = 11
+VariableBandWidthMesh_16_16.router207.out$o[1].channel.edge_num = 801
+VariableBandWidthMesh_16_16.router207.out$o[2].channel.bw = 65
+VariableBandWidthMesh_16_16.router207.out$o[2].channel.edge_num = 804
+
+VariableBandWidthMesh_16_16.router208.out$o[0].channel.bw = 94
+VariableBandWidthMesh_16_16.router208.out$o[0].channel.edge_num = 747
+VariableBandWidthMesh_16_16.router208.out$o[1].channel.bw = 35
+VariableBandWidthMesh_16_16.router208.out$o[1].channel.edge_num = 806
+VariableBandWidthMesh_16_16.router208.out$o[2].channel.bw = 93
+VariableBandWidthMesh_16_16.router208.out$o[2].channel.edge_num = 808
+
+VariableBandWidthMesh_16_16.router209.out$o[0].channel.bw = 165
+VariableBandWidthMesh_16_16.router209.out$o[0].channel.edge_num = 751
+VariableBandWidthMesh_16_16.router209.out$o[1].channel.bw = 32
+VariableBandWidthMesh_16_16.router209.out$o[1].channel.edge_num = 807
+VariableBandWidthMesh_16_16.router209.out$o[2].channel.bw = 71
+VariableBandWidthMesh_16_16.router209.out$o[2].channel.edge_num = 810
+VariableBandWidthMesh_16_16.router209.out$o[3].channel.bw = 87
+VariableBandWidthMesh_16_16.router209.out$o[3].channel.edge_num = 812
+
+VariableBandWidthMesh_16_16.router210.out$o[0].channel.bw = 135
+VariableBandWidthMesh_16_16.router210.out$o[0].channel.edge_num = 755
+VariableBandWidthMesh_16_16.router210.out$o[1].channel.bw = 67
+VariableBandWidthMesh_16_16.router210.out$o[1].channel.edge_num = 811
+VariableBandWidthMesh_16_16.router210.out$o[2].channel.bw = 118
+VariableBandWidthMesh_16_16.router210.out$o[2].channel.edge_num = 814
+VariableBandWidthMesh_16_16.router210.out$o[3].channel.bw = 117
+VariableBandWidthMesh_16_16.router210.out$o[3].channel.edge_num = 816
+
+VariableBandWidthMesh_16_16.router211.out$o[0].channel.bw = 160
+VariableBandWidthMesh_16_16.router211.out$o[0].channel.edge_num = 759
+VariableBandWidthMesh_16_16.router211.out$o[1].channel.bw = 67
+VariableBandWidthMesh_16_16.router211.out$o[1].channel.edge_num = 815
+VariableBandWidthMesh_16_16.router211.out$o[2].channel.bw = 126
+VariableBandWidthMesh_16_16.router211.out$o[2].channel.edge_num = 818
+VariableBandWidthMesh_16_16.router211.out$o[3].channel.bw = 125
+VariableBandWidthMesh_16_16.router211.out$o[3].channel.edge_num = 820
+
+VariableBandWidthMesh_16_16.router212.out$o[0].channel.bw = 123
+VariableBandWidthMesh_16_16.router212.out$o[0].channel.edge_num = 763
+VariableBandWidthMesh_16_16.router212.out$o[1].channel.bw = 137
+VariableBandWidthMesh_16_16.router212.out$o[1].channel.edge_num = 819
+VariableBandWidthMesh_16_16.router212.out$o[2].channel.bw = 148
+VariableBandWidthMesh_16_16.router212.out$o[2].channel.edge_num = 822
+VariableBandWidthMesh_16_16.router212.out$o[3].channel.bw = 148
+VariableBandWidthMesh_16_16.router212.out$o[3].channel.edge_num = 824
+
+VariableBandWidthMesh_16_16.router213.out$o[0].channel.bw = 85
+VariableBandWidthMesh_16_16.router213.out$o[0].channel.edge_num = 767
+VariableBandWidthMesh_16_16.router213.out$o[1].channel.bw = 101
+VariableBandWidthMesh_16_16.router213.out$o[1].channel.edge_num = 823
+VariableBandWidthMesh_16_16.router213.out$o[2].channel.bw = 124
+VariableBandWidthMesh_16_16.router213.out$o[2].channel.edge_num = 826
+VariableBandWidthMesh_16_16.router213.out$o[3].channel.bw = 105
+VariableBandWidthMesh_16_16.router213.out$o[3].channel.edge_num = 828
+
+VariableBandWidthMesh_16_16.router214.out$o[0].channel.bw = 89
+VariableBandWidthMesh_16_16.router214.out$o[0].channel.edge_num = 771
+VariableBandWidthMesh_16_16.router214.out$o[1].channel.bw = 138
+VariableBandWidthMesh_16_16.router214.out$o[1].channel.edge_num = 827
+VariableBandWidthMesh_16_16.router214.out$o[2].channel.bw = 195
+VariableBandWidthMesh_16_16.router214.out$o[2].channel.edge_num = 830
+VariableBandWidthMesh_16_16.router214.out$o[3].channel.bw = 84
+VariableBandWidthMesh_16_16.router214.out$o[3].channel.edge_num = 832
+
+VariableBandWidthMesh_16_16.router215.out$o[0].channel.bw = 69
+VariableBandWidthMesh_16_16.router215.out$o[0].channel.edge_num = 775
+VariableBandWidthMesh_16_16.router215.out$o[1].channel.bw = 90
+VariableBandWidthMesh_16_16.router215.out$o[1].channel.edge_num = 831
+VariableBandWidthMesh_16_16.router215.out$o[2].channel.bw = 139
+VariableBandWidthMesh_16_16.router215.out$o[2].channel.edge_num = 834
+VariableBandWidthMesh_16_16.router215.out$o[3].channel.bw = 146
+VariableBandWidthMesh_16_16.router215.out$o[3].channel.edge_num = 836
+
+VariableBandWidthMesh_16_16.router216.out$o[0].channel.bw = 230
+VariableBandWidthMesh_16_16.router216.out$o[0].channel.edge_num = 779
+VariableBandWidthMesh_16_16.router216.out$o[1].channel.bw = 87
+VariableBandWidthMesh_16_16.router216.out$o[1].channel.edge_num = 835
+VariableBandWidthMesh_16_16.router216.out$o[2].channel.bw = 130
+VariableBandWidthMesh_16_16.router216.out$o[2].channel.edge_num = 838
+VariableBandWidthMesh_16_16.router216.out$o[3].channel.bw = 64
+VariableBandWidthMesh_16_16.router216.out$o[3].channel.edge_num = 840
+
+VariableBandWidthMesh_16_16.router217.out$o[0].channel.bw = 294
+VariableBandWidthMesh_16_16.router217.out$o[0].channel.edge_num = 783
+VariableBandWidthMesh_16_16.router217.out$o[1].channel.bw = 76
+VariableBandWidthMesh_16_16.router217.out$o[1].channel.edge_num = 839
+VariableBandWidthMesh_16_16.router217.out$o[2].channel.bw = 161
+VariableBandWidthMesh_16_16.router217.out$o[2].channel.edge_num = 842
+VariableBandWidthMesh_16_16.router217.out$o[3].channel.bw = 112
+VariableBandWidthMesh_16_16.router217.out$o[3].channel.edge_num = 844
+
+VariableBandWidthMesh_16_16.router218.out$o[0].channel.bw = 0
+VariableBandWidthMesh_16_16.router218.out$o[0].channel.edge_num = 787
+VariableBandWidthMesh_16_16.router218.out$o[1].channel.bw = 167
+VariableBandWidthMesh_16_16.router218.out$o[1].channel.edge_num = 843
+VariableBandWidthMesh_16_16.router218.out$o[2].channel.bw = 173
+VariableBandWidthMesh_16_16.router218.out$o[2].channel.edge_num = 846
+VariableBandWidthMesh_16_16.router218.out$o[3].channel.bw = 99
+VariableBandWidthMesh_16_16.router218.out$o[3].channel.edge_num = 848
+
+VariableBandWidthMesh_16_16.router219.out$o[0].channel.bw = 108
+VariableBandWidthMesh_16_16.router219.out$o[0].channel.edge_num = 791
+VariableBandWidthMesh_16_16.router219.out$o[1].channel.bw = 69
+VariableBandWidthMesh_16_16.router219.out$o[1].channel.edge_num = 847
+VariableBandWidthMesh_16_16.router219.out$o[2].channel.bw = 145
+VariableBandWidthMesh_16_16.router219.out$o[2].channel.edge_num = 850
+VariableBandWidthMesh_16_16.router219.out$o[3].channel.bw = 93
+VariableBandWidthMesh_16_16.router219.out$o[3].channel.edge_num = 852
+
+VariableBandWidthMesh_16_16.router220.out$o[0].channel.bw = 121
+VariableBandWidthMesh_16_16.router220.out$o[0].channel.edge_num = 795
+VariableBandWidthMesh_16_16.router220.out$o[1].channel.bw = 53
+VariableBandWidthMesh_16_16.router220.out$o[1].channel.edge_num = 851
+VariableBandWidthMesh_16_16.router220.out$o[2].channel.bw = 141
+VariableBandWidthMesh_16_16.router220.out$o[2].channel.edge_num = 854
+VariableBandWidthMesh_16_16.router220.out$o[3].channel.bw = 86
+VariableBandWidthMesh_16_16.router220.out$o[3].channel.edge_num = 856
+
+VariableBandWidthMesh_16_16.router221.out$o[0].channel.bw = 187
+VariableBandWidthMesh_16_16.router221.out$o[0].channel.edge_num = 799
+VariableBandWidthMesh_16_16.router221.out$o[1].channel.bw = 30
+VariableBandWidthMesh_16_16.router221.out$o[1].channel.edge_num = 855
+VariableBandWidthMesh_16_16.router221.out$o[2].channel.bw = 92
+VariableBandWidthMesh_16_16.router221.out$o[2].channel.edge_num = 858
+VariableBandWidthMesh_16_16.router221.out$o[3].channel.bw = 129
+VariableBandWidthMesh_16_16.router221.out$o[3].channel.edge_num = 860
+
+VariableBandWidthMesh_16_16.router222.out$o[0].channel.bw = 143
+VariableBandWidthMesh_16_16.router222.out$o[0].channel.edge_num = 803
+VariableBandWidthMesh_16_16.router222.out$o[1].channel.bw = 16
+VariableBandWidthMesh_16_16.router222.out$o[1].channel.edge_num = 859
+VariableBandWidthMesh_16_16.router222.out$o[2].channel.bw = 79
+VariableBandWidthMesh_16_16.router222.out$o[2].channel.edge_num = 862
+VariableBandWidthMesh_16_16.router222.out$o[3].channel.bw = 56
+VariableBandWidthMesh_16_16.router222.out$o[3].channel.edge_num = 864
+
+VariableBandWidthMesh_16_16.router223.out$o[0].channel.bw = 47
+VariableBandWidthMesh_16_16.router223.out$o[0].channel.edge_num = 805
+VariableBandWidthMesh_16_16.router223.out$o[1].channel.bw = 19
+VariableBandWidthMesh_16_16.router223.out$o[1].channel.edge_num = 863
+VariableBandWidthMesh_16_16.router223.out$o[2].channel.bw = 89
+VariableBandWidthMesh_16_16.router223.out$o[2].channel.edge_num = 866
+
+VariableBandWidthMesh_16_16.router224.out$o[0].channel.bw = 77
+VariableBandWidthMesh_16_16.router224.out$o[0].channel.edge_num = 809
+VariableBandWidthMesh_16_16.router224.out$o[1].channel.bw = 30
+VariableBandWidthMesh_16_16.router224.out$o[1].channel.edge_num = 868
+VariableBandWidthMesh_16_16.router224.out$o[2].channel.bw = 42
+VariableBandWidthMesh_16_16.router224.out$o[2].channel.edge_num = 870
+
+VariableBandWidthMesh_16_16.router225.out$o[0].channel.bw = 185
+VariableBandWidthMesh_16_16.router225.out$o[0].channel.edge_num = 813
+VariableBandWidthMesh_16_16.router225.out$o[1].channel.bw = 23
+VariableBandWidthMesh_16_16.router225.out$o[1].channel.edge_num = 869
+VariableBandWidthMesh_16_16.router225.out$o[2].channel.bw = 62
+VariableBandWidthMesh_16_16.router225.out$o[2].channel.edge_num = 872
+VariableBandWidthMesh_16_16.router225.out$o[3].channel.bw = 43
+VariableBandWidthMesh_16_16.router225.out$o[3].channel.edge_num = 874
+
+VariableBandWidthMesh_16_16.router226.out$o[0].channel.bw = 64
+VariableBandWidthMesh_16_16.router226.out$o[0].channel.edge_num = 817
+VariableBandWidthMesh_16_16.router226.out$o[1].channel.bw = 46
+VariableBandWidthMesh_16_16.router226.out$o[1].channel.edge_num = 873
+VariableBandWidthMesh_16_16.router226.out$o[2].channel.bw = 66
+VariableBandWidthMesh_16_16.router226.out$o[2].channel.edge_num = 876
+VariableBandWidthMesh_16_16.router226.out$o[3].channel.bw = 69
+VariableBandWidthMesh_16_16.router226.out$o[3].channel.edge_num = 878
+
+VariableBandWidthMesh_16_16.router227.out$o[0].channel.bw = 91
+VariableBandWidthMesh_16_16.router227.out$o[0].channel.edge_num = 821
+VariableBandWidthMesh_16_16.router227.out$o[1].channel.bw = 60
+VariableBandWidthMesh_16_16.router227.out$o[1].channel.edge_num = 877
+VariableBandWidthMesh_16_16.router227.out$o[2].channel.bw = 114
+VariableBandWidthMesh_16_16.router227.out$o[2].channel.edge_num = 880
+VariableBandWidthMesh_16_16.router227.out$o[3].channel.bw = 56
+VariableBandWidthMesh_16_16.router227.out$o[3].channel.edge_num = 882
+
+VariableBandWidthMesh_16_16.router228.out$o[0].channel.bw = 92
+VariableBandWidthMesh_16_16.router228.out$o[0].channel.edge_num = 825
+VariableBandWidthMesh_16_16.router228.out$o[1].channel.bw = 25
+VariableBandWidthMesh_16_16.router228.out$o[1].channel.edge_num = 881
+VariableBandWidthMesh_16_16.router228.out$o[2].channel.bw = 120
+VariableBandWidthMesh_16_16.router228.out$o[2].channel.edge_num = 884
+VariableBandWidthMesh_16_16.router228.out$o[3].channel.bw = 85
+VariableBandWidthMesh_16_16.router228.out$o[3].channel.edge_num = 886
+
+VariableBandWidthMesh_16_16.router229.out$o[0].channel.bw = 23
+VariableBandWidthMesh_16_16.router229.out$o[0].channel.edge_num = 829
+VariableBandWidthMesh_16_16.router229.out$o[1].channel.bw = 37
+VariableBandWidthMesh_16_16.router229.out$o[1].channel.edge_num = 885
+VariableBandWidthMesh_16_16.router229.out$o[2].channel.bw = 95
+VariableBandWidthMesh_16_16.router229.out$o[2].channel.edge_num = 888
+VariableBandWidthMesh_16_16.router229.out$o[3].channel.bw = 72
+VariableBandWidthMesh_16_16.router229.out$o[3].channel.edge_num = 890
+
+VariableBandWidthMesh_16_16.router230.out$o[0].channel.bw = 94
+VariableBandWidthMesh_16_16.router230.out$o[0].channel.edge_num = 833
+VariableBandWidthMesh_16_16.router230.out$o[1].channel.bw = 66
+VariableBandWidthMesh_16_16.router230.out$o[1].channel.edge_num = 889
+VariableBandWidthMesh_16_16.router230.out$o[2].channel.bw = 90
+VariableBandWidthMesh_16_16.router230.out$o[2].channel.edge_num = 892
+VariableBandWidthMesh_16_16.router230.out$o[3].channel.bw = 44
+VariableBandWidthMesh_16_16.router230.out$o[3].channel.edge_num = 894
+
+VariableBandWidthMesh_16_16.router231.out$o[0].channel.bw = 29
+VariableBandWidthMesh_16_16.router231.out$o[0].channel.edge_num = 837
+VariableBandWidthMesh_16_16.router231.out$o[1].channel.bw = 114
+VariableBandWidthMesh_16_16.router231.out$o[1].channel.edge_num = 893
+VariableBandWidthMesh_16_16.router231.out$o[2].channel.bw = 79
+VariableBandWidthMesh_16_16.router231.out$o[2].channel.edge_num = 896
+VariableBandWidthMesh_16_16.router231.out$o[3].channel.bw = 69
+VariableBandWidthMesh_16_16.router231.out$o[3].channel.edge_num = 898
+
+VariableBandWidthMesh_16_16.router232.out$o[0].channel.bw = 161
+VariableBandWidthMesh_16_16.router232.out$o[0].channel.edge_num = 841
+VariableBandWidthMesh_16_16.router232.out$o[1].channel.bw = 118
+VariableBandWidthMesh_16_16.router232.out$o[1].channel.edge_num = 897
+VariableBandWidthMesh_16_16.router232.out$o[2].channel.bw = 107
+VariableBandWidthMesh_16_16.router232.out$o[2].channel.edge_num = 900
+VariableBandWidthMesh_16_16.router232.out$o[3].channel.bw = 26
+VariableBandWidthMesh_16_16.router232.out$o[3].channel.edge_num = 902
+
+VariableBandWidthMesh_16_16.router233.out$o[0].channel.bw = 175
+VariableBandWidthMesh_16_16.router233.out$o[0].channel.edge_num = 845
+VariableBandWidthMesh_16_16.router233.out$o[1].channel.bw = 81
+VariableBandWidthMesh_16_16.router233.out$o[1].channel.edge_num = 901
+VariableBandWidthMesh_16_16.router233.out$o[2].channel.bw = 101
+VariableBandWidthMesh_16_16.router233.out$o[2].channel.edge_num = 904
+VariableBandWidthMesh_16_16.router233.out$o[3].channel.bw = 69
+VariableBandWidthMesh_16_16.router233.out$o[3].channel.edge_num = 906
+
+VariableBandWidthMesh_16_16.router234.out$o[0].channel.bw = 56
+VariableBandWidthMesh_16_16.router234.out$o[0].channel.edge_num = 849
+VariableBandWidthMesh_16_16.router234.out$o[1].channel.bw = 65
+VariableBandWidthMesh_16_16.router234.out$o[1].channel.edge_num = 905
+VariableBandWidthMesh_16_16.router234.out$o[2].channel.bw = 90
+VariableBandWidthMesh_16_16.router234.out$o[2].channel.edge_num = 908
+VariableBandWidthMesh_16_16.router234.out$o[3].channel.bw = 45
+VariableBandWidthMesh_16_16.router234.out$o[3].channel.edge_num = 910
+
+VariableBandWidthMesh_16_16.router235.out$o[0].channel.bw = 78
+VariableBandWidthMesh_16_16.router235.out$o[0].channel.edge_num = 853
+VariableBandWidthMesh_16_16.router235.out$o[1].channel.bw = 52
+VariableBandWidthMesh_16_16.router235.out$o[1].channel.edge_num = 909
+VariableBandWidthMesh_16_16.router235.out$o[2].channel.bw = 104
+VariableBandWidthMesh_16_16.router235.out$o[2].channel.edge_num = 912
+VariableBandWidthMesh_16_16.router235.out$o[3].channel.bw = 59
+VariableBandWidthMesh_16_16.router235.out$o[3].channel.edge_num = 914
+
+VariableBandWidthMesh_16_16.router236.out$o[0].channel.bw = 106
+VariableBandWidthMesh_16_16.router236.out$o[0].channel.edge_num = 857
+VariableBandWidthMesh_16_16.router236.out$o[1].channel.bw = 61
+VariableBandWidthMesh_16_16.router236.out$o[1].channel.edge_num = 913
+VariableBandWidthMesh_16_16.router236.out$o[2].channel.bw = 97
+VariableBandWidthMesh_16_16.router236.out$o[2].channel.edge_num = 916
+VariableBandWidthMesh_16_16.router236.out$o[3].channel.bw = 49
+VariableBandWidthMesh_16_16.router236.out$o[3].channel.edge_num = 918
+
+VariableBandWidthMesh_16_16.router237.out$o[0].channel.bw = 106
+VariableBandWidthMesh_16_16.router237.out$o[0].channel.edge_num = 861
+VariableBandWidthMesh_16_16.router237.out$o[1].channel.bw = 54
+VariableBandWidthMesh_16_16.router237.out$o[1].channel.edge_num = 917
+VariableBandWidthMesh_16_16.router237.out$o[2].channel.bw = 79
+VariableBandWidthMesh_16_16.router237.out$o[2].channel.edge_num = 920
+VariableBandWidthMesh_16_16.router237.out$o[3].channel.bw = 70
+VariableBandWidthMesh_16_16.router237.out$o[3].channel.edge_num = 922
+
+VariableBandWidthMesh_16_16.router238.out$o[0].channel.bw = 116
+VariableBandWidthMesh_16_16.router238.out$o[0].channel.edge_num = 865
+VariableBandWidthMesh_16_16.router238.out$o[1].channel.bw = 36
+VariableBandWidthMesh_16_16.router238.out$o[1].channel.edge_num = 921
+VariableBandWidthMesh_16_16.router238.out$o[2].channel.bw = 35
+VariableBandWidthMesh_16_16.router238.out$o[2].channel.edge_num = 924
+VariableBandWidthMesh_16_16.router238.out$o[3].channel.bw = 39
+VariableBandWidthMesh_16_16.router238.out$o[3].channel.edge_num = 926
+
+VariableBandWidthMesh_16_16.router239.out$o[0].channel.bw = 14
+VariableBandWidthMesh_16_16.router239.out$o[0].channel.edge_num = 867
+VariableBandWidthMesh_16_16.router239.out$o[1].channel.bw = 7
+VariableBandWidthMesh_16_16.router239.out$o[1].channel.edge_num = 925
+VariableBandWidthMesh_16_16.router239.out$o[2].channel.bw = 65
+VariableBandWidthMesh_16_16.router239.out$o[2].channel.edge_num = 928
+
+VariableBandWidthMesh_16_16.router240.out$o[0].channel.bw = 85
+VariableBandWidthMesh_16_16.router240.out$o[0].channel.edge_num = 871
+VariableBandWidthMesh_16_16.router240.out$o[1].channel.bw = 34
+VariableBandWidthMesh_16_16.router240.out$o[1].channel.edge_num = 930
+
+VariableBandWidthMesh_16_16.router241.out$o[0].channel.bw = 97
+VariableBandWidthMesh_16_16.router241.out$o[0].channel.edge_num = 875
+VariableBandWidthMesh_16_16.router241.out$o[1].channel.bw = 20
+VariableBandWidthMesh_16_16.router241.out$o[1].channel.edge_num = 931
+VariableBandWidthMesh_16_16.router241.out$o[2].channel.bw = 32
+VariableBandWidthMesh_16_16.router241.out$o[2].channel.edge_num = 932
+
+VariableBandWidthMesh_16_16.router242.out$o[0].channel.bw = 32
+VariableBandWidthMesh_16_16.router242.out$o[0].channel.edge_num = 879
+VariableBandWidthMesh_16_16.router242.out$o[1].channel.bw = 23
+VariableBandWidthMesh_16_16.router242.out$o[1].channel.edge_num = 933
+VariableBandWidthMesh_16_16.router242.out$o[2].channel.bw = 57
+VariableBandWidthMesh_16_16.router242.out$o[2].channel.edge_num = 934
+
+VariableBandWidthMesh_16_16.router243.out$o[0].channel.bw = 65
+VariableBandWidthMesh_16_16.router243.out$o[0].channel.edge_num = 883
+VariableBandWidthMesh_16_16.router243.out$o[1].channel.bw = 34
+VariableBandWidthMesh_16_16.router243.out$o[1].channel.edge_num = 935
+VariableBandWidthMesh_16_16.router243.out$o[2].channel.bw = 50
+VariableBandWidthMesh_16_16.router243.out$o[2].channel.edge_num = 936
+
+VariableBandWidthMesh_16_16.router244.out$o[0].channel.bw = 37
+VariableBandWidthMesh_16_16.router244.out$o[0].channel.edge_num = 887
+VariableBandWidthMesh_16_16.router244.out$o[1].channel.bw = 31
+VariableBandWidthMesh_16_16.router244.out$o[1].channel.edge_num = 937
+VariableBandWidthMesh_16_16.router244.out$o[2].channel.bw = 83
+VariableBandWidthMesh_16_16.router244.out$o[2].channel.edge_num = 938
+
+VariableBandWidthMesh_16_16.router245.out$o[0].channel.bw = 2
+VariableBandWidthMesh_16_16.router245.out$o[0].channel.edge_num = 891
+VariableBandWidthMesh_16_16.router245.out$o[1].channel.bw = 17
+VariableBandWidthMesh_16_16.router245.out$o[1].channel.edge_num = 939
+VariableBandWidthMesh_16_16.router245.out$o[2].channel.bw = 99
+VariableBandWidthMesh_16_16.router245.out$o[2].channel.edge_num = 940
+
+VariableBandWidthMesh_16_16.router246.out$o[0].channel.bw = 12
+VariableBandWidthMesh_16_16.router246.out$o[0].channel.edge_num = 895
+VariableBandWidthMesh_16_16.router246.out$o[1].channel.bw = 22
+VariableBandWidthMesh_16_16.router246.out$o[1].channel.edge_num = 941
+VariableBandWidthMesh_16_16.router246.out$o[2].channel.bw = 73
+VariableBandWidthMesh_16_16.router246.out$o[2].channel.edge_num = 942
+
+VariableBandWidthMesh_16_16.router247.out$o[0].channel.bw = 14
+VariableBandWidthMesh_16_16.router247.out$o[0].channel.edge_num = 899
+VariableBandWidthMesh_16_16.router247.out$o[1].channel.bw = 34
+VariableBandWidthMesh_16_16.router247.out$o[1].channel.edge_num = 943
+VariableBandWidthMesh_16_16.router247.out$o[2].channel.bw = 61
+VariableBandWidthMesh_16_16.router247.out$o[2].channel.edge_num = 944
+
+VariableBandWidthMesh_16_16.router248.out$o[0].channel.bw = 130
+VariableBandWidthMesh_16_16.router248.out$o[0].channel.edge_num = 903
+VariableBandWidthMesh_16_16.router248.out$o[1].channel.bw = 17
+VariableBandWidthMesh_16_16.router248.out$o[1].channel.edge_num = 945
+VariableBandWidthMesh_16_16.router248.out$o[2].channel.bw = 49
+VariableBandWidthMesh_16_16.router248.out$o[2].channel.edge_num = 946
+
+VariableBandWidthMesh_16_16.router249.out$o[0].channel.bw = 80
+VariableBandWidthMesh_16_16.router249.out$o[0].channel.edge_num = 907
+VariableBandWidthMesh_16_16.router249.out$o[1].channel.bw = 39
+VariableBandWidthMesh_16_16.router249.out$o[1].channel.edge_num = 947
+VariableBandWidthMesh_16_16.router249.out$o[2].channel.bw = 54
+VariableBandWidthMesh_16_16.router249.out$o[2].channel.edge_num = 948
+
+VariableBandWidthMesh_16_16.router250.out$o[0].channel.bw = 65
+VariableBandWidthMesh_16_16.router250.out$o[0].channel.edge_num = 911
+VariableBandWidthMesh_16_16.router250.out$o[1].channel.bw = 43
+VariableBandWidthMesh_16_16.router250.out$o[1].channel.edge_num = 949
+VariableBandWidthMesh_16_16.router250.out$o[2].channel.bw = 31
+VariableBandWidthMesh_16_16.router250.out$o[2].channel.edge_num = 950
+
+VariableBandWidthMesh_16_16.router251.out$o[0].channel.bw = 14
+VariableBandWidthMesh_16_16.router251.out$o[0].channel.edge_num = 915
+VariableBandWidthMesh_16_16.router251.out$o[1].channel.bw = 62
+VariableBandWidthMesh_16_16.router251.out$o[1].channel.edge_num = 951
+VariableBandWidthMesh_16_16.router251.out$o[2].channel.bw = 29
+VariableBandWidthMesh_16_16.router251.out$o[2].channel.edge_num = 952
+
+VariableBandWidthMesh_16_16.router252.out$o[0].channel.bw = 62
+VariableBandWidthMesh_16_16.router252.out$o[0].channel.edge_num = 919
+VariableBandWidthMesh_16_16.router252.out$o[1].channel.bw = 55
+VariableBandWidthMesh_16_16.router252.out$o[1].channel.edge_num = 953
+VariableBandWidthMesh_16_16.router252.out$o[2].channel.bw = 19
+VariableBandWidthMesh_16_16.router252.out$o[2].channel.edge_num = 954
+
+VariableBandWidthMesh_16_16.router253.out$o[0].channel.bw = 28
+VariableBandWidthMesh_16_16.router253.out$o[0].channel.edge_num = 923
+VariableBandWidthMesh_16_16.router253.out$o[1].channel.bw = 54
+VariableBandWidthMesh_16_16.router253.out$o[1].channel.edge_num = 955
+VariableBandWidthMesh_16_16.router253.out$o[2].channel.bw = 23
+VariableBandWidthMesh_16_16.router253.out$o[2].channel.edge_num = 956
+
+VariableBandWidthMesh_16_16.router254.out$o[0].channel.bw = 86
+VariableBandWidthMesh_16_16.router254.out$o[0].channel.edge_num = 927
+VariableBandWidthMesh_16_16.router254.out$o[1].channel.bw = 37
+VariableBandWidthMesh_16_16.router254.out$o[1].channel.edge_num = 957
+VariableBandWidthMesh_16_16.router254.out$o[2].channel.bw = 0
+VariableBandWidthMesh_16_16.router254.out$o[2].channel.edge_num = 958
+
+VariableBandWidthMesh_16_16.router255.out$o[0].channel.bw = 3
+VariableBandWidthMesh_16_16.router255.out$o[0].channel.edge_num = 929
+VariableBandWidthMesh_16_16.router255.out$o[1].channel.bw = 16
+VariableBandWidthMesh_16_16.router255.out$o[1].channel.edge_num = 959
+
+**.channel.edge_num = -1
+**.channel.bw = 0

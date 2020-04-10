@@ -1,0 +1,1802 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = efnoc.fattree.S_32.Robot.mcsl_rtp
+
+**.timeslots = 8
+**.source.fileName = "../mcsl.rtp"
+# Edges total wire width:206, Edges: 768 Average: 0.268229
+# Edges total wire cost:486.606, Edges: 768 Average: 0.633602
+mcsl_rtp.router0.out$o[0].channel.bw = 3
+mcsl_rtp.router0.out$o[0].channel.edge_num = 0
+
+mcsl_rtp.router1.out$o[0].channel.bw = 1
+mcsl_rtp.router1.out$o[0].channel.edge_num = 1
+
+mcsl_rtp.router2.out$o[0].channel.bw = 4
+mcsl_rtp.router2.out$o[0].channel.edge_num = 4
+
+mcsl_rtp.router3.out$o[0].channel.bw = 7
+mcsl_rtp.router3.out$o[0].channel.edge_num = 5
+
+mcsl_rtp.router4.out$o[0].channel.bw = 6
+mcsl_rtp.router4.out$o[0].channel.edge_num = 16
+
+mcsl_rtp.router5.out$o[0].channel.bw = 2
+mcsl_rtp.router5.out$o[0].channel.edge_num = 17
+
+mcsl_rtp.router6.out$o[0].channel.bw = 2
+mcsl_rtp.router6.out$o[0].channel.edge_num = 20
+
+mcsl_rtp.router7.out$o[0].channel.bw = 3
+mcsl_rtp.router7.out$o[0].channel.edge_num = 21
+
+mcsl_rtp.router8.out$o[0].channel.bw = 4
+mcsl_rtp.router8.out$o[0].channel.edge_num = 48
+
+mcsl_rtp.router9.out$o[0].channel.bw = 2
+mcsl_rtp.router9.out$o[0].channel.edge_num = 49
+
+mcsl_rtp.router10.out$o[0].channel.bw = 1
+mcsl_rtp.router10.out$o[0].channel.edge_num = 52
+
+mcsl_rtp.router11.out$o[0].channel.bw = 3
+mcsl_rtp.router11.out$o[0].channel.edge_num = 53
+
+mcsl_rtp.router12.out$o[0].channel.bw = 2
+mcsl_rtp.router12.out$o[0].channel.edge_num = 64
+
+mcsl_rtp.router13.out$o[0].channel.bw = 1
+mcsl_rtp.router13.out$o[0].channel.edge_num = 65
+
+mcsl_rtp.router14.out$o[0].channel.bw = 0
+mcsl_rtp.router14.out$o[0].channel.edge_num = 68
+
+mcsl_rtp.router15.out$o[0].channel.bw = 0
+mcsl_rtp.router15.out$o[0].channel.edge_num = 69
+
+mcsl_rtp.router16.out$o[0].channel.bw = 0
+mcsl_rtp.router16.out$o[0].channel.edge_num = 128
+
+mcsl_rtp.router17.out$o[0].channel.bw = 0
+mcsl_rtp.router17.out$o[0].channel.edge_num = 129
+
+mcsl_rtp.router18.out$o[0].channel.bw = 0
+mcsl_rtp.router18.out$o[0].channel.edge_num = 132
+
+mcsl_rtp.router19.out$o[0].channel.bw = 0
+mcsl_rtp.router19.out$o[0].channel.edge_num = 133
+
+mcsl_rtp.router20.out$o[0].channel.bw = 0
+mcsl_rtp.router20.out$o[0].channel.edge_num = 144
+
+mcsl_rtp.router21.out$o[0].channel.bw = 0
+mcsl_rtp.router21.out$o[0].channel.edge_num = 145
+
+mcsl_rtp.router22.out$o[0].channel.bw = 0
+mcsl_rtp.router22.out$o[0].channel.edge_num = 148
+
+mcsl_rtp.router23.out$o[0].channel.bw = 0
+mcsl_rtp.router23.out$o[0].channel.edge_num = 149
+
+mcsl_rtp.router24.out$o[0].channel.bw = 0
+mcsl_rtp.router24.out$o[0].channel.edge_num = 176
+
+mcsl_rtp.router25.out$o[0].channel.bw = 0
+mcsl_rtp.router25.out$o[0].channel.edge_num = 177
+
+mcsl_rtp.router26.out$o[0].channel.bw = 0
+mcsl_rtp.router26.out$o[0].channel.edge_num = 180
+
+mcsl_rtp.router27.out$o[0].channel.bw = 0
+mcsl_rtp.router27.out$o[0].channel.edge_num = 181
+
+mcsl_rtp.router28.out$o[0].channel.bw = 0
+mcsl_rtp.router28.out$o[0].channel.edge_num = 192
+
+mcsl_rtp.router29.out$o[0].channel.bw = 0
+mcsl_rtp.router29.out$o[0].channel.edge_num = 193
+
+mcsl_rtp.router30.out$o[0].channel.bw = 0
+mcsl_rtp.router30.out$o[0].channel.edge_num = 196
+
+mcsl_rtp.router31.out$o[0].channel.bw = 0
+mcsl_rtp.router31.out$o[0].channel.edge_num = 197
+
+mcsl_rtp.router32.out$o[0].channel.bw = 0
+mcsl_rtp.router32.out$o[0].channel.edge_num = 320
+
+mcsl_rtp.router33.out$o[0].channel.bw = 0
+mcsl_rtp.router33.out$o[0].channel.edge_num = 321
+
+mcsl_rtp.router34.out$o[0].channel.bw = 0
+mcsl_rtp.router34.out$o[0].channel.edge_num = 324
+
+mcsl_rtp.router35.out$o[0].channel.bw = 0
+mcsl_rtp.router35.out$o[0].channel.edge_num = 325
+
+mcsl_rtp.router36.out$o[0].channel.bw = 0
+mcsl_rtp.router36.out$o[0].channel.edge_num = 336
+
+mcsl_rtp.router37.out$o[0].channel.bw = 0
+mcsl_rtp.router37.out$o[0].channel.edge_num = 337
+
+mcsl_rtp.router38.out$o[0].channel.bw = 0
+mcsl_rtp.router38.out$o[0].channel.edge_num = 340
+
+mcsl_rtp.router39.out$o[0].channel.bw = 0
+mcsl_rtp.router39.out$o[0].channel.edge_num = 341
+
+mcsl_rtp.router40.out$o[0].channel.bw = 0
+mcsl_rtp.router40.out$o[0].channel.edge_num = 368
+
+mcsl_rtp.router41.out$o[0].channel.bw = 0
+mcsl_rtp.router41.out$o[0].channel.edge_num = 369
+
+mcsl_rtp.router42.out$o[0].channel.bw = 0
+mcsl_rtp.router42.out$o[0].channel.edge_num = 372
+
+mcsl_rtp.router43.out$o[0].channel.bw = 0
+mcsl_rtp.router43.out$o[0].channel.edge_num = 373
+
+mcsl_rtp.router44.out$o[0].channel.bw = 0
+mcsl_rtp.router44.out$o[0].channel.edge_num = 384
+
+mcsl_rtp.router45.out$o[0].channel.bw = 0
+mcsl_rtp.router45.out$o[0].channel.edge_num = 385
+
+mcsl_rtp.router46.out$o[0].channel.bw = 0
+mcsl_rtp.router46.out$o[0].channel.edge_num = 388
+
+mcsl_rtp.router47.out$o[0].channel.bw = 0
+mcsl_rtp.router47.out$o[0].channel.edge_num = 389
+
+mcsl_rtp.router48.out$o[0].channel.bw = 0
+mcsl_rtp.router48.out$o[0].channel.edge_num = 448
+
+mcsl_rtp.router49.out$o[0].channel.bw = 0
+mcsl_rtp.router49.out$o[0].channel.edge_num = 449
+
+mcsl_rtp.router50.out$o[0].channel.bw = 0
+mcsl_rtp.router50.out$o[0].channel.edge_num = 452
+
+mcsl_rtp.router51.out$o[0].channel.bw = 0
+mcsl_rtp.router51.out$o[0].channel.edge_num = 453
+
+mcsl_rtp.router52.out$o[0].channel.bw = 0
+mcsl_rtp.router52.out$o[0].channel.edge_num = 464
+
+mcsl_rtp.router53.out$o[0].channel.bw = 0
+mcsl_rtp.router53.out$o[0].channel.edge_num = 465
+
+mcsl_rtp.router54.out$o[0].channel.bw = 0
+mcsl_rtp.router54.out$o[0].channel.edge_num = 468
+
+mcsl_rtp.router55.out$o[0].channel.bw = 0
+mcsl_rtp.router55.out$o[0].channel.edge_num = 469
+
+mcsl_rtp.router56.out$o[0].channel.bw = 0
+mcsl_rtp.router56.out$o[0].channel.edge_num = 496
+
+mcsl_rtp.router57.out$o[0].channel.bw = 0
+mcsl_rtp.router57.out$o[0].channel.edge_num = 497
+
+mcsl_rtp.router58.out$o[0].channel.bw = 0
+mcsl_rtp.router58.out$o[0].channel.edge_num = 500
+
+mcsl_rtp.router59.out$o[0].channel.bw = 0
+mcsl_rtp.router59.out$o[0].channel.edge_num = 501
+
+mcsl_rtp.router60.out$o[0].channel.bw = 0
+mcsl_rtp.router60.out$o[0].channel.edge_num = 512
+
+mcsl_rtp.router61.out$o[0].channel.bw = 0
+mcsl_rtp.router61.out$o[0].channel.edge_num = 513
+
+mcsl_rtp.router62.out$o[0].channel.bw = 0
+mcsl_rtp.router62.out$o[0].channel.edge_num = 516
+
+mcsl_rtp.router63.out$o[0].channel.bw = 0
+mcsl_rtp.router63.out$o[0].channel.edge_num = 517
+
+mcsl_rtp.router64.out$o[0].channel.bw = 0
+mcsl_rtp.router64.out$o[0].channel.edge_num = 160
+mcsl_rtp.router64.out$o[1].channel.bw = 0
+mcsl_rtp.router64.out$o[1].channel.edge_num = 162
+mcsl_rtp.router64.out$o[2].channel.bw = 0
+mcsl_rtp.router64.out$o[2].channel.edge_num = 225
+mcsl_rtp.router64.out$o[3].channel.bw = 0
+mcsl_rtp.router64.out$o[3].channel.edge_num = 229
+
+mcsl_rtp.router65.out$o[0].channel.bw = 0
+mcsl_rtp.router65.out$o[0].channel.edge_num = 164
+mcsl_rtp.router65.out$o[1].channel.bw = 0
+mcsl_rtp.router65.out$o[1].channel.edge_num = 166
+mcsl_rtp.router65.out$o[2].channel.bw = 0
+mcsl_rtp.router65.out$o[2].channel.edge_num = 233
+mcsl_rtp.router65.out$o[3].channel.bw = 0
+mcsl_rtp.router65.out$o[3].channel.edge_num = 237
+
+mcsl_rtp.router66.out$o[0].channel.bw = 0
+mcsl_rtp.router66.out$o[0].channel.edge_num = 168
+mcsl_rtp.router66.out$o[1].channel.bw = 0
+mcsl_rtp.router66.out$o[1].channel.edge_num = 170
+mcsl_rtp.router66.out$o[2].channel.bw = 0
+mcsl_rtp.router66.out$o[2].channel.edge_num = 241
+mcsl_rtp.router66.out$o[3].channel.bw = 0
+mcsl_rtp.router66.out$o[3].channel.edge_num = 245
+
+mcsl_rtp.router67.out$o[0].channel.bw = 0
+mcsl_rtp.router67.out$o[0].channel.edge_num = 172
+mcsl_rtp.router67.out$o[1].channel.bw = 0
+mcsl_rtp.router67.out$o[1].channel.edge_num = 174
+mcsl_rtp.router67.out$o[2].channel.bw = 0
+mcsl_rtp.router67.out$o[2].channel.edge_num = 249
+mcsl_rtp.router67.out$o[3].channel.bw = 0
+mcsl_rtp.router67.out$o[3].channel.edge_num = 253
+
+mcsl_rtp.router68.out$o[0].channel.bw = 0
+mcsl_rtp.router68.out$o[0].channel.edge_num = 8
+mcsl_rtp.router68.out$o[1].channel.bw = 3
+mcsl_rtp.router68.out$o[1].channel.edge_num = 10
+mcsl_rtp.router68.out$o[2].channel.bw = 6
+mcsl_rtp.router68.out$o[2].channel.edge_num = 33
+mcsl_rtp.router68.out$o[3].channel.bw = 0
+mcsl_rtp.router68.out$o[3].channel.edge_num = 37
+
+mcsl_rtp.router69.out$o[0].channel.bw = 2
+mcsl_rtp.router69.out$o[0].channel.edge_num = 54
+mcsl_rtp.router69.out$o[1].channel.bw = 4
+mcsl_rtp.router69.out$o[1].channel.edge_num = 55
+mcsl_rtp.router69.out$o[2].channel.bw = 3
+mcsl_rtp.router69.out$o[2].channel.edge_num = 59
+mcsl_rtp.router69.out$o[3].channel.bw = 1
+mcsl_rtp.router69.out$o[3].channel.edge_num = 63
+
+mcsl_rtp.router70.out$o[0].channel.bw = 0
+mcsl_rtp.router70.out$o[0].channel.edge_num = 178
+mcsl_rtp.router70.out$o[1].channel.bw = 0
+mcsl_rtp.router70.out$o[1].channel.edge_num = 179
+mcsl_rtp.router70.out$o[2].channel.bw = 0
+mcsl_rtp.router70.out$o[2].channel.edge_num = 185
+mcsl_rtp.router70.out$o[3].channel.bw = 0
+mcsl_rtp.router70.out$o[3].channel.edge_num = 189
+
+mcsl_rtp.router71.out$o[0].channel.bw = 5
+mcsl_rtp.router71.out$o[0].channel.edge_num = 56
+mcsl_rtp.router71.out$o[1].channel.bw = 5
+mcsl_rtp.router71.out$o[1].channel.edge_num = 58
+mcsl_rtp.router71.out$o[2].channel.bw = 5
+mcsl_rtp.router71.out$o[2].channel.edge_num = 81
+mcsl_rtp.router71.out$o[3].channel.bw = 0
+mcsl_rtp.router71.out$o[3].channel.edge_num = 85
+
+mcsl_rtp.router72.out$o[0].channel.bw = 0
+mcsl_rtp.router72.out$o[0].channel.edge_num = 60
+mcsl_rtp.router72.out$o[1].channel.bw = 0
+mcsl_rtp.router72.out$o[1].channel.edge_num = 62
+mcsl_rtp.router72.out$o[2].channel.bw = 1
+mcsl_rtp.router72.out$o[2].channel.edge_num = 89
+mcsl_rtp.router72.out$o[3].channel.bw = 0
+mcsl_rtp.router72.out$o[3].channel.edge_num = 93
+
+mcsl_rtp.router73.out$o[0].channel.bw = 0
+mcsl_rtp.router73.out$o[0].channel.edge_num = 182
+mcsl_rtp.router73.out$o[1].channel.bw = 0
+mcsl_rtp.router73.out$o[1].channel.edge_num = 183
+mcsl_rtp.router73.out$o[2].channel.bw = 0
+mcsl_rtp.router73.out$o[2].channel.edge_num = 187
+mcsl_rtp.router73.out$o[3].channel.bw = 0
+mcsl_rtp.router73.out$o[3].channel.edge_num = 191
+
+mcsl_rtp.router74.out$o[0].channel.bw = 0
+mcsl_rtp.router74.out$o[0].channel.edge_num = 184
+mcsl_rtp.router74.out$o[1].channel.bw = 0
+mcsl_rtp.router74.out$o[1].channel.edge_num = 186
+mcsl_rtp.router74.out$o[2].channel.bw = 0
+mcsl_rtp.router74.out$o[2].channel.edge_num = 209
+mcsl_rtp.router74.out$o[3].channel.bw = 0
+mcsl_rtp.router74.out$o[3].channel.edge_num = 213
+
+mcsl_rtp.router75.out$o[0].channel.bw = 0
+mcsl_rtp.router75.out$o[0].channel.edge_num = 188
+mcsl_rtp.router75.out$o[1].channel.bw = 0
+mcsl_rtp.router75.out$o[1].channel.edge_num = 190
+mcsl_rtp.router75.out$o[2].channel.bw = 0
+mcsl_rtp.router75.out$o[2].channel.edge_num = 217
+mcsl_rtp.router75.out$o[3].channel.bw = 0
+mcsl_rtp.router75.out$o[3].channel.edge_num = 221
+
+mcsl_rtp.router76.out$o[0].channel.bw = 4
+mcsl_rtp.router76.out$o[0].channel.edge_num = 12
+mcsl_rtp.router76.out$o[1].channel.bw = 0
+mcsl_rtp.router76.out$o[1].channel.edge_num = 14
+mcsl_rtp.router76.out$o[2].channel.bw = 0
+mcsl_rtp.router76.out$o[2].channel.edge_num = 41
+mcsl_rtp.router76.out$o[3].channel.bw = 0
+mcsl_rtp.router76.out$o[3].channel.edge_num = 45
+
+mcsl_rtp.router77.out$o[0].channel.bw = 3
+mcsl_rtp.router77.out$o[0].channel.edge_num = 22
+mcsl_rtp.router77.out$o[1].channel.bw = 3
+mcsl_rtp.router77.out$o[1].channel.edge_num = 23
+mcsl_rtp.router77.out$o[2].channel.bw = 3
+mcsl_rtp.router77.out$o[2].channel.edge_num = 27
+mcsl_rtp.router77.out$o[3].channel.bw = 1
+mcsl_rtp.router77.out$o[3].channel.edge_num = 31
+
+mcsl_rtp.router78.out$o[0].channel.bw = 0
+mcsl_rtp.router78.out$o[0].channel.edge_num = 194
+mcsl_rtp.router78.out$o[1].channel.bw = 0
+mcsl_rtp.router78.out$o[1].channel.edge_num = 195
+mcsl_rtp.router78.out$o[2].channel.bw = 0
+mcsl_rtp.router78.out$o[2].channel.edge_num = 201
+mcsl_rtp.router78.out$o[3].channel.bw = 0
+mcsl_rtp.router78.out$o[3].channel.edge_num = 205
+
+mcsl_rtp.router79.out$o[0].channel.bw = 3
+mcsl_rtp.router79.out$o[0].channel.edge_num = 66
+mcsl_rtp.router79.out$o[1].channel.bw = 2
+mcsl_rtp.router79.out$o[1].channel.edge_num = 67
+mcsl_rtp.router79.out$o[2].channel.bw = 2
+mcsl_rtp.router79.out$o[2].channel.edge_num = 73
+mcsl_rtp.router79.out$o[3].channel.bw = 0
+mcsl_rtp.router79.out$o[3].channel.edge_num = 77
+
+mcsl_rtp.router80.out$o[0].channel.bw = 5
+mcsl_rtp.router80.out$o[0].channel.edge_num = 24
+mcsl_rtp.router80.out$o[1].channel.bw = 4
+mcsl_rtp.router80.out$o[1].channel.edge_num = 26
+mcsl_rtp.router80.out$o[2].channel.bw = 4
+mcsl_rtp.router80.out$o[2].channel.edge_num = 35
+mcsl_rtp.router80.out$o[3].channel.bw = 0
+mcsl_rtp.router80.out$o[3].channel.edge_num = 39
+
+mcsl_rtp.router81.out$o[0].channel.bw = 0
+mcsl_rtp.router81.out$o[0].channel.edge_num = 198
+mcsl_rtp.router81.out$o[1].channel.bw = 0
+mcsl_rtp.router81.out$o[1].channel.edge_num = 199
+mcsl_rtp.router81.out$o[2].channel.bw = 0
+mcsl_rtp.router81.out$o[2].channel.edge_num = 203
+mcsl_rtp.router81.out$o[3].channel.bw = 0
+mcsl_rtp.router81.out$o[3].channel.edge_num = 207
+
+mcsl_rtp.router82.out$o[0].channel.bw = 0
+mcsl_rtp.router82.out$o[0].channel.edge_num = 200
+mcsl_rtp.router82.out$o[1].channel.bw = 0
+mcsl_rtp.router82.out$o[1].channel.edge_num = 202
+mcsl_rtp.router82.out$o[2].channel.bw = 0
+mcsl_rtp.router82.out$o[2].channel.edge_num = 211
+mcsl_rtp.router82.out$o[3].channel.bw = 0
+mcsl_rtp.router82.out$o[3].channel.edge_num = 215
+
+mcsl_rtp.router83.out$o[0].channel.bw = 0
+mcsl_rtp.router83.out$o[0].channel.edge_num = 204
+mcsl_rtp.router83.out$o[1].channel.bw = 0
+mcsl_rtp.router83.out$o[1].channel.edge_num = 206
+mcsl_rtp.router83.out$o[2].channel.bw = 0
+mcsl_rtp.router83.out$o[2].channel.edge_num = 219
+mcsl_rtp.router83.out$o[3].channel.bw = 0
+mcsl_rtp.router83.out$o[3].channel.edge_num = 223
+
+mcsl_rtp.router84.out$o[0].channel.bw = 0
+mcsl_rtp.router84.out$o[0].channel.edge_num = 208
+mcsl_rtp.router84.out$o[1].channel.bw = 0
+mcsl_rtp.router84.out$o[1].channel.edge_num = 210
+mcsl_rtp.router84.out$o[2].channel.bw = 0
+mcsl_rtp.router84.out$o[2].channel.edge_num = 227
+mcsl_rtp.router84.out$o[3].channel.bw = 0
+mcsl_rtp.router84.out$o[3].channel.edge_num = 231
+
+mcsl_rtp.router85.out$o[0].channel.bw = 0
+mcsl_rtp.router85.out$o[0].channel.edge_num = 212
+mcsl_rtp.router85.out$o[1].channel.bw = 0
+mcsl_rtp.router85.out$o[1].channel.edge_num = 214
+mcsl_rtp.router85.out$o[2].channel.bw = 0
+mcsl_rtp.router85.out$o[2].channel.edge_num = 235
+mcsl_rtp.router85.out$o[3].channel.bw = 0
+mcsl_rtp.router85.out$o[3].channel.edge_num = 239
+
+mcsl_rtp.router86.out$o[0].channel.bw = 0
+mcsl_rtp.router86.out$o[0].channel.edge_num = 216
+mcsl_rtp.router86.out$o[1].channel.bw = 0
+mcsl_rtp.router86.out$o[1].channel.edge_num = 218
+mcsl_rtp.router86.out$o[2].channel.bw = 0
+mcsl_rtp.router86.out$o[2].channel.edge_num = 243
+mcsl_rtp.router86.out$o[3].channel.bw = 0
+mcsl_rtp.router86.out$o[3].channel.edge_num = 247
+
+mcsl_rtp.router87.out$o[0].channel.bw = 0
+mcsl_rtp.router87.out$o[0].channel.edge_num = 220
+mcsl_rtp.router87.out$o[1].channel.bw = 0
+mcsl_rtp.router87.out$o[1].channel.edge_num = 222
+mcsl_rtp.router87.out$o[2].channel.bw = 0
+mcsl_rtp.router87.out$o[2].channel.edge_num = 251
+mcsl_rtp.router87.out$o[3].channel.bw = 0
+mcsl_rtp.router87.out$o[3].channel.edge_num = 255
+
+mcsl_rtp.router88.out$o[0].channel.bw = 0
+mcsl_rtp.router88.out$o[0].channel.edge_num = 224
+mcsl_rtp.router88.out$o[1].channel.bw = 0
+mcsl_rtp.router88.out$o[1].channel.edge_num = 226
+mcsl_rtp.router88.out$o[2].channel.bw = 0
+mcsl_rtp.router88.out$o[2].channel.edge_num = 259
+mcsl_rtp.router88.out$o[3].channel.bw = 0
+mcsl_rtp.router88.out$o[3].channel.edge_num = 263
+
+mcsl_rtp.router89.out$o[0].channel.bw = 0
+mcsl_rtp.router89.out$o[0].channel.edge_num = 228
+mcsl_rtp.router89.out$o[1].channel.bw = 0
+mcsl_rtp.router89.out$o[1].channel.edge_num = 230
+mcsl_rtp.router89.out$o[2].channel.bw = 0
+mcsl_rtp.router89.out$o[2].channel.edge_num = 267
+mcsl_rtp.router89.out$o[3].channel.bw = 0
+mcsl_rtp.router89.out$o[3].channel.edge_num = 271
+
+mcsl_rtp.router90.out$o[0].channel.bw = 0
+mcsl_rtp.router90.out$o[0].channel.edge_num = 232
+mcsl_rtp.router90.out$o[1].channel.bw = 0
+mcsl_rtp.router90.out$o[1].channel.edge_num = 234
+mcsl_rtp.router90.out$o[2].channel.bw = 0
+mcsl_rtp.router90.out$o[2].channel.edge_num = 275
+mcsl_rtp.router90.out$o[3].channel.bw = 0
+mcsl_rtp.router90.out$o[3].channel.edge_num = 279
+
+mcsl_rtp.router91.out$o[0].channel.bw = 0
+mcsl_rtp.router91.out$o[0].channel.edge_num = 236
+mcsl_rtp.router91.out$o[1].channel.bw = 0
+mcsl_rtp.router91.out$o[1].channel.edge_num = 238
+mcsl_rtp.router91.out$o[2].channel.bw = 0
+mcsl_rtp.router91.out$o[2].channel.edge_num = 283
+mcsl_rtp.router91.out$o[3].channel.bw = 0
+mcsl_rtp.router91.out$o[3].channel.edge_num = 287
+
+mcsl_rtp.router92.out$o[0].channel.bw = 0
+mcsl_rtp.router92.out$o[0].channel.edge_num = 240
+mcsl_rtp.router92.out$o[1].channel.bw = 0
+mcsl_rtp.router92.out$o[1].channel.edge_num = 242
+mcsl_rtp.router92.out$o[2].channel.bw = 0
+mcsl_rtp.router92.out$o[2].channel.edge_num = 291
+mcsl_rtp.router92.out$o[3].channel.bw = 0
+mcsl_rtp.router92.out$o[3].channel.edge_num = 295
+
+mcsl_rtp.router93.out$o[0].channel.bw = 0
+mcsl_rtp.router93.out$o[0].channel.edge_num = 244
+mcsl_rtp.router93.out$o[1].channel.bw = 0
+mcsl_rtp.router93.out$o[1].channel.edge_num = 246
+mcsl_rtp.router93.out$o[2].channel.bw = 0
+mcsl_rtp.router93.out$o[2].channel.edge_num = 299
+mcsl_rtp.router93.out$o[3].channel.bw = 0
+mcsl_rtp.router93.out$o[3].channel.edge_num = 303
+
+mcsl_rtp.router94.out$o[0].channel.bw = 0
+mcsl_rtp.router94.out$o[0].channel.edge_num = 248
+mcsl_rtp.router94.out$o[1].channel.bw = 0
+mcsl_rtp.router94.out$o[1].channel.edge_num = 250
+mcsl_rtp.router94.out$o[2].channel.bw = 0
+mcsl_rtp.router94.out$o[2].channel.edge_num = 307
+mcsl_rtp.router94.out$o[3].channel.bw = 0
+mcsl_rtp.router94.out$o[3].channel.edge_num = 311
+
+mcsl_rtp.router95.out$o[0].channel.bw = 0
+mcsl_rtp.router95.out$o[0].channel.edge_num = 252
+mcsl_rtp.router95.out$o[1].channel.bw = 0
+mcsl_rtp.router95.out$o[1].channel.edge_num = 254
+mcsl_rtp.router95.out$o[2].channel.bw = 0
+mcsl_rtp.router95.out$o[2].channel.edge_num = 315
+mcsl_rtp.router95.out$o[3].channel.bw = 0
+mcsl_rtp.router95.out$o[3].channel.edge_num = 319
+
+mcsl_rtp.router96.out$o[0].channel.bw = 0
+mcsl_rtp.router96.out$o[0].channel.edge_num = 256
+mcsl_rtp.router96.out$o[1].channel.bw = 0
+mcsl_rtp.router96.out$o[1].channel.edge_num = 258
+mcsl_rtp.router96.out$o[2].channel.bw = 0
+mcsl_rtp.router96.out$o[2].channel.edge_num = 641
+mcsl_rtp.router96.out$o[3].channel.bw = 0
+mcsl_rtp.router96.out$o[3].channel.edge_num = 645
+
+mcsl_rtp.router97.out$o[0].channel.bw = 0
+mcsl_rtp.router97.out$o[0].channel.edge_num = 260
+mcsl_rtp.router97.out$o[1].channel.bw = 0
+mcsl_rtp.router97.out$o[1].channel.edge_num = 262
+mcsl_rtp.router97.out$o[2].channel.bw = 0
+mcsl_rtp.router97.out$o[2].channel.edge_num = 649
+mcsl_rtp.router97.out$o[3].channel.bw = 0
+mcsl_rtp.router97.out$o[3].channel.edge_num = 653
+
+mcsl_rtp.router98.out$o[0].channel.bw = 0
+mcsl_rtp.router98.out$o[0].channel.edge_num = 264
+mcsl_rtp.router98.out$o[1].channel.bw = 0
+mcsl_rtp.router98.out$o[1].channel.edge_num = 266
+mcsl_rtp.router98.out$o[2].channel.bw = 0
+mcsl_rtp.router98.out$o[2].channel.edge_num = 657
+mcsl_rtp.router98.out$o[3].channel.bw = 0
+mcsl_rtp.router98.out$o[3].channel.edge_num = 661
+
+mcsl_rtp.router99.out$o[0].channel.bw = 0
+mcsl_rtp.router99.out$o[0].channel.edge_num = 268
+mcsl_rtp.router99.out$o[1].channel.bw = 0
+mcsl_rtp.router99.out$o[1].channel.edge_num = 270
+mcsl_rtp.router99.out$o[2].channel.bw = 0
+mcsl_rtp.router99.out$o[2].channel.edge_num = 665
+mcsl_rtp.router99.out$o[3].channel.bw = 0
+mcsl_rtp.router99.out$o[3].channel.edge_num = 669
+
+mcsl_rtp.router100.out$o[0].channel.bw = 0
+mcsl_rtp.router100.out$o[0].channel.edge_num = 272
+mcsl_rtp.router100.out$o[1].channel.bw = 0
+mcsl_rtp.router100.out$o[1].channel.edge_num = 274
+mcsl_rtp.router100.out$o[2].channel.bw = 0
+mcsl_rtp.router100.out$o[2].channel.edge_num = 673
+mcsl_rtp.router100.out$o[3].channel.bw = 0
+mcsl_rtp.router100.out$o[3].channel.edge_num = 677
+
+mcsl_rtp.router101.out$o[0].channel.bw = 0
+mcsl_rtp.router101.out$o[0].channel.edge_num = 276
+mcsl_rtp.router101.out$o[1].channel.bw = 0
+mcsl_rtp.router101.out$o[1].channel.edge_num = 278
+mcsl_rtp.router101.out$o[2].channel.bw = 0
+mcsl_rtp.router101.out$o[2].channel.edge_num = 681
+mcsl_rtp.router101.out$o[3].channel.bw = 0
+mcsl_rtp.router101.out$o[3].channel.edge_num = 685
+
+mcsl_rtp.router102.out$o[0].channel.bw = 0
+mcsl_rtp.router102.out$o[0].channel.edge_num = 280
+mcsl_rtp.router102.out$o[1].channel.bw = 0
+mcsl_rtp.router102.out$o[1].channel.edge_num = 282
+mcsl_rtp.router102.out$o[2].channel.bw = 0
+mcsl_rtp.router102.out$o[2].channel.edge_num = 689
+mcsl_rtp.router102.out$o[3].channel.bw = 0
+mcsl_rtp.router102.out$o[3].channel.edge_num = 693
+
+mcsl_rtp.router103.out$o[0].channel.bw = 0
+mcsl_rtp.router103.out$o[0].channel.edge_num = 284
+mcsl_rtp.router103.out$o[1].channel.bw = 0
+mcsl_rtp.router103.out$o[1].channel.edge_num = 286
+mcsl_rtp.router103.out$o[2].channel.bw = 0
+mcsl_rtp.router103.out$o[2].channel.edge_num = 697
+mcsl_rtp.router103.out$o[3].channel.bw = 0
+mcsl_rtp.router103.out$o[3].channel.edge_num = 701
+
+mcsl_rtp.router104.out$o[0].channel.bw = 0
+mcsl_rtp.router104.out$o[0].channel.edge_num = 288
+mcsl_rtp.router104.out$o[1].channel.bw = 0
+mcsl_rtp.router104.out$o[1].channel.edge_num = 290
+mcsl_rtp.router104.out$o[2].channel.bw = 0
+mcsl_rtp.router104.out$o[2].channel.edge_num = 705
+mcsl_rtp.router104.out$o[3].channel.bw = 0
+mcsl_rtp.router104.out$o[3].channel.edge_num = 709
+
+mcsl_rtp.router105.out$o[0].channel.bw = 0
+mcsl_rtp.router105.out$o[0].channel.edge_num = 292
+mcsl_rtp.router105.out$o[1].channel.bw = 0
+mcsl_rtp.router105.out$o[1].channel.edge_num = 294
+mcsl_rtp.router105.out$o[2].channel.bw = 0
+mcsl_rtp.router105.out$o[2].channel.edge_num = 713
+mcsl_rtp.router105.out$o[3].channel.bw = 0
+mcsl_rtp.router105.out$o[3].channel.edge_num = 717
+
+mcsl_rtp.router106.out$o[0].channel.bw = 0
+mcsl_rtp.router106.out$o[0].channel.edge_num = 296
+mcsl_rtp.router106.out$o[1].channel.bw = 0
+mcsl_rtp.router106.out$o[1].channel.edge_num = 298
+mcsl_rtp.router106.out$o[2].channel.bw = 0
+mcsl_rtp.router106.out$o[2].channel.edge_num = 721
+mcsl_rtp.router106.out$o[3].channel.bw = 0
+mcsl_rtp.router106.out$o[3].channel.edge_num = 725
+
+mcsl_rtp.router107.out$o[0].channel.bw = 0
+mcsl_rtp.router107.out$o[0].channel.edge_num = 300
+mcsl_rtp.router107.out$o[1].channel.bw = 0
+mcsl_rtp.router107.out$o[1].channel.edge_num = 302
+mcsl_rtp.router107.out$o[2].channel.bw = 0
+mcsl_rtp.router107.out$o[2].channel.edge_num = 729
+mcsl_rtp.router107.out$o[3].channel.bw = 0
+mcsl_rtp.router107.out$o[3].channel.edge_num = 733
+
+mcsl_rtp.router108.out$o[0].channel.bw = 0
+mcsl_rtp.router108.out$o[0].channel.edge_num = 304
+mcsl_rtp.router108.out$o[1].channel.bw = 0
+mcsl_rtp.router108.out$o[1].channel.edge_num = 306
+mcsl_rtp.router108.out$o[2].channel.bw = 0
+mcsl_rtp.router108.out$o[2].channel.edge_num = 737
+mcsl_rtp.router108.out$o[3].channel.bw = 0
+mcsl_rtp.router108.out$o[3].channel.edge_num = 741
+
+mcsl_rtp.router109.out$o[0].channel.bw = 0
+mcsl_rtp.router109.out$o[0].channel.edge_num = 308
+mcsl_rtp.router109.out$o[1].channel.bw = 0
+mcsl_rtp.router109.out$o[1].channel.edge_num = 310
+mcsl_rtp.router109.out$o[2].channel.bw = 0
+mcsl_rtp.router109.out$o[2].channel.edge_num = 745
+mcsl_rtp.router109.out$o[3].channel.bw = 0
+mcsl_rtp.router109.out$o[3].channel.edge_num = 749
+
+mcsl_rtp.router110.out$o[0].channel.bw = 0
+mcsl_rtp.router110.out$o[0].channel.edge_num = 312
+mcsl_rtp.router110.out$o[1].channel.bw = 0
+mcsl_rtp.router110.out$o[1].channel.edge_num = 314
+mcsl_rtp.router110.out$o[2].channel.bw = 0
+mcsl_rtp.router110.out$o[2].channel.edge_num = 753
+mcsl_rtp.router110.out$o[3].channel.bw = 0
+mcsl_rtp.router110.out$o[3].channel.edge_num = 757
+
+mcsl_rtp.router111.out$o[0].channel.bw = 0
+mcsl_rtp.router111.out$o[0].channel.edge_num = 316
+mcsl_rtp.router111.out$o[1].channel.bw = 0
+mcsl_rtp.router111.out$o[1].channel.edge_num = 318
+mcsl_rtp.router111.out$o[2].channel.bw = 0
+mcsl_rtp.router111.out$o[2].channel.edge_num = 761
+mcsl_rtp.router111.out$o[3].channel.bw = 0
+mcsl_rtp.router111.out$o[3].channel.edge_num = 765
+
+mcsl_rtp.router112.out$o[0].channel.bw = 0
+mcsl_rtp.router112.out$o[0].channel.edge_num = 28
+mcsl_rtp.router112.out$o[1].channel.bw = 0
+mcsl_rtp.router112.out$o[1].channel.edge_num = 30
+mcsl_rtp.router112.out$o[2].channel.bw = 2
+mcsl_rtp.router112.out$o[2].channel.edge_num = 43
+mcsl_rtp.router112.out$o[3].channel.bw = 0
+mcsl_rtp.router112.out$o[3].channel.edge_num = 47
+
+mcsl_rtp.router113.out$o[0].channel.bw = 0
+mcsl_rtp.router113.out$o[0].channel.edge_num = 70
+mcsl_rtp.router113.out$o[1].channel.bw = 0
+mcsl_rtp.router113.out$o[1].channel.edge_num = 71
+mcsl_rtp.router113.out$o[2].channel.bw = 0
+mcsl_rtp.router113.out$o[2].channel.edge_num = 75
+mcsl_rtp.router113.out$o[3].channel.bw = 0
+mcsl_rtp.router113.out$o[3].channel.edge_num = 79
+
+mcsl_rtp.router114.out$o[0].channel.bw = 0
+mcsl_rtp.router114.out$o[0].channel.edge_num = 322
+mcsl_rtp.router114.out$o[1].channel.bw = 0
+mcsl_rtp.router114.out$o[1].channel.edge_num = 323
+mcsl_rtp.router114.out$o[2].channel.bw = 0
+mcsl_rtp.router114.out$o[2].channel.edge_num = 329
+mcsl_rtp.router114.out$o[3].channel.bw = 0
+mcsl_rtp.router114.out$o[3].channel.edge_num = 333
+
+mcsl_rtp.router115.out$o[0].channel.bw = 4
+mcsl_rtp.router115.out$o[0].channel.edge_num = 72
+mcsl_rtp.router115.out$o[1].channel.bw = 0
+mcsl_rtp.router115.out$o[1].channel.edge_num = 74
+mcsl_rtp.router115.out$o[2].channel.bw = 2
+mcsl_rtp.router115.out$o[2].channel.edge_num = 83
+mcsl_rtp.router115.out$o[3].channel.bw = 0
+mcsl_rtp.router115.out$o[3].channel.edge_num = 87
+
+mcsl_rtp.router116.out$o[0].channel.bw = 0
+mcsl_rtp.router116.out$o[0].channel.edge_num = 76
+mcsl_rtp.router116.out$o[1].channel.bw = 0
+mcsl_rtp.router116.out$o[1].channel.edge_num = 78
+mcsl_rtp.router116.out$o[2].channel.bw = 0
+mcsl_rtp.router116.out$o[2].channel.edge_num = 91
+mcsl_rtp.router116.out$o[3].channel.bw = 0
+mcsl_rtp.router116.out$o[3].channel.edge_num = 95
+
+mcsl_rtp.router117.out$o[0].channel.bw = 0
+mcsl_rtp.router117.out$o[0].channel.edge_num = 326
+mcsl_rtp.router117.out$o[1].channel.bw = 0
+mcsl_rtp.router117.out$o[1].channel.edge_num = 327
+mcsl_rtp.router117.out$o[2].channel.bw = 0
+mcsl_rtp.router117.out$o[2].channel.edge_num = 331
+mcsl_rtp.router117.out$o[3].channel.bw = 0
+mcsl_rtp.router117.out$o[3].channel.edge_num = 335
+
+mcsl_rtp.router118.out$o[0].channel.bw = 0
+mcsl_rtp.router118.out$o[0].channel.edge_num = 328
+mcsl_rtp.router118.out$o[1].channel.bw = 0
+mcsl_rtp.router118.out$o[1].channel.edge_num = 330
+mcsl_rtp.router118.out$o[2].channel.bw = 0
+mcsl_rtp.router118.out$o[2].channel.edge_num = 353
+mcsl_rtp.router118.out$o[3].channel.bw = 0
+mcsl_rtp.router118.out$o[3].channel.edge_num = 357
+
+mcsl_rtp.router119.out$o[0].channel.bw = 0
+mcsl_rtp.router119.out$o[0].channel.edge_num = 332
+mcsl_rtp.router119.out$o[1].channel.bw = 0
+mcsl_rtp.router119.out$o[1].channel.edge_num = 334
+mcsl_rtp.router119.out$o[2].channel.bw = 0
+mcsl_rtp.router119.out$o[2].channel.edge_num = 361
+mcsl_rtp.router119.out$o[3].channel.bw = 0
+mcsl_rtp.router119.out$o[3].channel.edge_num = 365
+
+mcsl_rtp.router120.out$o[0].channel.bw = 7
+mcsl_rtp.router120.out$o[0].channel.edge_num = 80
+mcsl_rtp.router120.out$o[1].channel.bw = 4
+mcsl_rtp.router120.out$o[1].channel.edge_num = 82
+mcsl_rtp.router120.out$o[2].channel.bw = 3
+mcsl_rtp.router120.out$o[2].channel.edge_num = 99
+mcsl_rtp.router120.out$o[3].channel.bw = 0
+mcsl_rtp.router120.out$o[3].channel.edge_num = 103
+
+mcsl_rtp.router121.out$o[0].channel.bw = 0
+mcsl_rtp.router121.out$o[0].channel.edge_num = 84
+mcsl_rtp.router121.out$o[1].channel.bw = 0
+mcsl_rtp.router121.out$o[1].channel.edge_num = 86
+mcsl_rtp.router121.out$o[2].channel.bw = 0
+mcsl_rtp.router121.out$o[2].channel.edge_num = 107
+mcsl_rtp.router121.out$o[3].channel.bw = 0
+mcsl_rtp.router121.out$o[3].channel.edge_num = 111
+
+mcsl_rtp.router122.out$o[0].channel.bw = 0
+mcsl_rtp.router122.out$o[0].channel.edge_num = 338
+mcsl_rtp.router122.out$o[1].channel.bw = 0
+mcsl_rtp.router122.out$o[1].channel.edge_num = 339
+mcsl_rtp.router122.out$o[2].channel.bw = 0
+mcsl_rtp.router122.out$o[2].channel.edge_num = 345
+mcsl_rtp.router122.out$o[3].channel.bw = 0
+mcsl_rtp.router122.out$o[3].channel.edge_num = 349
+
+mcsl_rtp.router123.out$o[0].channel.bw = 0
+mcsl_rtp.router123.out$o[0].channel.edge_num = 88
+mcsl_rtp.router123.out$o[1].channel.bw = 0
+mcsl_rtp.router123.out$o[1].channel.edge_num = 90
+mcsl_rtp.router123.out$o[2].channel.bw = 1
+mcsl_rtp.router123.out$o[2].channel.edge_num = 115
+mcsl_rtp.router123.out$o[3].channel.bw = 0
+mcsl_rtp.router123.out$o[3].channel.edge_num = 119
+
+mcsl_rtp.router124.out$o[0].channel.bw = 0
+mcsl_rtp.router124.out$o[0].channel.edge_num = 92
+mcsl_rtp.router124.out$o[1].channel.bw = 0
+mcsl_rtp.router124.out$o[1].channel.edge_num = 94
+mcsl_rtp.router124.out$o[2].channel.bw = 0
+mcsl_rtp.router124.out$o[2].channel.edge_num = 123
+mcsl_rtp.router124.out$o[3].channel.bw = 0
+mcsl_rtp.router124.out$o[3].channel.edge_num = 127
+
+mcsl_rtp.router125.out$o[0].channel.bw = 0
+mcsl_rtp.router125.out$o[0].channel.edge_num = 342
+mcsl_rtp.router125.out$o[1].channel.bw = 0
+mcsl_rtp.router125.out$o[1].channel.edge_num = 343
+mcsl_rtp.router125.out$o[2].channel.bw = 0
+mcsl_rtp.router125.out$o[2].channel.edge_num = 347
+mcsl_rtp.router125.out$o[3].channel.bw = 0
+mcsl_rtp.router125.out$o[3].channel.edge_num = 351
+
+mcsl_rtp.router126.out$o[0].channel.bw = 0
+mcsl_rtp.router126.out$o[0].channel.edge_num = 344
+mcsl_rtp.router126.out$o[1].channel.bw = 0
+mcsl_rtp.router126.out$o[1].channel.edge_num = 346
+mcsl_rtp.router126.out$o[2].channel.bw = 0
+mcsl_rtp.router126.out$o[2].channel.edge_num = 355
+mcsl_rtp.router126.out$o[3].channel.bw = 0
+mcsl_rtp.router126.out$o[3].channel.edge_num = 359
+
+mcsl_rtp.router127.out$o[0].channel.bw = 0
+mcsl_rtp.router127.out$o[0].channel.edge_num = 348
+mcsl_rtp.router127.out$o[1].channel.bw = 0
+mcsl_rtp.router127.out$o[1].channel.edge_num = 350
+mcsl_rtp.router127.out$o[2].channel.bw = 0
+mcsl_rtp.router127.out$o[2].channel.edge_num = 363
+mcsl_rtp.router127.out$o[3].channel.bw = 0
+mcsl_rtp.router127.out$o[3].channel.edge_num = 367
+
+mcsl_rtp.router128.out$o[0].channel.bw = 0
+mcsl_rtp.router128.out$o[0].channel.edge_num = 352
+mcsl_rtp.router128.out$o[1].channel.bw = 0
+mcsl_rtp.router128.out$o[1].channel.edge_num = 354
+mcsl_rtp.router128.out$o[2].channel.bw = 0
+mcsl_rtp.router128.out$o[2].channel.edge_num = 417
+mcsl_rtp.router128.out$o[3].channel.bw = 0
+mcsl_rtp.router128.out$o[3].channel.edge_num = 421
+
+mcsl_rtp.router129.out$o[0].channel.bw = 0
+mcsl_rtp.router129.out$o[0].channel.edge_num = 356
+mcsl_rtp.router129.out$o[1].channel.bw = 0
+mcsl_rtp.router129.out$o[1].channel.edge_num = 358
+mcsl_rtp.router129.out$o[2].channel.bw = 0
+mcsl_rtp.router129.out$o[2].channel.edge_num = 425
+mcsl_rtp.router129.out$o[3].channel.bw = 0
+mcsl_rtp.router129.out$o[3].channel.edge_num = 429
+
+mcsl_rtp.router130.out$o[0].channel.bw = 0
+mcsl_rtp.router130.out$o[0].channel.edge_num = 360
+mcsl_rtp.router130.out$o[1].channel.bw = 0
+mcsl_rtp.router130.out$o[1].channel.edge_num = 362
+mcsl_rtp.router130.out$o[2].channel.bw = 0
+mcsl_rtp.router130.out$o[2].channel.edge_num = 433
+mcsl_rtp.router130.out$o[3].channel.bw = 0
+mcsl_rtp.router130.out$o[3].channel.edge_num = 437
+
+mcsl_rtp.router131.out$o[0].channel.bw = 0
+mcsl_rtp.router131.out$o[0].channel.edge_num = 364
+mcsl_rtp.router131.out$o[1].channel.bw = 0
+mcsl_rtp.router131.out$o[1].channel.edge_num = 366
+mcsl_rtp.router131.out$o[2].channel.bw = 0
+mcsl_rtp.router131.out$o[2].channel.edge_num = 441
+mcsl_rtp.router131.out$o[3].channel.bw = 0
+mcsl_rtp.router131.out$o[3].channel.edge_num = 445
+
+mcsl_rtp.router132.out$o[0].channel.bw = 3
+mcsl_rtp.router132.out$o[0].channel.edge_num = 96
+mcsl_rtp.router132.out$o[1].channel.bw = 6
+mcsl_rtp.router132.out$o[1].channel.edge_num = 98
+mcsl_rtp.router132.out$o[2].channel.bw = 0
+mcsl_rtp.router132.out$o[2].channel.edge_num = 257
+mcsl_rtp.router132.out$o[3].channel.bw = 0
+mcsl_rtp.router132.out$o[3].channel.edge_num = 261
+
+mcsl_rtp.router133.out$o[0].channel.bw = 0
+mcsl_rtp.router133.out$o[0].channel.edge_num = 100
+mcsl_rtp.router133.out$o[1].channel.bw = 0
+mcsl_rtp.router133.out$o[1].channel.edge_num = 102
+mcsl_rtp.router133.out$o[2].channel.bw = 0
+mcsl_rtp.router133.out$o[2].channel.edge_num = 265
+mcsl_rtp.router133.out$o[3].channel.bw = 0
+mcsl_rtp.router133.out$o[3].channel.edge_num = 269
+
+mcsl_rtp.router134.out$o[0].channel.bw = 0
+mcsl_rtp.router134.out$o[0].channel.edge_num = 370
+mcsl_rtp.router134.out$o[1].channel.bw = 0
+mcsl_rtp.router134.out$o[1].channel.edge_num = 371
+mcsl_rtp.router134.out$o[2].channel.bw = 0
+mcsl_rtp.router134.out$o[2].channel.edge_num = 377
+mcsl_rtp.router134.out$o[3].channel.bw = 0
+mcsl_rtp.router134.out$o[3].channel.edge_num = 381
+
+mcsl_rtp.router135.out$o[0].channel.bw = 0
+mcsl_rtp.router135.out$o[0].channel.edge_num = 104
+mcsl_rtp.router135.out$o[1].channel.bw = 0
+mcsl_rtp.router135.out$o[1].channel.edge_num = 106
+mcsl_rtp.router135.out$o[2].channel.bw = 0
+mcsl_rtp.router135.out$o[2].channel.edge_num = 273
+mcsl_rtp.router135.out$o[3].channel.bw = 0
+mcsl_rtp.router135.out$o[3].channel.edge_num = 277
+
+mcsl_rtp.router136.out$o[0].channel.bw = 0
+mcsl_rtp.router136.out$o[0].channel.edge_num = 108
+mcsl_rtp.router136.out$o[1].channel.bw = 0
+mcsl_rtp.router136.out$o[1].channel.edge_num = 110
+mcsl_rtp.router136.out$o[2].channel.bw = 0
+mcsl_rtp.router136.out$o[2].channel.edge_num = 281
+mcsl_rtp.router136.out$o[3].channel.bw = 0
+mcsl_rtp.router136.out$o[3].channel.edge_num = 285
+
+mcsl_rtp.router137.out$o[0].channel.bw = 0
+mcsl_rtp.router137.out$o[0].channel.edge_num = 374
+mcsl_rtp.router137.out$o[1].channel.bw = 0
+mcsl_rtp.router137.out$o[1].channel.edge_num = 375
+mcsl_rtp.router137.out$o[2].channel.bw = 0
+mcsl_rtp.router137.out$o[2].channel.edge_num = 379
+mcsl_rtp.router137.out$o[3].channel.bw = 0
+mcsl_rtp.router137.out$o[3].channel.edge_num = 383
+
+mcsl_rtp.router138.out$o[0].channel.bw = 0
+mcsl_rtp.router138.out$o[0].channel.edge_num = 376
+mcsl_rtp.router138.out$o[1].channel.bw = 0
+mcsl_rtp.router138.out$o[1].channel.edge_num = 378
+mcsl_rtp.router138.out$o[2].channel.bw = 0
+mcsl_rtp.router138.out$o[2].channel.edge_num = 401
+mcsl_rtp.router138.out$o[3].channel.bw = 0
+mcsl_rtp.router138.out$o[3].channel.edge_num = 405
+
+mcsl_rtp.router139.out$o[0].channel.bw = 0
+mcsl_rtp.router139.out$o[0].channel.edge_num = 380
+mcsl_rtp.router139.out$o[1].channel.bw = 0
+mcsl_rtp.router139.out$o[1].channel.edge_num = 382
+mcsl_rtp.router139.out$o[2].channel.bw = 0
+mcsl_rtp.router139.out$o[2].channel.edge_num = 409
+mcsl_rtp.router139.out$o[3].channel.bw = 0
+mcsl_rtp.router139.out$o[3].channel.edge_num = 413
+
+mcsl_rtp.router140.out$o[0].channel.bw = 1
+mcsl_rtp.router140.out$o[0].channel.edge_num = 112
+mcsl_rtp.router140.out$o[1].channel.bw = 0
+mcsl_rtp.router140.out$o[1].channel.edge_num = 114
+mcsl_rtp.router140.out$o[2].channel.bw = 0
+mcsl_rtp.router140.out$o[2].channel.edge_num = 289
+mcsl_rtp.router140.out$o[3].channel.bw = 0
+mcsl_rtp.router140.out$o[3].channel.edge_num = 293
+
+mcsl_rtp.router141.out$o[0].channel.bw = 0
+mcsl_rtp.router141.out$o[0].channel.edge_num = 116
+mcsl_rtp.router141.out$o[1].channel.bw = 0
+mcsl_rtp.router141.out$o[1].channel.edge_num = 118
+mcsl_rtp.router141.out$o[2].channel.bw = 0
+mcsl_rtp.router141.out$o[2].channel.edge_num = 297
+mcsl_rtp.router141.out$o[3].channel.bw = 0
+mcsl_rtp.router141.out$o[3].channel.edge_num = 301
+
+mcsl_rtp.router142.out$o[0].channel.bw = 0
+mcsl_rtp.router142.out$o[0].channel.edge_num = 386
+mcsl_rtp.router142.out$o[1].channel.bw = 0
+mcsl_rtp.router142.out$o[1].channel.edge_num = 387
+mcsl_rtp.router142.out$o[2].channel.bw = 0
+mcsl_rtp.router142.out$o[2].channel.edge_num = 393
+mcsl_rtp.router142.out$o[3].channel.bw = 0
+mcsl_rtp.router142.out$o[3].channel.edge_num = 397
+
+mcsl_rtp.router143.out$o[0].channel.bw = 0
+mcsl_rtp.router143.out$o[0].channel.edge_num = 120
+mcsl_rtp.router143.out$o[1].channel.bw = 0
+mcsl_rtp.router143.out$o[1].channel.edge_num = 122
+mcsl_rtp.router143.out$o[2].channel.bw = 0
+mcsl_rtp.router143.out$o[2].channel.edge_num = 305
+mcsl_rtp.router143.out$o[3].channel.bw = 0
+mcsl_rtp.router143.out$o[3].channel.edge_num = 309
+
+mcsl_rtp.router144.out$o[0].channel.bw = 0
+mcsl_rtp.router144.out$o[0].channel.edge_num = 124
+mcsl_rtp.router144.out$o[1].channel.bw = 0
+mcsl_rtp.router144.out$o[1].channel.edge_num = 126
+mcsl_rtp.router144.out$o[2].channel.bw = 0
+mcsl_rtp.router144.out$o[2].channel.edge_num = 313
+mcsl_rtp.router144.out$o[3].channel.bw = 0
+mcsl_rtp.router144.out$o[3].channel.edge_num = 317
+
+mcsl_rtp.router145.out$o[0].channel.bw = 0
+mcsl_rtp.router145.out$o[0].channel.edge_num = 390
+mcsl_rtp.router145.out$o[1].channel.bw = 0
+mcsl_rtp.router145.out$o[1].channel.edge_num = 391
+mcsl_rtp.router145.out$o[2].channel.bw = 0
+mcsl_rtp.router145.out$o[2].channel.edge_num = 395
+mcsl_rtp.router145.out$o[3].channel.bw = 0
+mcsl_rtp.router145.out$o[3].channel.edge_num = 399
+
+mcsl_rtp.router146.out$o[0].channel.bw = 0
+mcsl_rtp.router146.out$o[0].channel.edge_num = 392
+mcsl_rtp.router146.out$o[1].channel.bw = 0
+mcsl_rtp.router146.out$o[1].channel.edge_num = 394
+mcsl_rtp.router146.out$o[2].channel.bw = 0
+mcsl_rtp.router146.out$o[2].channel.edge_num = 403
+mcsl_rtp.router146.out$o[3].channel.bw = 0
+mcsl_rtp.router146.out$o[3].channel.edge_num = 407
+
+mcsl_rtp.router147.out$o[0].channel.bw = 0
+mcsl_rtp.router147.out$o[0].channel.edge_num = 396
+mcsl_rtp.router147.out$o[1].channel.bw = 0
+mcsl_rtp.router147.out$o[1].channel.edge_num = 398
+mcsl_rtp.router147.out$o[2].channel.bw = 0
+mcsl_rtp.router147.out$o[2].channel.edge_num = 411
+mcsl_rtp.router147.out$o[3].channel.bw = 0
+mcsl_rtp.router147.out$o[3].channel.edge_num = 415
+
+mcsl_rtp.router148.out$o[0].channel.bw = 0
+mcsl_rtp.router148.out$o[0].channel.edge_num = 400
+mcsl_rtp.router148.out$o[1].channel.bw = 0
+mcsl_rtp.router148.out$o[1].channel.edge_num = 402
+mcsl_rtp.router148.out$o[2].channel.bw = 0
+mcsl_rtp.router148.out$o[2].channel.edge_num = 419
+mcsl_rtp.router148.out$o[3].channel.bw = 0
+mcsl_rtp.router148.out$o[3].channel.edge_num = 423
+
+mcsl_rtp.router149.out$o[0].channel.bw = 0
+mcsl_rtp.router149.out$o[0].channel.edge_num = 404
+mcsl_rtp.router149.out$o[1].channel.bw = 0
+mcsl_rtp.router149.out$o[1].channel.edge_num = 406
+mcsl_rtp.router149.out$o[2].channel.bw = 0
+mcsl_rtp.router149.out$o[2].channel.edge_num = 427
+mcsl_rtp.router149.out$o[3].channel.bw = 0
+mcsl_rtp.router149.out$o[3].channel.edge_num = 431
+
+mcsl_rtp.router150.out$o[0].channel.bw = 0
+mcsl_rtp.router150.out$o[0].channel.edge_num = 408
+mcsl_rtp.router150.out$o[1].channel.bw = 0
+mcsl_rtp.router150.out$o[1].channel.edge_num = 410
+mcsl_rtp.router150.out$o[2].channel.bw = 0
+mcsl_rtp.router150.out$o[2].channel.edge_num = 435
+mcsl_rtp.router150.out$o[3].channel.bw = 0
+mcsl_rtp.router150.out$o[3].channel.edge_num = 439
+
+mcsl_rtp.router151.out$o[0].channel.bw = 0
+mcsl_rtp.router151.out$o[0].channel.edge_num = 412
+mcsl_rtp.router151.out$o[1].channel.bw = 0
+mcsl_rtp.router151.out$o[1].channel.edge_num = 414
+mcsl_rtp.router151.out$o[2].channel.bw = 0
+mcsl_rtp.router151.out$o[2].channel.edge_num = 443
+mcsl_rtp.router151.out$o[3].channel.bw = 0
+mcsl_rtp.router151.out$o[3].channel.edge_num = 447
+
+mcsl_rtp.router152.out$o[0].channel.bw = 0
+mcsl_rtp.router152.out$o[0].channel.edge_num = 416
+mcsl_rtp.router152.out$o[1].channel.bw = 0
+mcsl_rtp.router152.out$o[1].channel.edge_num = 418
+mcsl_rtp.router152.out$o[2].channel.bw = 0
+mcsl_rtp.router152.out$o[2].channel.edge_num = 577
+mcsl_rtp.router152.out$o[3].channel.bw = 0
+mcsl_rtp.router152.out$o[3].channel.edge_num = 581
+
+mcsl_rtp.router153.out$o[0].channel.bw = 0
+mcsl_rtp.router153.out$o[0].channel.edge_num = 420
+mcsl_rtp.router153.out$o[1].channel.bw = 0
+mcsl_rtp.router153.out$o[1].channel.edge_num = 422
+mcsl_rtp.router153.out$o[2].channel.bw = 0
+mcsl_rtp.router153.out$o[2].channel.edge_num = 585
+mcsl_rtp.router153.out$o[3].channel.bw = 0
+mcsl_rtp.router153.out$o[3].channel.edge_num = 589
+
+mcsl_rtp.router154.out$o[0].channel.bw = 0
+mcsl_rtp.router154.out$o[0].channel.edge_num = 424
+mcsl_rtp.router154.out$o[1].channel.bw = 0
+mcsl_rtp.router154.out$o[1].channel.edge_num = 426
+mcsl_rtp.router154.out$o[2].channel.bw = 0
+mcsl_rtp.router154.out$o[2].channel.edge_num = 593
+mcsl_rtp.router154.out$o[3].channel.bw = 0
+mcsl_rtp.router154.out$o[3].channel.edge_num = 597
+
+mcsl_rtp.router155.out$o[0].channel.bw = 0
+mcsl_rtp.router155.out$o[0].channel.edge_num = 428
+mcsl_rtp.router155.out$o[1].channel.bw = 0
+mcsl_rtp.router155.out$o[1].channel.edge_num = 430
+mcsl_rtp.router155.out$o[2].channel.bw = 0
+mcsl_rtp.router155.out$o[2].channel.edge_num = 601
+mcsl_rtp.router155.out$o[3].channel.bw = 0
+mcsl_rtp.router155.out$o[3].channel.edge_num = 605
+
+mcsl_rtp.router156.out$o[0].channel.bw = 0
+mcsl_rtp.router156.out$o[0].channel.edge_num = 432
+mcsl_rtp.router156.out$o[1].channel.bw = 0
+mcsl_rtp.router156.out$o[1].channel.edge_num = 434
+mcsl_rtp.router156.out$o[2].channel.bw = 0
+mcsl_rtp.router156.out$o[2].channel.edge_num = 609
+mcsl_rtp.router156.out$o[3].channel.bw = 0
+mcsl_rtp.router156.out$o[3].channel.edge_num = 613
+
+mcsl_rtp.router157.out$o[0].channel.bw = 0
+mcsl_rtp.router157.out$o[0].channel.edge_num = 436
+mcsl_rtp.router157.out$o[1].channel.bw = 0
+mcsl_rtp.router157.out$o[1].channel.edge_num = 438
+mcsl_rtp.router157.out$o[2].channel.bw = 0
+mcsl_rtp.router157.out$o[2].channel.edge_num = 617
+mcsl_rtp.router157.out$o[3].channel.bw = 0
+mcsl_rtp.router157.out$o[3].channel.edge_num = 621
+
+mcsl_rtp.router158.out$o[0].channel.bw = 0
+mcsl_rtp.router158.out$o[0].channel.edge_num = 440
+mcsl_rtp.router158.out$o[1].channel.bw = 0
+mcsl_rtp.router158.out$o[1].channel.edge_num = 442
+mcsl_rtp.router158.out$o[2].channel.bw = 0
+mcsl_rtp.router158.out$o[2].channel.edge_num = 625
+mcsl_rtp.router158.out$o[3].channel.bw = 0
+mcsl_rtp.router158.out$o[3].channel.edge_num = 629
+
+mcsl_rtp.router159.out$o[0].channel.bw = 0
+mcsl_rtp.router159.out$o[0].channel.edge_num = 444
+mcsl_rtp.router159.out$o[1].channel.bw = 0
+mcsl_rtp.router159.out$o[1].channel.edge_num = 446
+mcsl_rtp.router159.out$o[2].channel.bw = 0
+mcsl_rtp.router159.out$o[2].channel.edge_num = 633
+mcsl_rtp.router159.out$o[3].channel.bw = 0
+mcsl_rtp.router159.out$o[3].channel.edge_num = 637
+
+mcsl_rtp.router160.out$o[0].channel.bw = 2
+mcsl_rtp.router160.out$o[0].channel.edge_num = 32
+mcsl_rtp.router160.out$o[1].channel.bw = 5
+mcsl_rtp.router160.out$o[1].channel.edge_num = 34
+mcsl_rtp.router160.out$o[2].channel.bw = 6
+mcsl_rtp.router160.out$o[2].channel.edge_num = 97
+mcsl_rtp.router160.out$o[3].channel.bw = 0
+mcsl_rtp.router160.out$o[3].channel.edge_num = 101
+
+mcsl_rtp.router161.out$o[0].channel.bw = 0
+mcsl_rtp.router161.out$o[0].channel.edge_num = 36
+mcsl_rtp.router161.out$o[1].channel.bw = 0
+mcsl_rtp.router161.out$o[1].channel.edge_num = 38
+mcsl_rtp.router161.out$o[2].channel.bw = 0
+mcsl_rtp.router161.out$o[2].channel.edge_num = 105
+mcsl_rtp.router161.out$o[3].channel.bw = 0
+mcsl_rtp.router161.out$o[3].channel.edge_num = 109
+
+mcsl_rtp.router162.out$o[0].channel.bw = 0
+mcsl_rtp.router162.out$o[0].channel.edge_num = 450
+mcsl_rtp.router162.out$o[1].channel.bw = 0
+mcsl_rtp.router162.out$o[1].channel.edge_num = 451
+mcsl_rtp.router162.out$o[2].channel.bw = 0
+mcsl_rtp.router162.out$o[2].channel.edge_num = 457
+mcsl_rtp.router162.out$o[3].channel.bw = 0
+mcsl_rtp.router162.out$o[3].channel.edge_num = 461
+
+mcsl_rtp.router163.out$o[0].channel.bw = 0
+mcsl_rtp.router163.out$o[0].channel.edge_num = 130
+mcsl_rtp.router163.out$o[1].channel.bw = 0
+mcsl_rtp.router163.out$o[1].channel.edge_num = 131
+mcsl_rtp.router163.out$o[2].channel.bw = 0
+mcsl_rtp.router163.out$o[2].channel.edge_num = 137
+mcsl_rtp.router163.out$o[3].channel.bw = 0
+mcsl_rtp.router163.out$o[3].channel.edge_num = 141
+
+mcsl_rtp.router164.out$o[0].channel.bw = 2
+mcsl_rtp.router164.out$o[0].channel.edge_num = 40
+mcsl_rtp.router164.out$o[1].channel.bw = 0
+mcsl_rtp.router164.out$o[1].channel.edge_num = 42
+mcsl_rtp.router164.out$o[2].channel.bw = 0
+mcsl_rtp.router164.out$o[2].channel.edge_num = 113
+mcsl_rtp.router164.out$o[3].channel.bw = 0
+mcsl_rtp.router164.out$o[3].channel.edge_num = 117
+
+mcsl_rtp.router165.out$o[0].channel.bw = 0
+mcsl_rtp.router165.out$o[0].channel.edge_num = 454
+mcsl_rtp.router165.out$o[1].channel.bw = 0
+mcsl_rtp.router165.out$o[1].channel.edge_num = 455
+mcsl_rtp.router165.out$o[2].channel.bw = 0
+mcsl_rtp.router165.out$o[2].channel.edge_num = 459
+mcsl_rtp.router165.out$o[3].channel.bw = 0
+mcsl_rtp.router165.out$o[3].channel.edge_num = 463
+
+mcsl_rtp.router166.out$o[0].channel.bw = 0
+mcsl_rtp.router166.out$o[0].channel.edge_num = 456
+mcsl_rtp.router166.out$o[1].channel.bw = 0
+mcsl_rtp.router166.out$o[1].channel.edge_num = 458
+mcsl_rtp.router166.out$o[2].channel.bw = 0
+mcsl_rtp.router166.out$o[2].channel.edge_num = 481
+mcsl_rtp.router166.out$o[3].channel.bw = 0
+mcsl_rtp.router166.out$o[3].channel.edge_num = 485
+
+mcsl_rtp.router167.out$o[0].channel.bw = 0
+mcsl_rtp.router167.out$o[0].channel.edge_num = 460
+mcsl_rtp.router167.out$o[1].channel.bw = 0
+mcsl_rtp.router167.out$o[1].channel.edge_num = 462
+mcsl_rtp.router167.out$o[2].channel.bw = 0
+mcsl_rtp.router167.out$o[2].channel.edge_num = 489
+mcsl_rtp.router167.out$o[3].channel.bw = 0
+mcsl_rtp.router167.out$o[3].channel.edge_num = 493
+
+mcsl_rtp.router168.out$o[0].channel.bw = 0
+mcsl_rtp.router168.out$o[0].channel.edge_num = 44
+mcsl_rtp.router168.out$o[1].channel.bw = 0
+mcsl_rtp.router168.out$o[1].channel.edge_num = 46
+mcsl_rtp.router168.out$o[2].channel.bw = 0
+mcsl_rtp.router168.out$o[2].channel.edge_num = 121
+mcsl_rtp.router168.out$o[3].channel.bw = 0
+mcsl_rtp.router168.out$o[3].channel.edge_num = 125
+
+mcsl_rtp.router169.out$o[0].channel.bw = 0
+mcsl_rtp.router169.out$o[0].channel.edge_num = 134
+mcsl_rtp.router169.out$o[1].channel.bw = 0
+mcsl_rtp.router169.out$o[1].channel.edge_num = 135
+mcsl_rtp.router169.out$o[2].channel.bw = 0
+mcsl_rtp.router169.out$o[2].channel.edge_num = 139
+mcsl_rtp.router169.out$o[3].channel.bw = 0
+mcsl_rtp.router169.out$o[3].channel.edge_num = 143
+
+mcsl_rtp.router170.out$o[0].channel.bw = 0
+mcsl_rtp.router170.out$o[0].channel.edge_num = 466
+mcsl_rtp.router170.out$o[1].channel.bw = 0
+mcsl_rtp.router170.out$o[1].channel.edge_num = 467
+mcsl_rtp.router170.out$o[2].channel.bw = 0
+mcsl_rtp.router170.out$o[2].channel.edge_num = 473
+mcsl_rtp.router170.out$o[3].channel.bw = 0
+mcsl_rtp.router170.out$o[3].channel.edge_num = 477
+
+mcsl_rtp.router171.out$o[0].channel.bw = 0
+mcsl_rtp.router171.out$o[0].channel.edge_num = 136
+mcsl_rtp.router171.out$o[1].channel.bw = 0
+mcsl_rtp.router171.out$o[1].channel.edge_num = 138
+mcsl_rtp.router171.out$o[2].channel.bw = 0
+mcsl_rtp.router171.out$o[2].channel.edge_num = 161
+mcsl_rtp.router171.out$o[3].channel.bw = 0
+mcsl_rtp.router171.out$o[3].channel.edge_num = 165
+
+mcsl_rtp.router172.out$o[0].channel.bw = 0
+mcsl_rtp.router172.out$o[0].channel.edge_num = 140
+mcsl_rtp.router172.out$o[1].channel.bw = 0
+mcsl_rtp.router172.out$o[1].channel.edge_num = 142
+mcsl_rtp.router172.out$o[2].channel.bw = 0
+mcsl_rtp.router172.out$o[2].channel.edge_num = 169
+mcsl_rtp.router172.out$o[3].channel.bw = 0
+mcsl_rtp.router172.out$o[3].channel.edge_num = 173
+
+mcsl_rtp.router173.out$o[0].channel.bw = 0
+mcsl_rtp.router173.out$o[0].channel.edge_num = 470
+mcsl_rtp.router173.out$o[1].channel.bw = 0
+mcsl_rtp.router173.out$o[1].channel.edge_num = 471
+mcsl_rtp.router173.out$o[2].channel.bw = 0
+mcsl_rtp.router173.out$o[2].channel.edge_num = 475
+mcsl_rtp.router173.out$o[3].channel.bw = 0
+mcsl_rtp.router173.out$o[3].channel.edge_num = 479
+
+mcsl_rtp.router174.out$o[0].channel.bw = 0
+mcsl_rtp.router174.out$o[0].channel.edge_num = 472
+mcsl_rtp.router174.out$o[1].channel.bw = 0
+mcsl_rtp.router174.out$o[1].channel.edge_num = 474
+mcsl_rtp.router174.out$o[2].channel.bw = 0
+mcsl_rtp.router174.out$o[2].channel.edge_num = 483
+mcsl_rtp.router174.out$o[3].channel.bw = 0
+mcsl_rtp.router174.out$o[3].channel.edge_num = 487
+
+mcsl_rtp.router175.out$o[0].channel.bw = 0
+mcsl_rtp.router175.out$o[0].channel.edge_num = 476
+mcsl_rtp.router175.out$o[1].channel.bw = 0
+mcsl_rtp.router175.out$o[1].channel.edge_num = 478
+mcsl_rtp.router175.out$o[2].channel.bw = 0
+mcsl_rtp.router175.out$o[2].channel.edge_num = 491
+mcsl_rtp.router175.out$o[3].channel.bw = 0
+mcsl_rtp.router175.out$o[3].channel.edge_num = 495
+
+mcsl_rtp.router176.out$o[0].channel.bw = 0
+mcsl_rtp.router176.out$o[0].channel.edge_num = 480
+mcsl_rtp.router176.out$o[1].channel.bw = 0
+mcsl_rtp.router176.out$o[1].channel.edge_num = 482
+mcsl_rtp.router176.out$o[2].channel.bw = 0
+mcsl_rtp.router176.out$o[2].channel.edge_num = 545
+mcsl_rtp.router176.out$o[3].channel.bw = 0
+mcsl_rtp.router176.out$o[3].channel.edge_num = 549
+
+mcsl_rtp.router177.out$o[0].channel.bw = 0
+mcsl_rtp.router177.out$o[0].channel.edge_num = 484
+mcsl_rtp.router177.out$o[1].channel.bw = 0
+mcsl_rtp.router177.out$o[1].channel.edge_num = 486
+mcsl_rtp.router177.out$o[2].channel.bw = 0
+mcsl_rtp.router177.out$o[2].channel.edge_num = 553
+mcsl_rtp.router177.out$o[3].channel.bw = 0
+mcsl_rtp.router177.out$o[3].channel.edge_num = 557
+
+mcsl_rtp.router178.out$o[0].channel.bw = 0
+mcsl_rtp.router178.out$o[0].channel.edge_num = 488
+mcsl_rtp.router178.out$o[1].channel.bw = 0
+mcsl_rtp.router178.out$o[1].channel.edge_num = 490
+mcsl_rtp.router178.out$o[2].channel.bw = 0
+mcsl_rtp.router178.out$o[2].channel.edge_num = 561
+mcsl_rtp.router178.out$o[3].channel.bw = 0
+mcsl_rtp.router178.out$o[3].channel.edge_num = 565
+
+mcsl_rtp.router179.out$o[0].channel.bw = 0
+mcsl_rtp.router179.out$o[0].channel.edge_num = 492
+mcsl_rtp.router179.out$o[1].channel.bw = 0
+mcsl_rtp.router179.out$o[1].channel.edge_num = 494
+mcsl_rtp.router179.out$o[2].channel.bw = 0
+mcsl_rtp.router179.out$o[2].channel.edge_num = 569
+mcsl_rtp.router179.out$o[3].channel.bw = 0
+mcsl_rtp.router179.out$o[3].channel.edge_num = 573
+
+mcsl_rtp.router180.out$o[0].channel.bw = 2
+mcsl_rtp.router180.out$o[0].channel.edge_num = 2
+mcsl_rtp.router180.out$o[1].channel.bw = 4
+mcsl_rtp.router180.out$o[1].channel.edge_num = 3
+mcsl_rtp.router180.out$o[2].channel.bw = 2
+mcsl_rtp.router180.out$o[2].channel.edge_num = 9
+mcsl_rtp.router180.out$o[3].channel.bw = 0
+mcsl_rtp.router180.out$o[3].channel.edge_num = 13
+
+mcsl_rtp.router181.out$o[0].channel.bw = 4
+mcsl_rtp.router181.out$o[0].channel.edge_num = 6
+mcsl_rtp.router181.out$o[1].channel.bw = 2
+mcsl_rtp.router181.out$o[1].channel.edge_num = 7
+mcsl_rtp.router181.out$o[2].channel.bw = 6
+mcsl_rtp.router181.out$o[2].channel.edge_num = 11
+mcsl_rtp.router181.out$o[3].channel.bw = 3
+mcsl_rtp.router181.out$o[3].channel.edge_num = 15
+
+mcsl_rtp.router182.out$o[0].channel.bw = 0
+mcsl_rtp.router182.out$o[0].channel.edge_num = 498
+mcsl_rtp.router182.out$o[1].channel.bw = 0
+mcsl_rtp.router182.out$o[1].channel.edge_num = 499
+mcsl_rtp.router182.out$o[2].channel.bw = 0
+mcsl_rtp.router182.out$o[2].channel.edge_num = 505
+mcsl_rtp.router182.out$o[3].channel.bw = 0
+mcsl_rtp.router182.out$o[3].channel.edge_num = 509
+
+mcsl_rtp.router183.out$o[0].channel.bw = 0
+mcsl_rtp.router183.out$o[0].channel.edge_num = 146
+mcsl_rtp.router183.out$o[1].channel.bw = 0
+mcsl_rtp.router183.out$o[1].channel.edge_num = 147
+mcsl_rtp.router183.out$o[2].channel.bw = 0
+mcsl_rtp.router183.out$o[2].channel.edge_num = 153
+mcsl_rtp.router183.out$o[3].channel.bw = 0
+mcsl_rtp.router183.out$o[3].channel.edge_num = 157
+
+mcsl_rtp.router184.out$o[0].channel.bw = 3
+mcsl_rtp.router184.out$o[0].channel.edge_num = 50
+mcsl_rtp.router184.out$o[1].channel.bw = 3
+mcsl_rtp.router184.out$o[1].channel.edge_num = 51
+mcsl_rtp.router184.out$o[2].channel.bw = 5
+mcsl_rtp.router184.out$o[2].channel.edge_num = 57
+mcsl_rtp.router184.out$o[3].channel.bw = 0
+mcsl_rtp.router184.out$o[3].channel.edge_num = 61
+
+mcsl_rtp.router185.out$o[0].channel.bw = 0
+mcsl_rtp.router185.out$o[0].channel.edge_num = 502
+mcsl_rtp.router185.out$o[1].channel.bw = 0
+mcsl_rtp.router185.out$o[1].channel.edge_num = 503
+mcsl_rtp.router185.out$o[2].channel.bw = 0
+mcsl_rtp.router185.out$o[2].channel.edge_num = 507
+mcsl_rtp.router185.out$o[3].channel.bw = 0
+mcsl_rtp.router185.out$o[3].channel.edge_num = 511
+
+mcsl_rtp.router186.out$o[0].channel.bw = 0
+mcsl_rtp.router186.out$o[0].channel.edge_num = 504
+mcsl_rtp.router186.out$o[1].channel.bw = 0
+mcsl_rtp.router186.out$o[1].channel.edge_num = 506
+mcsl_rtp.router186.out$o[2].channel.bw = 0
+mcsl_rtp.router186.out$o[2].channel.edge_num = 529
+mcsl_rtp.router186.out$o[3].channel.bw = 0
+mcsl_rtp.router186.out$o[3].channel.edge_num = 533
+
+mcsl_rtp.router187.out$o[0].channel.bw = 0
+mcsl_rtp.router187.out$o[0].channel.edge_num = 508
+mcsl_rtp.router187.out$o[1].channel.bw = 0
+mcsl_rtp.router187.out$o[1].channel.edge_num = 510
+mcsl_rtp.router187.out$o[2].channel.bw = 0
+mcsl_rtp.router187.out$o[2].channel.edge_num = 537
+mcsl_rtp.router187.out$o[3].channel.bw = 0
+mcsl_rtp.router187.out$o[3].channel.edge_num = 541
+
+mcsl_rtp.router188.out$o[0].channel.bw = 4
+mcsl_rtp.router188.out$o[0].channel.edge_num = 18
+mcsl_rtp.router188.out$o[1].channel.bw = 3
+mcsl_rtp.router188.out$o[1].channel.edge_num = 19
+mcsl_rtp.router188.out$o[2].channel.bw = 5
+mcsl_rtp.router188.out$o[2].channel.edge_num = 25
+mcsl_rtp.router188.out$o[3].channel.bw = 2
+mcsl_rtp.router188.out$o[3].channel.edge_num = 29
+
+mcsl_rtp.router189.out$o[0].channel.bw = 0
+mcsl_rtp.router189.out$o[0].channel.edge_num = 150
+mcsl_rtp.router189.out$o[1].channel.bw = 0
+mcsl_rtp.router189.out$o[1].channel.edge_num = 151
+mcsl_rtp.router189.out$o[2].channel.bw = 0
+mcsl_rtp.router189.out$o[2].channel.edge_num = 155
+mcsl_rtp.router189.out$o[3].channel.bw = 0
+mcsl_rtp.router189.out$o[3].channel.edge_num = 159
+
+mcsl_rtp.router190.out$o[0].channel.bw = 0
+mcsl_rtp.router190.out$o[0].channel.edge_num = 514
+mcsl_rtp.router190.out$o[1].channel.bw = 0
+mcsl_rtp.router190.out$o[1].channel.edge_num = 515
+mcsl_rtp.router190.out$o[2].channel.bw = 0
+mcsl_rtp.router190.out$o[2].channel.edge_num = 521
+mcsl_rtp.router190.out$o[3].channel.bw = 0
+mcsl_rtp.router190.out$o[3].channel.edge_num = 525
+
+mcsl_rtp.router191.out$o[0].channel.bw = 0
+mcsl_rtp.router191.out$o[0].channel.edge_num = 152
+mcsl_rtp.router191.out$o[1].channel.bw = 0
+mcsl_rtp.router191.out$o[1].channel.edge_num = 154
+mcsl_rtp.router191.out$o[2].channel.bw = 0
+mcsl_rtp.router191.out$o[2].channel.edge_num = 163
+mcsl_rtp.router191.out$o[3].channel.bw = 0
+mcsl_rtp.router191.out$o[3].channel.edge_num = 167
+
+mcsl_rtp.router192.out$o[0].channel.bw = 0
+mcsl_rtp.router192.out$o[0].channel.edge_num = 156
+mcsl_rtp.router192.out$o[1].channel.bw = 0
+mcsl_rtp.router192.out$o[1].channel.edge_num = 158
+mcsl_rtp.router192.out$o[2].channel.bw = 0
+mcsl_rtp.router192.out$o[2].channel.edge_num = 171
+mcsl_rtp.router192.out$o[3].channel.bw = 0
+mcsl_rtp.router192.out$o[3].channel.edge_num = 175
+
+mcsl_rtp.router193.out$o[0].channel.bw = 0
+mcsl_rtp.router193.out$o[0].channel.edge_num = 518
+mcsl_rtp.router193.out$o[1].channel.bw = 0
+mcsl_rtp.router193.out$o[1].channel.edge_num = 519
+mcsl_rtp.router193.out$o[2].channel.bw = 0
+mcsl_rtp.router193.out$o[2].channel.edge_num = 523
+mcsl_rtp.router193.out$o[3].channel.bw = 0
+mcsl_rtp.router193.out$o[3].channel.edge_num = 527
+
+mcsl_rtp.router194.out$o[0].channel.bw = 0
+mcsl_rtp.router194.out$o[0].channel.edge_num = 520
+mcsl_rtp.router194.out$o[1].channel.bw = 0
+mcsl_rtp.router194.out$o[1].channel.edge_num = 522
+mcsl_rtp.router194.out$o[2].channel.bw = 0
+mcsl_rtp.router194.out$o[2].channel.edge_num = 531
+mcsl_rtp.router194.out$o[3].channel.bw = 0
+mcsl_rtp.router194.out$o[3].channel.edge_num = 535
+
+mcsl_rtp.router195.out$o[0].channel.bw = 0
+mcsl_rtp.router195.out$o[0].channel.edge_num = 524
+mcsl_rtp.router195.out$o[1].channel.bw = 0
+mcsl_rtp.router195.out$o[1].channel.edge_num = 526
+mcsl_rtp.router195.out$o[2].channel.bw = 0
+mcsl_rtp.router195.out$o[2].channel.edge_num = 539
+mcsl_rtp.router195.out$o[3].channel.bw = 0
+mcsl_rtp.router195.out$o[3].channel.edge_num = 543
+
+mcsl_rtp.router196.out$o[0].channel.bw = 0
+mcsl_rtp.router196.out$o[0].channel.edge_num = 528
+mcsl_rtp.router196.out$o[1].channel.bw = 0
+mcsl_rtp.router196.out$o[1].channel.edge_num = 530
+mcsl_rtp.router196.out$o[2].channel.bw = 0
+mcsl_rtp.router196.out$o[2].channel.edge_num = 547
+mcsl_rtp.router196.out$o[3].channel.bw = 0
+mcsl_rtp.router196.out$o[3].channel.edge_num = 551
+
+mcsl_rtp.router197.out$o[0].channel.bw = 0
+mcsl_rtp.router197.out$o[0].channel.edge_num = 532
+mcsl_rtp.router197.out$o[1].channel.bw = 0
+mcsl_rtp.router197.out$o[1].channel.edge_num = 534
+mcsl_rtp.router197.out$o[2].channel.bw = 0
+mcsl_rtp.router197.out$o[2].channel.edge_num = 555
+mcsl_rtp.router197.out$o[3].channel.bw = 0
+mcsl_rtp.router197.out$o[3].channel.edge_num = 559
+
+mcsl_rtp.router198.out$o[0].channel.bw = 0
+mcsl_rtp.router198.out$o[0].channel.edge_num = 536
+mcsl_rtp.router198.out$o[1].channel.bw = 0
+mcsl_rtp.router198.out$o[1].channel.edge_num = 538
+mcsl_rtp.router198.out$o[2].channel.bw = 0
+mcsl_rtp.router198.out$o[2].channel.edge_num = 563
+mcsl_rtp.router198.out$o[3].channel.bw = 0
+mcsl_rtp.router198.out$o[3].channel.edge_num = 567
+
+mcsl_rtp.router199.out$o[0].channel.bw = 0
+mcsl_rtp.router199.out$o[0].channel.edge_num = 540
+mcsl_rtp.router199.out$o[1].channel.bw = 0
+mcsl_rtp.router199.out$o[1].channel.edge_num = 542
+mcsl_rtp.router199.out$o[2].channel.bw = 0
+mcsl_rtp.router199.out$o[2].channel.edge_num = 571
+mcsl_rtp.router199.out$o[3].channel.bw = 0
+mcsl_rtp.router199.out$o[3].channel.edge_num = 575
+
+mcsl_rtp.router200.out$o[0].channel.bw = 0
+mcsl_rtp.router200.out$o[0].channel.edge_num = 544
+mcsl_rtp.router200.out$o[1].channel.bw = 0
+mcsl_rtp.router200.out$o[1].channel.edge_num = 546
+mcsl_rtp.router200.out$o[2].channel.bw = 0
+mcsl_rtp.router200.out$o[2].channel.edge_num = 579
+mcsl_rtp.router200.out$o[3].channel.bw = 0
+mcsl_rtp.router200.out$o[3].channel.edge_num = 583
+
+mcsl_rtp.router201.out$o[0].channel.bw = 0
+mcsl_rtp.router201.out$o[0].channel.edge_num = 548
+mcsl_rtp.router201.out$o[1].channel.bw = 0
+mcsl_rtp.router201.out$o[1].channel.edge_num = 550
+mcsl_rtp.router201.out$o[2].channel.bw = 0
+mcsl_rtp.router201.out$o[2].channel.edge_num = 587
+mcsl_rtp.router201.out$o[3].channel.bw = 0
+mcsl_rtp.router201.out$o[3].channel.edge_num = 591
+
+mcsl_rtp.router202.out$o[0].channel.bw = 0
+mcsl_rtp.router202.out$o[0].channel.edge_num = 552
+mcsl_rtp.router202.out$o[1].channel.bw = 0
+mcsl_rtp.router202.out$o[1].channel.edge_num = 554
+mcsl_rtp.router202.out$o[2].channel.bw = 0
+mcsl_rtp.router202.out$o[2].channel.edge_num = 595
+mcsl_rtp.router202.out$o[3].channel.bw = 0
+mcsl_rtp.router202.out$o[3].channel.edge_num = 599
+
+mcsl_rtp.router203.out$o[0].channel.bw = 0
+mcsl_rtp.router203.out$o[0].channel.edge_num = 556
+mcsl_rtp.router203.out$o[1].channel.bw = 0
+mcsl_rtp.router203.out$o[1].channel.edge_num = 558
+mcsl_rtp.router203.out$o[2].channel.bw = 0
+mcsl_rtp.router203.out$o[2].channel.edge_num = 603
+mcsl_rtp.router203.out$o[3].channel.bw = 0
+mcsl_rtp.router203.out$o[3].channel.edge_num = 607
+
+mcsl_rtp.router204.out$o[0].channel.bw = 0
+mcsl_rtp.router204.out$o[0].channel.edge_num = 560
+mcsl_rtp.router204.out$o[1].channel.bw = 0
+mcsl_rtp.router204.out$o[1].channel.edge_num = 562
+mcsl_rtp.router204.out$o[2].channel.bw = 0
+mcsl_rtp.router204.out$o[2].channel.edge_num = 611
+mcsl_rtp.router204.out$o[3].channel.bw = 0
+mcsl_rtp.router204.out$o[3].channel.edge_num = 615
+
+mcsl_rtp.router205.out$o[0].channel.bw = 0
+mcsl_rtp.router205.out$o[0].channel.edge_num = 564
+mcsl_rtp.router205.out$o[1].channel.bw = 0
+mcsl_rtp.router205.out$o[1].channel.edge_num = 566
+mcsl_rtp.router205.out$o[2].channel.bw = 0
+mcsl_rtp.router205.out$o[2].channel.edge_num = 619
+mcsl_rtp.router205.out$o[3].channel.bw = 0
+mcsl_rtp.router205.out$o[3].channel.edge_num = 623
+
+mcsl_rtp.router206.out$o[0].channel.bw = 0
+mcsl_rtp.router206.out$o[0].channel.edge_num = 568
+mcsl_rtp.router206.out$o[1].channel.bw = 0
+mcsl_rtp.router206.out$o[1].channel.edge_num = 570
+mcsl_rtp.router206.out$o[2].channel.bw = 0
+mcsl_rtp.router206.out$o[2].channel.edge_num = 627
+mcsl_rtp.router206.out$o[3].channel.bw = 0
+mcsl_rtp.router206.out$o[3].channel.edge_num = 631
+
+mcsl_rtp.router207.out$o[0].channel.bw = 0
+mcsl_rtp.router207.out$o[0].channel.edge_num = 572
+mcsl_rtp.router207.out$o[1].channel.bw = 0
+mcsl_rtp.router207.out$o[1].channel.edge_num = 574
+mcsl_rtp.router207.out$o[2].channel.bw = 0
+mcsl_rtp.router207.out$o[2].channel.edge_num = 635
+mcsl_rtp.router207.out$o[3].channel.bw = 0
+mcsl_rtp.router207.out$o[3].channel.edge_num = 639
+
+mcsl_rtp.router208.out$o[0].channel.bw = 0
+mcsl_rtp.router208.out$o[0].channel.edge_num = 576
+mcsl_rtp.router208.out$o[1].channel.bw = 0
+mcsl_rtp.router208.out$o[1].channel.edge_num = 578
+mcsl_rtp.router208.out$o[2].channel.bw = 0
+mcsl_rtp.router208.out$o[2].channel.edge_num = 643
+mcsl_rtp.router208.out$o[3].channel.bw = 0
+mcsl_rtp.router208.out$o[3].channel.edge_num = 647
+
+mcsl_rtp.router209.out$o[0].channel.bw = 0
+mcsl_rtp.router209.out$o[0].channel.edge_num = 580
+mcsl_rtp.router209.out$o[1].channel.bw = 0
+mcsl_rtp.router209.out$o[1].channel.edge_num = 582
+mcsl_rtp.router209.out$o[2].channel.bw = 0
+mcsl_rtp.router209.out$o[2].channel.edge_num = 651
+mcsl_rtp.router209.out$o[3].channel.bw = 0
+mcsl_rtp.router209.out$o[3].channel.edge_num = 655
+
+mcsl_rtp.router210.out$o[0].channel.bw = 0
+mcsl_rtp.router210.out$o[0].channel.edge_num = 584
+mcsl_rtp.router210.out$o[1].channel.bw = 0
+mcsl_rtp.router210.out$o[1].channel.edge_num = 586
+mcsl_rtp.router210.out$o[2].channel.bw = 0
+mcsl_rtp.router210.out$o[2].channel.edge_num = 659
+mcsl_rtp.router210.out$o[3].channel.bw = 0
+mcsl_rtp.router210.out$o[3].channel.edge_num = 663
+
+mcsl_rtp.router211.out$o[0].channel.bw = 0
+mcsl_rtp.router211.out$o[0].channel.edge_num = 588
+mcsl_rtp.router211.out$o[1].channel.bw = 0
+mcsl_rtp.router211.out$o[1].channel.edge_num = 590
+mcsl_rtp.router211.out$o[2].channel.bw = 0
+mcsl_rtp.router211.out$o[2].channel.edge_num = 667
+mcsl_rtp.router211.out$o[3].channel.bw = 0
+mcsl_rtp.router211.out$o[3].channel.edge_num = 671
+
+mcsl_rtp.router212.out$o[0].channel.bw = 0
+mcsl_rtp.router212.out$o[0].channel.edge_num = 592
+mcsl_rtp.router212.out$o[1].channel.bw = 0
+mcsl_rtp.router212.out$o[1].channel.edge_num = 594
+mcsl_rtp.router212.out$o[2].channel.bw = 0
+mcsl_rtp.router212.out$o[2].channel.edge_num = 675
+mcsl_rtp.router212.out$o[3].channel.bw = 0
+mcsl_rtp.router212.out$o[3].channel.edge_num = 679
+
+mcsl_rtp.router213.out$o[0].channel.bw = 0
+mcsl_rtp.router213.out$o[0].channel.edge_num = 596
+mcsl_rtp.router213.out$o[1].channel.bw = 0
+mcsl_rtp.router213.out$o[1].channel.edge_num = 598
+mcsl_rtp.router213.out$o[2].channel.bw = 0
+mcsl_rtp.router213.out$o[2].channel.edge_num = 683
+mcsl_rtp.router213.out$o[3].channel.bw = 0
+mcsl_rtp.router213.out$o[3].channel.edge_num = 687
+
+mcsl_rtp.router214.out$o[0].channel.bw = 0
+mcsl_rtp.router214.out$o[0].channel.edge_num = 600
+mcsl_rtp.router214.out$o[1].channel.bw = 0
+mcsl_rtp.router214.out$o[1].channel.edge_num = 602
+mcsl_rtp.router214.out$o[2].channel.bw = 0
+mcsl_rtp.router214.out$o[2].channel.edge_num = 691
+mcsl_rtp.router214.out$o[3].channel.bw = 0
+mcsl_rtp.router214.out$o[3].channel.edge_num = 695
+
+mcsl_rtp.router215.out$o[0].channel.bw = 0
+mcsl_rtp.router215.out$o[0].channel.edge_num = 604
+mcsl_rtp.router215.out$o[1].channel.bw = 0
+mcsl_rtp.router215.out$o[1].channel.edge_num = 606
+mcsl_rtp.router215.out$o[2].channel.bw = 0
+mcsl_rtp.router215.out$o[2].channel.edge_num = 699
+mcsl_rtp.router215.out$o[3].channel.bw = 0
+mcsl_rtp.router215.out$o[3].channel.edge_num = 703
+
+mcsl_rtp.router216.out$o[0].channel.bw = 0
+mcsl_rtp.router216.out$o[0].channel.edge_num = 608
+mcsl_rtp.router216.out$o[1].channel.bw = 0
+mcsl_rtp.router216.out$o[1].channel.edge_num = 610
+mcsl_rtp.router216.out$o[2].channel.bw = 0
+mcsl_rtp.router216.out$o[2].channel.edge_num = 707
+mcsl_rtp.router216.out$o[3].channel.bw = 0
+mcsl_rtp.router216.out$o[3].channel.edge_num = 711
+
+mcsl_rtp.router217.out$o[0].channel.bw = 0
+mcsl_rtp.router217.out$o[0].channel.edge_num = 612
+mcsl_rtp.router217.out$o[1].channel.bw = 0
+mcsl_rtp.router217.out$o[1].channel.edge_num = 614
+mcsl_rtp.router217.out$o[2].channel.bw = 0
+mcsl_rtp.router217.out$o[2].channel.edge_num = 715
+mcsl_rtp.router217.out$o[3].channel.bw = 0
+mcsl_rtp.router217.out$o[3].channel.edge_num = 719
+
+mcsl_rtp.router218.out$o[0].channel.bw = 0
+mcsl_rtp.router218.out$o[0].channel.edge_num = 616
+mcsl_rtp.router218.out$o[1].channel.bw = 0
+mcsl_rtp.router218.out$o[1].channel.edge_num = 618
+mcsl_rtp.router218.out$o[2].channel.bw = 0
+mcsl_rtp.router218.out$o[2].channel.edge_num = 723
+mcsl_rtp.router218.out$o[3].channel.bw = 0
+mcsl_rtp.router218.out$o[3].channel.edge_num = 727
+
+mcsl_rtp.router219.out$o[0].channel.bw = 0
+mcsl_rtp.router219.out$o[0].channel.edge_num = 620
+mcsl_rtp.router219.out$o[1].channel.bw = 0
+mcsl_rtp.router219.out$o[1].channel.edge_num = 622
+mcsl_rtp.router219.out$o[2].channel.bw = 0
+mcsl_rtp.router219.out$o[2].channel.edge_num = 731
+mcsl_rtp.router219.out$o[3].channel.bw = 0
+mcsl_rtp.router219.out$o[3].channel.edge_num = 735
+
+mcsl_rtp.router220.out$o[0].channel.bw = 0
+mcsl_rtp.router220.out$o[0].channel.edge_num = 624
+mcsl_rtp.router220.out$o[1].channel.bw = 0
+mcsl_rtp.router220.out$o[1].channel.edge_num = 626
+mcsl_rtp.router220.out$o[2].channel.bw = 0
+mcsl_rtp.router220.out$o[2].channel.edge_num = 739
+mcsl_rtp.router220.out$o[3].channel.bw = 0
+mcsl_rtp.router220.out$o[3].channel.edge_num = 743
+
+mcsl_rtp.router221.out$o[0].channel.bw = 0
+mcsl_rtp.router221.out$o[0].channel.edge_num = 628
+mcsl_rtp.router221.out$o[1].channel.bw = 0
+mcsl_rtp.router221.out$o[1].channel.edge_num = 630
+mcsl_rtp.router221.out$o[2].channel.bw = 0
+mcsl_rtp.router221.out$o[2].channel.edge_num = 747
+mcsl_rtp.router221.out$o[3].channel.bw = 0
+mcsl_rtp.router221.out$o[3].channel.edge_num = 751
+
+mcsl_rtp.router222.out$o[0].channel.bw = 0
+mcsl_rtp.router222.out$o[0].channel.edge_num = 632
+mcsl_rtp.router222.out$o[1].channel.bw = 0
+mcsl_rtp.router222.out$o[1].channel.edge_num = 634
+mcsl_rtp.router222.out$o[2].channel.bw = 0
+mcsl_rtp.router222.out$o[2].channel.edge_num = 755
+mcsl_rtp.router222.out$o[3].channel.bw = 0
+mcsl_rtp.router222.out$o[3].channel.edge_num = 759
+
+mcsl_rtp.router223.out$o[0].channel.bw = 0
+mcsl_rtp.router223.out$o[0].channel.edge_num = 636
+mcsl_rtp.router223.out$o[1].channel.bw = 0
+mcsl_rtp.router223.out$o[1].channel.edge_num = 638
+mcsl_rtp.router223.out$o[2].channel.bw = 0
+mcsl_rtp.router223.out$o[2].channel.edge_num = 763
+mcsl_rtp.router223.out$o[3].channel.bw = 0
+mcsl_rtp.router223.out$o[3].channel.edge_num = 767
+
+mcsl_rtp.router224.out$o[0].channel.bw = 0
+mcsl_rtp.router224.out$o[0].channel.edge_num = 640
+mcsl_rtp.router224.out$o[1].channel.bw = 0
+mcsl_rtp.router224.out$o[1].channel.edge_num = 642
+
+mcsl_rtp.router225.out$o[0].channel.bw = 0
+mcsl_rtp.router225.out$o[0].channel.edge_num = 644
+mcsl_rtp.router225.out$o[1].channel.bw = 0
+mcsl_rtp.router225.out$o[1].channel.edge_num = 646
+
+mcsl_rtp.router226.out$o[0].channel.bw = 0
+mcsl_rtp.router226.out$o[0].channel.edge_num = 648
+mcsl_rtp.router226.out$o[1].channel.bw = 0
+mcsl_rtp.router226.out$o[1].channel.edge_num = 650
+
+mcsl_rtp.router227.out$o[0].channel.bw = 0
+mcsl_rtp.router227.out$o[0].channel.edge_num = 652
+mcsl_rtp.router227.out$o[1].channel.bw = 0
+mcsl_rtp.router227.out$o[1].channel.edge_num = 654
+
+mcsl_rtp.router228.out$o[0].channel.bw = 0
+mcsl_rtp.router228.out$o[0].channel.edge_num = 656
+mcsl_rtp.router228.out$o[1].channel.bw = 0
+mcsl_rtp.router228.out$o[1].channel.edge_num = 658
+
+mcsl_rtp.router229.out$o[0].channel.bw = 0
+mcsl_rtp.router229.out$o[0].channel.edge_num = 660
+mcsl_rtp.router229.out$o[1].channel.bw = 0
+mcsl_rtp.router229.out$o[1].channel.edge_num = 662
+
+mcsl_rtp.router230.out$o[0].channel.bw = 0
+mcsl_rtp.router230.out$o[0].channel.edge_num = 664
+mcsl_rtp.router230.out$o[1].channel.bw = 0
+mcsl_rtp.router230.out$o[1].channel.edge_num = 666
+
+mcsl_rtp.router231.out$o[0].channel.bw = 0
+mcsl_rtp.router231.out$o[0].channel.edge_num = 668
+mcsl_rtp.router231.out$o[1].channel.bw = 0
+mcsl_rtp.router231.out$o[1].channel.edge_num = 670
+
+mcsl_rtp.router232.out$o[0].channel.bw = 0
+mcsl_rtp.router232.out$o[0].channel.edge_num = 672
+mcsl_rtp.router232.out$o[1].channel.bw = 0
+mcsl_rtp.router232.out$o[1].channel.edge_num = 674
+
+mcsl_rtp.router233.out$o[0].channel.bw = 0
+mcsl_rtp.router233.out$o[0].channel.edge_num = 676
+mcsl_rtp.router233.out$o[1].channel.bw = 0
+mcsl_rtp.router233.out$o[1].channel.edge_num = 678
+
+mcsl_rtp.router234.out$o[0].channel.bw = 0
+mcsl_rtp.router234.out$o[0].channel.edge_num = 680
+mcsl_rtp.router234.out$o[1].channel.bw = 0
+mcsl_rtp.router234.out$o[1].channel.edge_num = 682
+
+mcsl_rtp.router235.out$o[0].channel.bw = 0
+mcsl_rtp.router235.out$o[0].channel.edge_num = 684
+mcsl_rtp.router235.out$o[1].channel.bw = 0
+mcsl_rtp.router235.out$o[1].channel.edge_num = 686
+
+mcsl_rtp.router236.out$o[0].channel.bw = 0
+mcsl_rtp.router236.out$o[0].channel.edge_num = 688
+mcsl_rtp.router236.out$o[1].channel.bw = 0
+mcsl_rtp.router236.out$o[1].channel.edge_num = 690
+
+mcsl_rtp.router237.out$o[0].channel.bw = 0
+mcsl_rtp.router237.out$o[0].channel.edge_num = 692
+mcsl_rtp.router237.out$o[1].channel.bw = 0
+mcsl_rtp.router237.out$o[1].channel.edge_num = 694
+
+mcsl_rtp.router238.out$o[0].channel.bw = 0
+mcsl_rtp.router238.out$o[0].channel.edge_num = 696
+mcsl_rtp.router238.out$o[1].channel.bw = 0
+mcsl_rtp.router238.out$o[1].channel.edge_num = 698
+
+mcsl_rtp.router239.out$o[0].channel.bw = 0
+mcsl_rtp.router239.out$o[0].channel.edge_num = 700
+mcsl_rtp.router239.out$o[1].channel.bw = 0
+mcsl_rtp.router239.out$o[1].channel.edge_num = 702
+
+mcsl_rtp.router240.out$o[0].channel.bw = 0
+mcsl_rtp.router240.out$o[0].channel.edge_num = 704
+mcsl_rtp.router240.out$o[1].channel.bw = 0
+mcsl_rtp.router240.out$o[1].channel.edge_num = 706
+
+mcsl_rtp.router241.out$o[0].channel.bw = 0
+mcsl_rtp.router241.out$o[0].channel.edge_num = 708
+mcsl_rtp.router241.out$o[1].channel.bw = 0
+mcsl_rtp.router241.out$o[1].channel.edge_num = 710
+
+mcsl_rtp.router242.out$o[0].channel.bw = 0
+mcsl_rtp.router242.out$o[0].channel.edge_num = 712
+mcsl_rtp.router242.out$o[1].channel.bw = 0
+mcsl_rtp.router242.out$o[1].channel.edge_num = 714
+
+mcsl_rtp.router243.out$o[0].channel.bw = 0
+mcsl_rtp.router243.out$o[0].channel.edge_num = 716
+mcsl_rtp.router243.out$o[1].channel.bw = 0
+mcsl_rtp.router243.out$o[1].channel.edge_num = 718
+
+mcsl_rtp.router244.out$o[0].channel.bw = 0
+mcsl_rtp.router244.out$o[0].channel.edge_num = 720
+mcsl_rtp.router244.out$o[1].channel.bw = 0
+mcsl_rtp.router244.out$o[1].channel.edge_num = 722
+
+mcsl_rtp.router245.out$o[0].channel.bw = 0
+mcsl_rtp.router245.out$o[0].channel.edge_num = 724
+mcsl_rtp.router245.out$o[1].channel.bw = 0
+mcsl_rtp.router245.out$o[1].channel.edge_num = 726
+
+mcsl_rtp.router246.out$o[0].channel.bw = 0
+mcsl_rtp.router246.out$o[0].channel.edge_num = 728
+mcsl_rtp.router246.out$o[1].channel.bw = 0
+mcsl_rtp.router246.out$o[1].channel.edge_num = 730
+
+mcsl_rtp.router247.out$o[0].channel.bw = 0
+mcsl_rtp.router247.out$o[0].channel.edge_num = 732
+mcsl_rtp.router247.out$o[1].channel.bw = 0
+mcsl_rtp.router247.out$o[1].channel.edge_num = 734
+
+mcsl_rtp.router248.out$o[0].channel.bw = 0
+mcsl_rtp.router248.out$o[0].channel.edge_num = 736
+mcsl_rtp.router248.out$o[1].channel.bw = 0
+mcsl_rtp.router248.out$o[1].channel.edge_num = 738
+
+mcsl_rtp.router249.out$o[0].channel.bw = 0
+mcsl_rtp.router249.out$o[0].channel.edge_num = 740
+mcsl_rtp.router249.out$o[1].channel.bw = 0
+mcsl_rtp.router249.out$o[1].channel.edge_num = 742
+
+mcsl_rtp.router250.out$o[0].channel.bw = 0
+mcsl_rtp.router250.out$o[0].channel.edge_num = 744
+mcsl_rtp.router250.out$o[1].channel.bw = 0
+mcsl_rtp.router250.out$o[1].channel.edge_num = 746
+
+mcsl_rtp.router251.out$o[0].channel.bw = 0
+mcsl_rtp.router251.out$o[0].channel.edge_num = 748
+mcsl_rtp.router251.out$o[1].channel.bw = 0
+mcsl_rtp.router251.out$o[1].channel.edge_num = 750
+
+mcsl_rtp.router252.out$o[0].channel.bw = 0
+mcsl_rtp.router252.out$o[0].channel.edge_num = 752
+mcsl_rtp.router252.out$o[1].channel.bw = 0
+mcsl_rtp.router252.out$o[1].channel.edge_num = 754
+
+mcsl_rtp.router253.out$o[0].channel.bw = 0
+mcsl_rtp.router253.out$o[0].channel.edge_num = 756
+mcsl_rtp.router253.out$o[1].channel.bw = 0
+mcsl_rtp.router253.out$o[1].channel.edge_num = 758
+
+mcsl_rtp.router254.out$o[0].channel.bw = 0
+mcsl_rtp.router254.out$o[0].channel.edge_num = 760
+mcsl_rtp.router254.out$o[1].channel.bw = 0
+mcsl_rtp.router254.out$o[1].channel.edge_num = 762
+
+mcsl_rtp.router255.out$o[0].channel.bw = 0
+mcsl_rtp.router255.out$o[0].channel.edge_num = 764
+mcsl_rtp.router255.out$o[1].channel.bw = 0
+mcsl_rtp.router255.out$o[1].channel.edge_num = 766
+
+**.channel.edge_num = -1
+**.channel.bw = 0

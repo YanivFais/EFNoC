@@ -1,0 +1,5 @@
+# time slot,request num,vertex1,vertex2,flow in slot
+0,0,0,1,25.000000
+1,0,0,1,25.000000
+2,0,0,1,25.000000
+3,0,0,1,25.000000

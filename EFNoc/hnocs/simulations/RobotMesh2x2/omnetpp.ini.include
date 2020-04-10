@@ -1,0 +1,29 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = hnocs.topologies.Robot_mesh_2x2_rtp
+**timeslots = 2
+**.source.fileName = "Robot_mesh_2x2.rtp"   
+**.numReqs = 2000
+
+Robot_mesh_2x2_rtp.router0.out$o[0].channel.bw = 8
+Robot_mesh_2x2_rtp.router0.out$o[0].channel.edge_num = 0
+Robot_mesh_2x2_rtp.router0.out$o[1].channel.bw = 14
+Robot_mesh_2x2_rtp.router0.out$o[1].channel.edge_num = 2
+
+Robot_mesh_2x2_rtp.router1.out$o[0].channel.bw = 23
+Robot_mesh_2x2_rtp.router1.out$o[0].channel.edge_num = 1
+Robot_mesh_2x2_rtp.router1.out$o[1].channel.bw = 23
+Robot_mesh_2x2_rtp.router1.out$o[1].channel.edge_num = 4
+
+Robot_mesh_2x2_rtp.router2.out$o[0].channel.bw = 13
+Robot_mesh_2x2_rtp.router2.out$o[0].channel.edge_num = 3
+Robot_mesh_2x2_rtp.router2.out$o[1].channel.bw = 4
+Robot_mesh_2x2_rtp.router2.out$o[1].channel.edge_num = 6
+
+Robot_mesh_2x2_rtp.router3.out$o[0].channel.bw = 21
+Robot_mesh_2x2_rtp.router3.out$o[0].channel.edge_num = 5
+Robot_mesh_2x2_rtp.router3.out$o[1].channel.bw = 21
+Robot_mesh_2x2_rtp.router3.out$o[1].channel.edge_num = 7
+
+**.channel.edge_num = -1
+**.channel.bw = 0

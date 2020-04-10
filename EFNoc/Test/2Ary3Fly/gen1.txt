@@ -1,0 +1,21 @@
+// output files
+COMMUNICATION_GRAPH_FILENAME, string, CommGraph.txt
+REQUESTS_FILENAME, string, Requests.txt
+OMNET_FILENAME, string, omnetpp.ini
+
+// 1-Mesh,2-FatTree,3-Butterly,4-Clos,5-K-ary N-fly,6-random,7-benes,8-Kary Nfly tree
+TOPOLOGY,int,5
+
+// TOPOLOGY parameters
+K,int,2
+N,int,2
+M,int,2
+R,int,2
+LEVELS,int,3
+
+RATIO_CLIENTS,double,0.3
+RATIO_PAYLOAD,double,0.5
+PAYLOAD,double,20
+
+N_TIME_SLOTS, int, 4
+

@@ -1,0 +1,29 @@
+# Copyright Yaniv Fais,Tel Aviv University
+
+network = efnoc.mesh.S_4.All2All.VariableBandWidthMesh_2_2
+
+**.timeslots = 8
+**.source.fileName = ""
+# Edges total wire length:11, Edges: 8 Wires=11 Average: 1
+VariableBandWidthMesh_2_2.router0.out$o[0].channel.bw = 11
+VariableBandWidthMesh_2_2.router0.out$o[0].channel.edge_num = 0
+VariableBandWidthMesh_2_2.router0.out$o[1].channel.bw = 0
+VariableBandWidthMesh_2_2.router0.out$o[1].channel.edge_num = 2
+
+VariableBandWidthMesh_2_2.router1.out$o[0].channel.bw = 0
+VariableBandWidthMesh_2_2.router1.out$o[0].channel.edge_num = 1
+VariableBandWidthMesh_2_2.router1.out$o[1].channel.bw = 11
+VariableBandWidthMesh_2_2.router1.out$o[1].channel.edge_num = 4
+
+VariableBandWidthMesh_2_2.router2.out$o[0].channel.bw = 0
+VariableBandWidthMesh_2_2.router2.out$o[0].channel.edge_num = 3
+VariableBandWidthMesh_2_2.router2.out$o[1].channel.bw = 0
+VariableBandWidthMesh_2_2.router2.out$o[1].channel.edge_num = 6
+
+VariableBandWidthMesh_2_2.router3.out$o[0].channel.bw = 0
+VariableBandWidthMesh_2_2.router3.out$o[0].channel.edge_num = 5
+VariableBandWidthMesh_2_2.router3.out$o[1].channel.bw = 0
+VariableBandWidthMesh_2_2.router3.out$o[1].channel.edge_num = 7
+
+**.channel.edge_num = -1
+**.channel.bw = 0

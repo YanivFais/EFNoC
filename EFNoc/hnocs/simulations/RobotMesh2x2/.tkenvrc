@@ -1,0 +1,5 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "Mesh" "Mesh" "2" "565x341+225+225:normal"
+inspector "VariableBandWidthMesh" "VariableBandWidthMesh" "2" "575x341+225+225:normal"
+inspector "VariableBandWidthFatTree_2_2" "VariableBandWidthFatTree_2_2" "2" "639x342+200+200:zoomed"
+

@@ -1,0 +1,74 @@
+MCSL Traffic Loader v1.6
+Januray 2014
+
+
+1. About the traffic loader
+
+Traffic loader is an anxiliary tool which reads the traffic pattern files (rtp/stp) and prints out the contained traffic information. However, one can also use the traffic pattern files directly without running traffic loader.
+
+2. Author information
+
+Current Project Members: Zhe Wang (HKUST), Jiang Xu(HKUST), Xiaowen Wu (HKUST), Xuan Wang (HKUST), Zhehui Wang (HKUST), Duong Luan (HKUST), Peng Yang (HKUST), Wei Zhang (HKUST), Bin Li (Intel), Ravi Lyer (Intel), Ramesh Illikkal (Intel)
+
+Past Members: Weichen Liu, Yaoyao Ye
+
+HKUST: The Hong Kong University of Science and Technology, Hong Kong, China
+Intel: Intel Labs, USA 
+http://www.ece.ust.hk/~eexu
+
+
+3. Copyright information
+
+The copyright information of this software can be found in the file COPYRIGHT.
+
+
+4. Usage instructions
+
+1) To compile the software, use
+
+	gmake
+
+2) To clean the compilation, use
+
+	gmake clean
+
+3) To run the software, use
+
+	./bin/mcsl_traffic_loader <traffic_file_name>
+
+4) To run the software without printing detailed information, use
+
+	./bin/mcsl_traffic_loader <traffic_file_name> NO_PRINT_OUT
+
+5) The realistic traffic patterns are under the <traffic> folder. The traffic files are named with the following rule:
+
+	<application name> + <noc topology> + <noc size> . <traffic type>,
+
+where <application name> includes the released applications,
+	  <noc topology> includes mesh, torus and fat tree,
+	  <noc size> includes various sizes for mesh, torus and fat tree, and
+	  <traffic type> includes stp and rtp for statistical/recorded traffic patterns, respectively.
+
+6) Directory organization
+
+	<bin>: executable file
+	<doc>: manual
+	<src>: source code
+	<traffic>: traffic pattern files, including the recorded traffic patterns (files with extension '.rtp' ) and statistical traffic patterns (files with extension '.stp' ), the traffic patterns are categorized by network topologies and sizes. In this version, the traffic patterns of H264-1080p_dec on fat tree based NoC with 256 cores are not included
+	
+
+7) The software is tested under
+
+	- Linux/i386
+	- Linux/x86_64
+	(with gcc version 4.1.2)
+	
+5. Revision history
+Jan 2014, Version 1.6: public release, add the traffic traces of application 'H264-1080p_dec' and 'H264-720p_dec' for NoC archtectures in different sizes and topologies, minor fixes 
+Jan 2013, Version 1.5: public release, add four real applications, improve traffic and memory format, add more NoC sizes for mesh, torus and fat tree, add 'ramp-up','ramp-down' and 'stable stage' periods, minor fixes
+May 2011, Version 1.1: public release, add two more applications, methodology documentation, minor fixes
+Apr 2010, Version 1.0: internal release, add one more real applications and manual, minor fixes
+Aug 2009, Version 0.9: internal release, add four more real applications, minor fixes
+Oct 2007, Version 0.8: internal release with one real application
+
+

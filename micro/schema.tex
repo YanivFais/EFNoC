@@ -1,0 +1,55 @@
+\newlength{\mynodewidth}
+\settowidth{\mynodewidth}{Network}
+
+\newlength{\mynodewidtht}
+\settowidth{\mynodewidtht}{$(2\Phi \cdot \log_2 \Phi)
+    \times \Phi$}
+
+\tikzstyle{mynodestyle} = [draw, outer sep=2,inner sep=10,minimum size=20, text width=\mynodewidth,align=center,execute at begin node=\hskip0pt,rounded corners=3mm,top color=white,bottom color=black!20]
+
+\tikzstyle{mynodestylet} = [draw, outer sep=2,inner sep=10,minimum size=20, text width=\mynodewidtht,align=center,execute at begin node=\hskip0pt,rounded corners=3mm,top color=white,bottom color=black!20]
+\tikzstyle{nobox} = [outer sep=2,inner sep=2, text width=\mynodewidth,align=center,execute at begin node=\hskip0pt]
+
+\begin{tikzpicture}[->,>=stealth,shorten >=1pt,auto,on grid,semithick,node distance=2.5\mynodewidth]
+
+  \node[mynodestylet] (ROMnet) {\sc{rom}\\ $(2\Phi \cdot \log_2 \Phi)
+    \times \Phi$};
+
+\node[mynodestyle] (benes) [below=of ROMnet] {Benes Network};
+
+\node[mynodestyle] (SR) [right=of benes] {parallel load shift register ($\Phi$
+  flits)};
+
+\node[nobox] (inputs) [left=4cm of benes] {switch input ports};
+
+\node[nobox] (output) [below=of SR] {output port$_j$};
+
+\node[mynodestyle] (ROMSR) [right=of SR] {\sc{rom} $\Phi \times \Phi$};
+
+\node[mynodestyle] (counter) [above=of ROMSR] {Counter $\pmod \Phi$};
+
+\path (counter) edge node [above] {$\log_2 \Phi$ bits} (ROMnet) 
+(counter) edge node [right] {$\log_2 \Phi$ bits} (ROMSR)
+(ROMnet) edge node [left] {$2\Phi \cdot \log_2\Phi$ bits} (benes)
+(inputs) edge node [above] {$\degin$ phits} (benes)
+(benes) edge node [above] {$\Phi$ phits} (SR)
+(ROMSR) edge node [above] {$\Phi$ bits} (SR)
+(SR) edge node [right] {output phit} (output)
+;
+% \path 
+% 	(empty)  edge [bend left] node [above] {\successor(i)}   (succ)
+% 	(succ)  edge [bend left] node [below] {$\ell$}   (empty)
+% 	(succ)  edge [bend left] node [above] {$\nc(j)$}   (filter)
+% 	(filter) edge [bend left] node [below]   {$\ell$} (succ)
+% 	(filter) edge [bend left] node [above]    {$\nc(j)$}  (UT)
+% 	(UT) edge [bend left] node [below]     {$\ell$}  (filter)
+% 	(UT) edge [<->] node [left]     {}  (UTstate)
+% 	(succ) edge [<->] node [left]     {}  (succstate)
+% %	(UTstate) edge [bend left] node [left]     {}  (UT)
+% %	(succ) edge [bend left] node [left]     {}  (succstate)
+% %	(succstate) edge [bend left] node [left]     {}  (succ)
+% 	(filter) edge [<->] node      {}  (colors)
+
+% ;
+
+\end{tikzpicture}

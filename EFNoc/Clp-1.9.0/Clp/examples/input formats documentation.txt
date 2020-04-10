@@ -1,0 +1,147 @@
+On Wed, 2009-03-25 at 12:10 +0200, Moni Shahar wrote:
+> Guy,
+> 
+> 1. I will use the time in seconds as the sequential number.
+> 
+> 2 I wanted to eliminate the needs to label edges in the communication graph (it is a pain in the ass), as a result I could use the  i,j,k,l format in the interference graph. Must I label the edges? This may be required in the case of parallel edges.
+> 
+I am thinking of efficiency in accessing an edge...
+
+> 3. Correct me if I am wrong but I thought the simulation is the main loop that generates these files, therefore I didn't put the x,y coordinate of the nodes. If it is required we should add another file which is the vertex file (I can define it easily). 
+> 
+no:
+there is a generator and a simulator - they are separate entities.
+you might want to separate the data graph, geography) between two files
+
+> 4. I assumed here that the interference graph is not calculated by this program but given as an input. If you want to calculate it here, lets define it.
+> 
+
+Indeed, it is calculated by the generator
+
+> 5. Note that the broadcast file format supports multicast because there is a single source but a the number of destinations may be greater than 1. Algorithmically we will support only unicasts  currently, but the input format supports multicast. Am I missing something in the definition of multicast? 
+> 
+a. don't use the term broadcast. Engineers are very sensitive to the differences between braodcast, multicast, and unicast
+
+b. from the LP point of view: multicasts are much harder. Perhaps we should separate them, or perhaps we could do the separation later (by counting the number of destinations). This is not crucial.
+
+> Thanks
+> Moni
+> 
+> -----Original Message-----
+> From: Guy Even [mailto:guy@eng.tau.ac.il]
+> Sent: Wednesday, March 25, 2009 11:44 AM
+> To: Moni Shahar
+> Cc: sasha@eng.tau.ac.il; medinamo@eng.tau.ac.il
+> Subject: Re: The input format - please review
+> 
+> answers between the lines....
+> 
+> guy
+> On Wed, 2009-03-25 at 10:57 +0200, Moni Shahar wrote:
+> > Guys,
+> > 
+> >  
+> > 
+> > Attached is the definition of the input please review and give me 
+> > your
+> > comments: 
+> > 
+> >  
+> > 
+> > File 1: communic_graph_<seq num>.txt  - <seq_num> is a sequential 
+> > number of the file, so we can keep multiple snapshot over time.
+> > 
+> 
+> The sequential number can be the number of seconds that elapsed from 
+> the beginning of the simulation.
+> 
+> > Line 1:  - header
+> > 
+> > number of nodes (integer)
+> > 
+> > Line 2 to |E|+1 – edge descriptions (parallel edges may appear)
+> > 
+> remember: graph is undirected
+> > i,j,bandwidth,error_rate (int, int, float, float)
+> for the simulation we also need (x,y) coordinates of i and j and the 
+> reception power.
+> 
+> > 
+> > Questions: 
+> > 
+> > Where do we enter the allowed set of frequencies? 
+> This is a global variable
+> > 
+> > Is it the same list of frequencies for all the nodes? 
+> > 
+> yes
+> > Is the capacity is constant for all frequencies, or is it frequency 
+> > dependent (or maybe even depends on the actual (frequency, node) 
+> > pair?
+> > 
+> all frequency channels have the same bandwidth
+> 
+> > Are all edges fully symmetric, i.e., i->j has the same broadcast 
+> > capacity as j->i for every frequency?
+> > 
+> yes
+> >  
+> > 
+> > File 2: s_t_<seq num>.txt
+> > 
+> > Line 1:  - header
+> > 
+> > number of broadcasts (integer)
+> > 
+> the term broadcasts is wrong. It is unicasts.
+> We will later deal with multicasts, too.
+> So perhaps it is best to consider multicasts from the beginning.
+> Or perhaps deal with the separately...
+> My suggestion: 
+> define unicasts and multicasts separately.
+> 
+> > Line 2 to |B|+1 – broadcast descriptions
+> > 
+> >  s, bandwidth, number of destinations,t_1,…t_k (int, float, int,
+> > int…)
+> > 
+> remember: graph is directed!
+> 
+> > Remark: Currently we only support one destination so this number is 
+> > redundant.
+> > 
+> >  
+> > 
+> > File 3: interference_<seq num>.txt
+> > 
+> > Line 1:  - header
+> > 
+> > number of edges in the interference graph (integer)
+> > 
+> edges --> vertices (vertex of interference graph is an edge in the 
+> comm graph).
+> remember: graph is undirected!
+> 
+> > Line 2 to |E|+1 – interference pairs, namely edge (i,j) interfere 
+> > edge
+> > (l,k) .
+> > 
+> > i, j,k,l  (int, int, int, int)
+> > 
+> I am not sure this is a good format (from efficiency point of view).
+> pairs have numbers (as given in comm graph edge list).
+> so it would be pairs of indexes: i_{e_1} , i_{e_2} where e_1 and e_2 
+> are edges of the comm graph.
+> And i_e is the index of the edge e (=its name).
+> >  
+> > 
+> > Thanks
+> > 
+> > Moni
+> > 
+> >  
+> > 
+> > 
+> guy
+> 
+

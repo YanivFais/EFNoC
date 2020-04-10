@@ -1,0 +1,9 @@
+Topology,Timeslots,Cores,Switches,Links,PROGRAM,L,ALPHA,TASK_MSG_START,Average Link Length,Average Wire Width,Total Wire Width,Total Wire Cost,Average Wire Cost,Total Schedule Size,Total Memory,Average Memory,Average Latency,Max Latency,Total Utilization,Total Schedule Utilization,Total Lag
+mesh,8,64,64,112,RS_32_28_8_enc,0,0,0,1,0.866071,194,194,0.866071,1292,97,1.51563,3.91973,10,10.6474,83.2474, 
+mesh,8,64,64,112,RS_32_28_8_dec,0,0.0625,0,1,12.9375,2898,2898,12.9375,26818,1495,23.3594, , , , , 
+mesh,8,64,64,112,Sparse,0,0.0625,0,1,4.0625,910,910,4.0625,7008,373,5.82813,3.96011,16,0.07272,95.3007, 
+mesh,8,64,64,112,Robot,0,0.125,0,1,2.54464,570,570,2.54464,3975,294,4.59375,3.40442,8,2.268344,93.1444, 
+mesh,8,64,64,112,Fpppp,0,0.25,0,1,21.2589,4762,4762,21.2589,4562,2404,37.5625,5.45017,26,0.949516,92.9395, 
+mesh,8,64,64,112,H264_1080p_dec,0,0.25,0,1,20.442,4579,4579,20.442, ,2802,43.7813, , , , , 
+mesh,8,64,64,112,H264_720p_dec,0,0.25,0,1,14.8616,3329,3329,14.8616, ,1724,26.9375, , , , , 
+mesh,8,64,64,112,FFT_1024_complex,8,0.25,0,1,76.5536,17148,17148,76.5536, ,10553,164.891, , , , , 

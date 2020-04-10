@@ -1,0 +1,8 @@
+// input files
+COMMUNICATION_GRAPH_FILENAME, string, CommGraph.txt
+REQUESTS_FILENAME, string, Requests.txt
+// output files
+SCHEDULE_FILENAME, string, schedule.txt
+
+ N_TIME_SLOTS, int, 4
+

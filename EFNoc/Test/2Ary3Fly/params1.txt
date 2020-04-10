@@ -1,0 +1,14 @@
+// input files
+COMMUNICATION_GRAPH_FILENAME, string, CommGraph.txt
+REQUESTS_FILENAME, string, Requests.txt
+// output files
+SCHEDULE_FILENAME, string, schedule.txt
+
+N_TIME_SLOTS, int, 4
+ROUTER_TYPE,int, 1
+// 0-SMART,1-Naive,2-Empty
+SCHEDULER_TYPE,int,1
+ALLOW_ADDING_SLOTS,int,1
+SCHEDULE_BATCH_SIZE,int,200
+ROUNDING_FACTOR,double,0.95
+SLOTS_ROUNDING_FACTOR,double,0.02
